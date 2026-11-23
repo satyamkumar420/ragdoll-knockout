@@ -1,0 +1,334 @@
+{
+  "id": 2,
+  "name": "Level 2",
+  "subtitle": "🍽️ Dinner date! Knock down both seated diners! 🍽️",
+  "skyColor": [
+    0.92,
+    0.88,
+    0.82,
+    1
+  ],
+  "grassColor": [
+    0.48,
+    0.32,
+    0.18
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.65,
+    0.12,
+    0
+  ],
+  "props": [
+    {
+      "name": "backWallCenterWindow",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        1.6,
+        0,
+        2.7
+      ],
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "backWallLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -2.4,
+        0,
+        2.7
+      ],
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "backWallRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        5.6,
+        0,
+        2.7
+      ],
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "leftWall",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -4.4,
+        0,
+        0.7
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "leftWallFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -4.4,
+        0,
+        -3.3
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "rightWall",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        7.6,
+        0,
+        0.7
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "rightWallFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        7.6,
+        0,
+        -3.3
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "diningTable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        1.6,
+        0,
+        0
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "chairLeft",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        0.45,
+        0,
+        0
+      ],
+      "rotationY": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "chairRight",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        2.75,
+        0,
+        0
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "diningCarpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        1.6,
+        0.005,
+        0
+      ],
+      "scale": 1.5,
+      "castShadow": false,
+      "hasCollision": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "dinnerPlate1",
+      "modelPath": "room_dinner/food_dinner.glb",
+      "position": [
+        1.35,
+        0.82,
+        0
+      ],
+      "scale": 0.32,
+      "castShadow": true
+    },
+    {
+      "name": "dinnerPlate2",
+      "modelPath": "room_dinner/food_dinner.glb",
+      "position": [
+        1.85,
+        0.82,
+        0
+      ],
+      "scale": 0.32,
+      "castShadow": true
+    },
+    {
+      "name": "wallPaintingLeft",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        -1.2,
+        2.1,
+        2.48
+      ],
+      "scale": 1.15,
+      "castShadow": true,
+      "hasCollision": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "wallPaintingRight",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        4.4,
+        2.1,
+        2.48
+      ],
+      "scale": 1.15,
+      "castShadow": true,
+      "hasCollision": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "gamlaPlantRight",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        5.2,
+        0,
+        1.8
+      ],
+      "scale": 1.85,
+      "castShadow": true,
+      "hasCollision": true,
+      "rotationX": 0,
+      "rotationY": -0.8,
+      "rotationZ": 0
+    },
+    {
+      "name": "arcadeMachine",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -3.8,
+        0,
+        1.8
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "pizzaPlate",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        1.6,
+        0.82,
+        0
+      ],
+      "scale": 0.65,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.75,
+        0,
+        0
+      ],
+      "rotationY": 1.5707963267948966,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l2_diner1",
+      "scale": 1,
+      "animationSpeed": 1,
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ]
+    },
+    {
+      "position": [
+        2.45,
+        0,
+        0
+      ],
+      "rotationY": -1.5708,
+      "animationName": "Sitting_Talking_Loop",
+      "namePrefix": "l2_diner2",
+      "scale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.6,
+        0,
+        -0.95
+      ],
+      "rotationY": 0.12,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle",
+      "variant": "white"
+    }
+  ],
+  "environmentType": "room",
+  "cameraRadius": 6.45,
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "cameraTarget": [
+    1.6,
+    1,
+    0
+  ],
+  "cameraAlpha": -1.535,
+  "cameraBeta": 1.316
+}

@@ -1,0 +1,299 @@
+{
+  "id": 68,
+  "name": "Level 68",
+  "skyColor": [
+    0.92,
+    0.62,
+    0.35,
+    1
+  ],
+  "grassColor": [
+    0.88,
+    0.78,
+    0.52
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    2,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.3,
+    0.2
+  ],
+  "cameraAlpha": -1.68,
+  "cameraBeta": 1.493,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l68_water_lagoon",
+      "modelPath": "water_island.glb",
+      "position": [
+        0,
+        -0.5,
+        1.5
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "l68_sand_beach_disc",
+      "modelPath": "nature/platform_beach.glb",
+      "position": [
+        1.2,
+        -0.05,
+        1.2
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l68_curved_palm_tree",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -2.5,
+        0,
+        4.2
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 1.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l68_straight_palm_tree",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        5.2,
+        0,
+        3.5
+      ],
+      "scale": 2.86,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l68_sunken_treasure_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -2.34,
+        0,
+        1.7
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_chair_rmvk",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -3.98,
+        0,
+        -0.36
+      ],
+      "scale": 1.24,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_chair_rmvk_copy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -3.53,
+        0,
+        1.19
+      ],
+      "scale": 1.24,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.74,
+      "rotationZ": -0.06
+    },
+    {
+      "name": "l68_straight_palm_tree_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -5.26,
+        0.02,
+        0.39
+      ],
+      "scale": 2.86,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.5,
+        0,
+        0.63
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l68_couch_financier",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3.74,
+        0,
+        -0.37
+      ],
+      "rotationY": 1.2042771838760873,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l68_lagoon_swimmer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.69,
+        0,
+        1.24
+      ],
+      "rotationY": 2.007128639793479,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l68_palm_tree_lookout",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0,
+        0,
+        -1.42
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l68_atoll_patroller",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.4,
+      "swordPosition": [
+        -0.02,
+        0.08,
+        0.005
+      ],
+      "swordRotation": [
+        -1.6580627893946132,
+        1.3962634015954636,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.25,
+        1.25
+      ],
+      "patrolSpeed": 1.4
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.37,
+        0,
+        2.18
+      ],
+      "rotationY": -0.8028514559173915,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

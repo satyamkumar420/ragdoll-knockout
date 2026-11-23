@@ -1,0 +1,272 @@
+{
+  "id": 45,
+  "name": "Level 45",
+  "skyColor": [
+    0.85,
+    0.58,
+    0.38,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.22,
+    0.24
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.671,
+  "cameraBeta": 1.46,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l45_skyline_left",
+      "modelPath": "building1_large.glb",
+      "position": [
+        -8.5,
+        0,
+        6.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l45_skyline_right",
+      "modelPath": "building2_large.glb",
+      "position": [
+        7,
+        0,
+        6.5
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l45_getaway_taxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        -1.68,
+        0,
+        3.3
+      ],
+      "scale": 1.11,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l45_syndicate_sedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        2.41,
+        0,
+        1.8
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": -1.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.8,
+        -0.03,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l45_diamond_bouncer",
+      "swordModelPath": "none",
+      "swordScale": 0.5,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "none",
+      "magicFx": "fire"
+    },
+    {
+      "position": [
+        0.8,
+        -0.03,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Walk_Formal_Loop",
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l45_security_guard",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.42,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword_shield.glb"
+    },
+    {
+      "position": [
+        -2.5,
+        0,
+        0.6
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l45_getaway_driver",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1.12,
+        0,
+        -1.3
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l45_heist_runner",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.5,
+        1.5
+      ],
+      "patrolSpeed": 0.9,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        4.02,
+        -0.03,
+        2.48
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l45_plaza_sniper",
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.47,
+        0,
+        -0.6
+      ],
+      "rotationY": 0.12,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

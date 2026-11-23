@@ -1,0 +1,345 @@
+{
+  "id": 76,
+  "name": "Level 76",
+  "skyColor": [
+    0.15,
+    0.45,
+    0.65,
+    1
+  ],
+  "grassColor": [
+    0.2,
+    0.28,
+    0.35
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.04,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.685,
+  "cameraBeta": 1.533,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l76_cryo_back_wall",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -0.37,
+        0,
+        7.47
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l76_cryo_glass_chamber_1",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        -8.26,
+        0,
+        7.41
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 30,
+      "isDestructible": true,
+      "isPenetrable": true,
+      "penetrationResistance": 10
+    },
+    {
+      "name": "l76_cryo_glass_chamber_2",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        7.42,
+        0,
+        7.53
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 30,
+      "isDestructible": true,
+      "isPenetrable": true,
+      "penetrationResistance": 10
+    },
+    {
+      "name": "l76_chemical_barrel_alpha",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -5.82,
+        0.73,
+        3.83
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 35,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 30
+    },
+    {
+      "name": "l76_cryo_mainframe_console",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        -10.43,
+        0,
+        3.5
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": -0.03,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 140
+    },
+    {
+      "name": "l76_overhead_gantry_pedestal",
+      "modelPath": "room_dinner/bookshelf.glb",
+      "position": [
+        -0.91,
+        0,
+        6.11
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l76_cryo_back_wall_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        11.06,
+        0,
+        2.89
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l76_cryo_back_wall_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        11.07,
+        0,
+        -4.04
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l76_cryo_back_wall_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.91,
+        0,
+        2.46
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l76_cryo_back_wall_copy_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.92,
+        0,
+        -5.32
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -4.2,
+        0,
+        2.2
+      ],
+      "rotationY": 2.5,
+      "scale": 1.25,
+      "animationName": "Spell_Simple_Shoot",
+      "animationNames": [
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l76_cryo_chief_scientist",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.75,
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3.16,
+        0,
+        0.5
+      ],
+      "rotationY": -0.7,
+      "scale": 1.15,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l76_escaped_subject",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -6.22,
+        0,
+        2.14
+      ],
+      "rotationY": 0.8,
+      "scale": 1.05,
+      "animationName": "Crouch_Fwd_Loop",
+      "animationNames": [
+        "Crouch_Fwd_Loop",
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l76_containment_technician",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.49,
+        0,
+        1.7
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l76_hazmat_enforcer",
+      "weaponModelPath": "axe_gold.glb",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.8,
+      "swordPosition": [
+        -0.1,
+        0.09,
+        0.005
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.01,
+        1.99
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        0.24,
+        0,
+        2.84
+      ],
+      "rotationY": -2.199114857512855,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l76_gantry_watchman",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.58,
+        0,
+        2.99
+      ],
+      "rotationY": 0.6,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

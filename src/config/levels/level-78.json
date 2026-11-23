@@ -1,0 +1,341 @@
+{
+  "id": 78,
+  "name": "Level 78",
+  "skyColor": [
+    0.47,
+    0.63,
+    0.61,
+    1
+  ],
+  "grassColor": [
+    0.26,
+    0.3,
+    0.06
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.31,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.45,
+    0.2
+  ],
+  "cameraAlpha": -1.476,
+  "cameraBeta": 1.536,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "nature_tree_oak_yklr",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -7.68,
+        0,
+        5.93
+      ],
+      "scale": 2.49,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_yklr_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -0.5,
+        0,
+        7.7
+      ],
+      "scale": 2.49,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_yklr_copy_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        1.28,
+        0,
+        8.1
+      ],
+      "scale": 2.49,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_yklr_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -5.97,
+        0,
+        7.72
+      ],
+      "scale": 2.49,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_zx1v",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.67,
+        0,
+        4.92
+      ],
+      "scale": 2.36,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_zx1v_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -9.26,
+        0,
+        0.63
+      ],
+      "scale": 2.36,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_zx1v_copy_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        8.65,
+        0,
+        5.81
+      ],
+      "scale": 2.36,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "quarry_cliff_rock_1ado",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -8.94,
+        0,
+        4.28
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "quarry_rock_large_1odc",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        9.82,
+        0,
+        0.2
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.41,
+        0,
+        -0.77
+      ],
+      "rotationY": 2.45,
+      "scale": 1.2,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l78_triad_shadow_enforcer",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.01,
+        0,
+        1.5
+      ],
+      "rotationY": 0.92,
+      "scale": 1.05,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l78_noodle_cook",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.11,
+        0,
+        2.76
+      ],
+      "rotationY": 1.63,
+      "scale": 1.05,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l78_fire_escape_sniper_low",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        3.39
+      ],
+      "rotationY": -1.72,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l78_fire_escape_sniper_high",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        -1.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l78_alley_patroller",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.45,
+      "swordPosition": [
+        -0.02,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.25,
+        1.25
+      ],
+      "patrolSpeed": 1.3
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.97,
+        0,
+        2.95
+      ],
+      "rotationY": -0.46,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

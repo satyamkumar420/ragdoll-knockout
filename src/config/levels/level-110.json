@@ -1,0 +1,271 @@
+{
+  "id": 110,
+  "name": "Level 110",
+  "skyColor": [
+    0.85,
+    0.55,
+    0.25,
+    1
+  ],
+  "grassColor": [
+    0.38,
+    0.32,
+    0.22
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.18,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.5,
+    0.2
+  ],
+  "cameraAlpha": 4.711,
+  "cameraBeta": 1.566,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l110_colosseum_arcade_backdrop",
+      "modelPath": "building1_large.glb",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": -3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l110_champion_dais_platform",
+      "modelPath": "nature/platform_beach.glb",
+      "position": [
+        0,
+        0,
+        2.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l110_ceremonial_flame_west",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -2.6,
+        0,
+        1.6
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l110_ceremonial_flame_east",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        2.6,
+        0,
+        1.6
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "nature_tree_oak_bbdn",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        7.66,
+        0,
+        7.76
+      ],
+      "scale": 2.7,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_bbdn_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -8.23,
+        0,
+        9.04
+      ],
+      "scale": 2.7,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        2.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.6,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l110_gladiator_boss",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.28,
+        0,
+        1.8
+      ],
+      "rotationY": -1.8,
+      "scale": 1.25,
+      "animationName": "Sword_Idle",
+      "animationNames": [
+        "Sword_Idle",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l110_east_duelist",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3.26,
+        0,
+        1.8
+      ],
+      "rotationY": 1.3962634015954636,
+      "scale": 1.2,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l110_west_duelist",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane"
+    },
+    {
+      "position": [
+        -1,
+        0,
+        -0.4
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l110_arena_sprinter",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.5,
+        0.5
+      ],
+      "patrolSpeed": 2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.83,
+        0,
+        4.81
+      ],
+      "rotationY": 0.3665191429188092,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

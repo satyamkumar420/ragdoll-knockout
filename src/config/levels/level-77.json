@@ -1,0 +1,325 @@
+{
+  "id": 77,
+  "name": "Level 77",
+  "skyColor": [
+    0.55,
+    0.4,
+    0.25,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.15,
+    0.16
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.42,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.866,
+  "cameraBeta": 1.484,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l77_garage_race_car",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        -2.87,
+        0,
+        0.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 1.32,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 150
+    },
+    {
+      "name": "l77_getaway_delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        2,
+        0,
+        3.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": -1.78,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 150
+    },
+    {
+      "name": "l77_cardboard_parts_box",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        -2.5,
+        0,
+        2.5
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "cardboard",
+      "durability": 15,
+      "isDestructible": true,
+      "isPenetrable": true,
+      "penetrationResistance": 6
+    },
+    {
+      "name": "l77_metal_oil_drum",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -5.21,
+        0.59,
+        5.72
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 35,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 35
+    },
+    {
+      "name": "city_building3_big_ob9t",
+      "modelPath": "building3_big.glb",
+      "position": [
+        -2.16,
+        0,
+        7.79
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 2.98,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building_b_pcnw",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -8.8,
+        0,
+        6.86
+      ],
+      "scale": 3.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.7453292519943295,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building_b_pcnw_copy",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        7.81,
+        0,
+        7.26
+      ],
+      "scale": 3.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.7453292519943295,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -5.04,
+        0,
+        0.83
+      ],
+      "rotationY": 2.3736477827122884,
+      "scale": 1.15,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l77_chief_tuner",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.11,
+        0,
+        2.78
+      ],
+      "rotationY": 1.3264502315156903,
+      "scale": 1.1,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l77_engine_mover",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.2,
+        0,
+        -1.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l77_chopshop_patrol",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.8,
+      "swordPosition": [
+        -0.015,
+        0.1,
+        0.02
+      ],
+      "swordRotation": [
+        -0.17453292519943295,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        0.2,
+        2.2
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        3.12,
+        0,
+        2.29
+      ],
+      "rotationY": -2.199114857512855,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l77_van_roof_marksman",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3,
+        0,
+        2.01
+      ],
+      "rotationY": 2.199114857512855,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l77_fuel_tank_guard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.65,
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        4,
+        0,
+        1.43
+      ],
+      "rotationY": -0.46,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

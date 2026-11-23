@@ -1,0 +1,310 @@
+{
+  "id": 55,
+  "name": "Level 55",
+  "skyColor": [
+    0.18,
+    0.22,
+    0.32,
+    1
+  ],
+  "grassColor": [
+    0.24,
+    0.26,
+    0.28
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.618,
+  "cameraBeta": 1.377,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l55_factory_backdrop_left",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -8.69,
+        0,
+        9.23
+      ],
+      "scale": 5.7,
+      "rotationX": 0,
+      "rotationY": -1.69,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l55_factory_backdrop_right",
+      "modelPath": "building4.glb",
+      "position": [
+        7.2,
+        0,
+        8.77
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": -2.9845130209103035,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l55_industrial_generator",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        -1.68,
+        0,
+        9.31
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 1.58,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l55_delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -10.61,
+        0,
+        4.04
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.75,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l55_fuel_barrel_left",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -4.12,
+        0.5,
+        9.2
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 85,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 48
+    },
+    {
+      "name": "l55_fuel_barrel_right",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        2.64,
+        0.58,
+        8.19
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 85,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 48
+    },
+    {
+      "name": "nature_tree_palm_xbe6",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        10.23,
+        0.01,
+        4.3
+      ],
+      "scale": 2.17,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.53,
+        0,
+        1.5
+      ],
+      "rotationY": -1.26,
+      "scale": 1.65,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l55_foundry_overseer",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.5,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.94,
+        1.29,
+        3.4
+      ],
+      "rotationY": 1.8151424220741028,
+      "scale": 1.05,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l55_gantry_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3.8,
+        0,
+        0.7
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l55_covert_mechanic",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        4.56,
+        0,
+        0.9
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l55_patrol_guard",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.6,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        1.2,
+        4
+      ],
+      "patrolSpeed": 1.6
+    },
+    {
+      "position": [
+        2.49,
+        0,
+        3.2
+      ],
+      "rotationY": -2.05,
+      "scale": 1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l55_vault_looter",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -6.2,
+        0,
+        -0.5
+      ],
+      "rotationY": -0.51,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

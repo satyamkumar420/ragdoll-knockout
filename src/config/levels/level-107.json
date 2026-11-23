@@ -1,0 +1,338 @@
+{
+  "id": 107,
+  "name": "Level 107",
+  "skyColor": [
+    0.63,
+    0.51,
+    0.89,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.15,
+    0.18
+  ],
+  "ammo": 3,
+  "gunSpawnPos": [
+    2.64,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.754,
+  "cameraBeta": 1.527,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l107_arcade_cabinet_left",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -3.2,
+        0,
+        7.51
+      ],
+      "scale": 2.1,
+      "rotationX": 0,
+      "rotationY": 3.0543261909900763,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l107_arcade_cabinet_right",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -2.03,
+        0,
+        7.69
+      ],
+      "scale": 2.1,
+      "rotationX": 0,
+      "rotationY": 3.0019663134302466,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l107_retro_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        5.3,
+        0.75,
+        4.36
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l107_wooden_snack_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        5.68,
+        0,
+        4.93
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "isPenetrable": true,
+      "penetrationResistance": 12,
+      "isDestructible": true,
+      "durability": 2
+    },
+    {
+      "name": "l107_arcade_back_wall",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -3.23,
+        0,
+        9.04
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l107_arcade_back_wall_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        4.35,
+        0,
+        9.07
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l107_arcade_back_wall_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        11.67,
+        0,
+        9.12
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l107_arcade_back_wall_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -10.35,
+        0,
+        9.05
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l107_arcade_back_wall_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        14.09,
+        0,
+        4.97
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 1.58,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l107_arcade_back_wall_copy_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -12.92,
+        0,
+        5.37
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 1.58,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.2,
+        0,
+        2
+      ],
+      "rotationY": 1.57,
+      "scale": 1.15,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l107_arcade_champion",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.59,
+        0,
+        2.6
+      ],
+      "rotationY": -2.53,
+      "scale": 1.1,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l107_crouch_gamer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.05,
+        0,
+        1.59
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.2,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l107_bouncer_patrol",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1.31,
+        0,
+        0.25
+      ],
+      "rotationY": -0.9075712110370514,
+      "scale": 1.2,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l107_bouncer_patrol",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.8,
+        0,
+        1.92
+      ],
+      "rotationY": 0.4,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

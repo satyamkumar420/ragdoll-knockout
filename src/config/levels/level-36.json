@@ -1,0 +1,481 @@
+{
+  "id": 36,
+  "name": "Level 36",
+  "skyColor": [
+    0.23,
+    0.29,
+    0.59,
+    1
+  ],
+  "grassColor": [
+    0.16,
+    0.13,
+    0.22
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    0.73,
+    0.12,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.3
+  ],
+  "cameraAlpha": 4.727,
+  "cameraBeta": 1.403,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l36_wall_left",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.5,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l36_wall_center_window",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0.2,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_wall_right",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        8.5,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l36_side_wall_left_1",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.18,
+        0,
+        -0.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l36_side_wall_left_2",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.15,
+        0,
+        -8.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l36_side_wall_right_1",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.18,
+        0,
+        -0.9
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l36_side_wall_right_2",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.15,
+        0,
+        -8.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l36_persian_carpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        -0.6,
+        0.02,
+        0.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l36_luxury_couch",
+      "modelPath": "room_dinner/couch.glb",
+      "position": [
+        3.76,
+        0,
+        1.21
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_armchair",
+      "modelPath": "room_dinner/armchair.glb",
+      "position": [
+        3.1,
+        -0.02,
+        -3.08
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.07,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 12,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_coffee_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        3.11,
+        0,
+        -0.95
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_food_plate",
+      "modelPath": "room_dinner/food_dinner.glb",
+      "position": [
+        3.1,
+        0.67,
+        -1
+      ],
+      "scale": 0.43,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l36_potted_plant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -10.06,
+        0,
+        0.46
+      ],
+      "scale": 3.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l36_floor_lamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        11.31,
+        0,
+        2.2
+      ],
+      "scale": 1.82,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_vault_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -5,
+        0,
+        0.43
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 1.63,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 30,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_bookshelf",
+      "modelPath": "room_dinner/bookshelf.glb",
+      "position": [
+        -6.95,
+        0,
+        2.8
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l36_wall_painting",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        -7,
+        1.8,
+        3.7
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "room_plant_gm16",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        0,
+        1.25,
+        0.3
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -4.4,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5708,
+      "scale": 1.05,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Interact",
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l36_safe_cracker"
+    },
+    {
+      "position": [
+        -1.8,
+        0,
+        0.2
+      ],
+      "rotationY": 1.5708,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Punch_Cross",
+        "Sword_Attack",
+        "Punch_Jab"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l36_bodyguard_a",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "position": [
+        -0.6,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5708,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Hit_Chest",
+        "Sword_Attack",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l36_bodyguard_b",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.42,
+      "swordRotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "position": [
+        2.8,
+        0.22,
+        0.09
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l36_mob_boss"
+    },
+    {
+      "position": [
+        3.3,
+        -0.07,
+        -2.07
+      ],
+      "rotationY": -0.017453292519943295,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "scale": 1.2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.49,
+        0,
+        0.26
+      ],
+      "rotationY": -1.58,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

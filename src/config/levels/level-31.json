@@ -1,0 +1,394 @@
+{
+  "id": 31,
+  "name": "Level 31",
+  "skyColor": [
+    0.51,
+    0.46,
+    0.9,
+    1
+  ],
+  "grassColor": [
+    0.16,
+    0.14,
+    0.2
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.8,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.633,
+  "cameraBeta": 1.437,
+  "props": [
+    {
+      "name": "l31_building_skyline_left",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -9.25,
+        0,
+        4.2
+      ],
+      "scale": 3.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l31_building_skyline_right",
+      "modelPath": "building1_small.glb",
+      "position": [
+        10.32,
+        0,
+        4.2
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l31_street_lamp_right",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        4.6,
+        0,
+        2.2
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l31_street_lamp_left",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -5.6,
+        0,
+        2.2
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l31_sedan_getaway",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        -0.43,
+        0,
+        1.57
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 80,
+      "isDestructible": false
+    },
+    {
+      "name": "l31_arcade_cyber",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -6.8,
+        0,
+        3.3
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 2.98,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 35,
+      "isDestructible": true
+    },
+    {
+      "name": "l31_crate_wooden",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -3.8,
+        0,
+        1.6
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 20,
+      "isDestructible": true
+    },
+    {
+      "name": "l31_traffic_cone_1",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        0.6,
+        0,
+        -0.1
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l31_traffic_cone_2",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -2.2,
+        0,
+        -0.1
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l31_traffic_cone_3",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -4.8,
+        0,
+        -0.1
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "workshop_box_cardboard_z52w",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        -0.27,
+        0.02,
+        0.52
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_znyd",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.95,
+        0.01,
+        1.74
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "l31_building_skyline_right_copy",
+      "modelPath": "building1_small.glb",
+      "position": [
+        3.46,
+        0,
+        4.6
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l31_building_skyline_right_copy_copy",
+      "modelPath": "building1_small.glb",
+      "position": [
+        -3.42,
+        0,
+        5
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l31_cyber_mechanic",
+      "position": [
+        -0.8,
+        0,
+        0.6
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "namePrefix": "l31_patrol_enforcer",
+      "position": [
+        -3.55,
+        -0.03,
+        -1.55
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 0.95,
+      "isPatrolling": false,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.38,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword_shield.glb"
+    },
+    {
+      "namePrefix": "l31_lookout_guard",
+      "position": [
+        1.77,
+        0,
+        0.4
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop",
+        "Pistol_Reload",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1,
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "weaponModelPath": "Pistol.glb"
+    },
+    {
+      "namePrefix": "l31_syndicate_boss",
+      "position": [
+        -1.89,
+        0,
+        -1.4
+      ],
+      "rotationY": -1.8,
+      "scale": 1.4,
+      "animationName": "Spell_Simple_Shoot",
+      "animationNames": [
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "magicFx": {
+        "enabled": true,
+        "color": [
+          0.1,
+          0.85,
+          0.95
+        ],
+        "hands": "both",
+        "orbSize": 0.22,
+        "hasGroundCircle": true,
+        "groundRadius": 1.6,
+        "hasOrbitRings": true,
+        "hasSparks": true
+      }
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.2,
+        0,
+        0.4
+      ],
+      "rotationY": -1.2,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

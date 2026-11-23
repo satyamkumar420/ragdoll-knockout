@@ -1,0 +1,464 @@
+{
+  "id": 14,
+  "name": "Level 14",
+  "skyColor": [
+    0.09,
+    0.35,
+    0.27,
+    1
+  ],
+  "grassColor": [
+    0.11,
+    0.38,
+    0.13
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    -3.45,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    -0.1,
+    1.1,
+    0
+  ],
+  "cameraAlpha": -20.428,
+  "cameraBeta": 1.489,
+  "props": [
+    {
+      "name": "jungleCampfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -3.6,
+        0,
+        -0.8
+      ],
+      "scale": 1.15,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treasureChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        3,
+        0,
+        -1.4
+      ],
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationY": -0.35,
+      "rotationZ": 0
+    },
+    {
+      "name": "jungleBarrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        3.66,
+        0,
+        4.82
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 25,
+      "isDestructible": true
+    },
+    {
+      "name": "jungleFence",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.8,
+        0,
+        1.6
+      ],
+      "scale": 1.1,
+      "rotationY": 0.35,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 35,
+      "isDestructible": true
+    },
+    {
+      "name": "boulderLeft",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -4.4,
+        0,
+        0.3
+      ],
+      "scale": 1.35,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "boulderRight",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        3.3,
+        0,
+        0.5
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "boulderBackCenter",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -0.1,
+        0,
+        3.8
+      ],
+      "scale": 1.45,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treePalmLeft",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -5.1,
+        0,
+        1.2
+      ],
+      "rotationY": 0.4,
+      "scale": 2.4,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treePalmBendRight",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        5.4,
+        0,
+        1.1
+      ],
+      "rotationY": -0.8,
+      "scale": 2.5,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treePalmBendLeft",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -5.6,
+        0,
+        -1.6
+      ],
+      "rotationY": 1,
+      "scale": 2.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treePalmRight",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        5.8,
+        0,
+        -1.5
+      ],
+      "rotationY": -0.6,
+      "scale": 2.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treeOakLeft",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -7.6,
+        0,
+        0.5
+      ],
+      "scale": 2.1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treeOakRight",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        7.6,
+        0,
+        0.5
+      ],
+      "scale": 2.1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treePineBack1",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -2.6,
+        0,
+        5.2
+      ],
+      "scale": 2.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treePineBack2",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        2.4,
+        0,
+        5.2
+      ],
+      "scale": 2.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treeDefaultBack1",
+      "modelPath": "nature/tree_default.glb",
+      "position": [
+        -4.4,
+        0,
+        4.2
+      ],
+      "scale": 1.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treeDefaultBack2",
+      "modelPath": "nature/tree_default.glb",
+      "position": [
+        4.4,
+        0,
+        4.2
+      ],
+      "scale": 1.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treeOakCenterBack",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        0,
+        0,
+        6.5
+      ],
+      "scale": 2.3,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "prop_sword_curved_jsg4",
+      "modelPath": "swords/sword_2.glb",
+      "position": [
+        3.39,
+        0.21,
+        0.4
+      ],
+      "scale": 0.24,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "prop_sword_wood_kdv3",
+      "modelPath": "swords/sword_wood.glb",
+      "position": [
+        1,
+        0.16,
+        4.02
+      ],
+      "scale": 0.85,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "prop_sword_steel_kjwm",
+      "modelPath": "swords/sword.glb",
+      "position": [
+        -4.35,
+        0.29,
+        0.19
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2,
+        0,
+        0.25
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Punch_Cross",
+      "animationNames": [
+        "Punch_Cross",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l14_warrior_1",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        -1.6580627893946132,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.085,
+        0.105,
+        0.02
+      ],
+      "weaponModelPath": "axe_gold.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.8,
+        0,
+        0.25
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Punch_Cross",
+      "animationNames": [
+        "Punch_Cross",
+        "Sword_Attack",
+        "Hit_Chest"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l14_warrior_2",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        -1.3962634015954636,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.085,
+        0.105,
+        0.02
+      ],
+      "weaponModelPath": "axe_diamond.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.5,
+        0,
+        -0.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Punch_Cross",
+      "animationNames": [
+        "Punch_Cross",
+        "Sword_Attack",
+        "Hit_Head"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l14_warrior_3",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        -1.4835298641951802,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.045,
+        0.145,
+        0.02
+      ],
+      "weaponModelPath": "axe_diamond.glb",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.7,
+        0,
+        -0.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Punch_Cross",
+      "animationNames": [
+        "Punch_Cross",
+        "Sword_Attack",
+        "Hit_Chest"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l14_warrior_4",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.55,
+      "swordRotation": [
+        -1.1344640137963142,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.065,
+        0.115,
+        0.02
+      ],
+      "weaponModelPath": "axe_gold.glb",
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.94,
+        0,
+        -1.2
+      ],
+      "rotationY": -1.12,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "environmentType": "room",
+  "subtitle": ""
+}

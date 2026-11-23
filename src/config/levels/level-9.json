@@ -1,0 +1,249 @@
+{
+  "id": 9,
+  "name": "Level 9",
+  "skyColor": [
+    0.46,
+    0.82,
+    1,
+    1
+  ],
+  "grassColor": [
+    0.05,
+    0.43,
+    0.08
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    1.2,
+    0,
+    0
+  ],
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "city_building1_large_msvd",
+      "modelPath": "building1_large.glb",
+      "position": [
+        0.75,
+        -0.03,
+        8.88
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0.06,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building3_big_nei0",
+      "modelPath": "building3_big.glb",
+      "position": [
+        7.91,
+        -0.02,
+        7.53
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -2.82,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building3_big_p5ti",
+      "modelPath": "building3_big.glb",
+      "position": [
+        -6.39,
+        -0.16,
+        8.84
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": -0.02,
+      "rotationY": 3.04,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_snev",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -4.52,
+        0,
+        3.78
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_snev_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        5,
+        0,
+        4.18
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_tqqu",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.07,
+        -0.03,
+        5.56
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_ub76",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        3.4,
+        -0.07,
+        0
+      ],
+      "scale": 2.17,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.45,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_ub76_copy",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -3.46,
+        0.01,
+        0.4
+      ],
+      "scale": 1.94,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.35,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_ywna",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.04,
+        0.03,
+        -1.15
+      ],
+      "scale": 1.65,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_ywna_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -4.15,
+        0.03,
+        0.93
+      ],
+      "scale": 1.65,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.21,
+        0,
+        0
+      ],
+      "rotationY": 3,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "namePrefix": "target_1",
+      "scale": 1
+    },
+    {
+      "position": [
+        3.25,
+        -0.03,
+        0.3
+      ],
+      "rotationY": -1.57,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "scale": 1
+    },
+    {
+      "position": [
+        -3.24,
+        -0.01,
+        0
+      ],
+      "rotationY": 1.5,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "scale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.2,
+        0,
+        0.4
+      ],
+      "rotationY": -1.2,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0.35,
+    1,
+    0
+  ],
+  "cameraAlpha": -7.872,
+  "cameraBeta": 1.548,
+  "subtitle": "",
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52
+}

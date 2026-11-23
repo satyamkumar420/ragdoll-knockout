@@ -1,0 +1,479 @@
+{
+  "id": 58,
+  "name": "Level 58",
+  "skyColor": [
+    0.69,
+    0.41,
+    0.62,
+    1
+  ],
+  "grassColor": [
+    0.38,
+    0.22,
+    0.16
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.6,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 11.49,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.3
+  ],
+  "cameraAlpha": 4.594,
+  "cameraBeta": 1.525,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l58_wall_center_window",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0,
+        0,
+        3.2
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l58_wall_left",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -8.04,
+        0,
+        3.2
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l58_wall_right",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        8.11,
+        0,
+        3.2
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l58_banquet_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        0,
+        0,
+        0.52
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 95,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 35
+    },
+    {
+      "name": "l58_chair_left",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -1.97,
+        0.05,
+        0.32
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.17,
+      "rotationZ": -0.01,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 45,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 7
+    },
+    {
+      "name": "l58_chair_right",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        1.2,
+        0,
+        1.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.5708,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 45,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 7
+    },
+    {
+      "name": "l58_display_cabinet",
+      "modelPath": "room_dinner/cabinet.glb",
+      "position": [
+        10.65,
+        0,
+        -1.29
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": -1.63,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 90,
+      "isDestructible": false
+    },
+    {
+      "name": "l58_antique_bookshelf",
+      "modelPath": "room_dinner/bookshelf.glb",
+      "position": [
+        -9.39,
+        0,
+        2.2
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 90,
+      "isDestructible": false
+    },
+    {
+      "name": "l58_armchair",
+      "modelPath": "room_dinner/armchair.glb",
+      "position": [
+        -9.94,
+        0,
+        0.4
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 1.67,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "durability": 45,
+      "isDestructible": true
+    },
+    {
+      "name": "l58_pizza_feast",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -0.3,
+        0.86,
+        0.5
+      ],
+      "scale": 0.55,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l58_burger_feast",
+      "modelPath": "room_dinner/burger.glb",
+      "position": [
+        0.3,
+        0.86,
+        0.35
+      ],
+      "scale": 0.43,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l58_loot_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -4.72,
+        0,
+        1.2
+      ],
+      "scale": 1.05,
+      "rotationX": 0,
+      "rotationY": -2.09,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l58_banquet_carpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        0,
+        0.01,
+        0.06
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "l58_wall_right_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.47,
+        0,
+        -0.38
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": 1.54,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l58_wall_right_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.67,
+        0,
+        -7.78
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": 1.54,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l58_wall_left_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.87,
+        0,
+        -0.47
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": -1.59,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l58_wall_left_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.63,
+        0,
+        -8.72
+      ],
+      "scale": 2.15,
+      "rotationX": 0,
+      "rotationY": -1.59,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -1.37,
+        0,
+        -4.26
+      ],
+      "rotationY": 1.6755160819145563,
+      "scale": 1.22,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l58_syndicate_don",
+      "weaponModelPath": "axe_gold.glb",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.52,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "arcane"
+    },
+    {
+      "position": [
+        1.35,
+        0,
+        -3.03
+      ],
+      "rotationY": -2.0420352248333655,
+      "scale": 1.05,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l58_cabinet_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "fire",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.28,
+        0,
+        -5.51
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 0.8,
+      "namePrefix": "l58_patrol_sommelier",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.58,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.6,
+        2.4
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        -5.29,
+        0,
+        1.1
+      ],
+      "rotationY": 1.2,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l58_safe_cracker",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        -1.61,
+        0,
+        0.4
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l58_armchair_vip",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.75,
+        0,
+        0.93
+      ],
+      "rotationY": 0.09,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

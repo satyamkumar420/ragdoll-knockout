@@ -1,0 +1,276 @@
+{
+  "id": 96,
+  "name": "Level 96",
+  "skyColor": [
+    0.54,
+    0.6,
+    0.82,
+    1
+  ],
+  "grassColor": [
+    0.44,
+    0.21,
+    0.02
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.19,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 9.5,
+  "cameraTarget": [
+    0,
+    1.45,
+    0.2
+  ],
+  "cameraAlpha": 4.716,
+  "cameraBeta": 1.549,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l96_lighthouse_spire",
+      "modelPath": "building1_large.glb",
+      "position": [
+        -1.04,
+        0.04,
+        10.8
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 3.0543261909900763,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l96_ocean_water_basin",
+      "modelPath": "water_island.glb",
+      "position": [
+        0,
+        -0.15,
+        1.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "city_delivery_gkql",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        6.21,
+        0,
+        3.21
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.3439035240356338,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_bend_k7n2",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -7.17,
+        0,
+        7.66
+      ],
+      "scale": 2.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_bend_k7n2_copy",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        5.41,
+        0,
+        8.06
+      ],
+      "scale": 2.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        1.36,
+        0,
+        2.8
+      ],
+      "rotationY": -2.303834612632515,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l96_lighthouse_master",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -4.2,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l96_ledge_sentinel",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.5,
+        0,
+        1.5
+      ],
+      "rotationY": 1.66,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l96_winch_tech",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane",
+      "patrolRange": [
+        -4.5,
+        -0.5
+      ],
+      "patrolSpeed": 1.2
+    },
+    {
+      "position": [
+        -0.94,
+        0,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l96_storm_guard",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.69,
+        0.81
+      ],
+      "patrolSpeed": 1
+    },
+    {
+      "position": [
+        0.67,
+        0,
+        0.2
+      ],
+      "rotationY": -1.18,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l96_ocean_swimmer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.44,
+        0,
+        1.5
+      ],
+      "rotationY": 0.37,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,258 @@
+{
+  "id": 104,
+  "name": "Level 104",
+  "skyColor": [
+    0.48,
+    0.72,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.32,
+    0.34,
+    0.36
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    4.98,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.5,
+    0.2
+  ],
+  "cameraAlpha": 4.693,
+  "cameraBeta": 1.549,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l104_skyscraper_tower_left",
+      "modelPath": "building2_large.glb",
+      "position": [
+        -4.26,
+        0,
+        10
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": -3.106686068549907,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l104_scaffold_tower_right",
+      "modelPath": "building1_small.glb",
+      "position": [
+        6.57,
+        0,
+        9
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": -3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l104_metal_car_cover",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        3.5,
+        0,
+        2.08
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": -0.6,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l104_penetrable_cardboard_stack",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        -0.13,
+        0,
+        2.78
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0.3,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "cardboard",
+      "isPenetrable": true,
+      "penetrationResistance": 6,
+      "isDestructible": true
+    },
+    {
+      "name": "l104_steel_cargo_crate",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        4.26,
+        0,
+        3.99
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0.78,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -4.2,
+        0,
+        3.2
+      ],
+      "rotationY": 1.3962634015954636,
+      "scale": 1.15,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l104_scaffold_sniper",
+      "weaponModelPath": "Pistol.glb",
+      "swordModelPath": "Pistol.glb",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1.8,
+        0,
+        2.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l104_hidden_grunt",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.2,
+        0,
+        2.8
+      ],
+      "rotationY": -1.605702911834783,
+      "scale": 1.2,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l104_crane_rigger",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        -0.4
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l104_patrol_runner",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.25,
+        1.25
+      ],
+      "patrolSpeed": 1.6,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.89,
+        0,
+        1.38
+      ],
+      "rotationY": -1.2042771838760873,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,400 @@
+{
+  "id": 43,
+  "name": "Level 43",
+  "skyColor": [
+    0.35,
+    0.7,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.1,
+    0.45,
+    0.52
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.23,
+    0.49,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.67,
+  "cameraBeta": 1.276,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l43_cliff_left",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -6.21,
+        -0.83,
+        1.27
+      ],
+      "scale": 2.3,
+      "rotationX": -1.52,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l43_cliff_right",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        7.8,
+        -0.77,
+        2.35
+      ],
+      "scale": 2.2,
+      "rotationX": -1.48,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l43_palm_left",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -4.2,
+        0,
+        5.8
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0.6,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l43_palm_right",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        3.5,
+        0,
+        5.2
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l43_water_island",
+      "modelPath": "water_island.glb",
+      "position": [
+        0,
+        -0.2,
+        4.5
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l43_dock_1",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        -3.83,
+        -0.03,
+        0.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l43_dock_2",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        -1.8,
+        -0.03,
+        0.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l43_dock_3",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        0.23,
+        -0.03,
+        0.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l43_dock_4",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        2.01,
+        -0.03,
+        0.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l43_rum_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -3.2,
+        0,
+        0.8
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l43_treasure_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0,
+        0,
+        0.9
+      ],
+      "scale": 0.95,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l43_dock_4_copy",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        4.08,
+        -0.03,
+        0.6
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.8,
+        0.52,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Walk_Formal_Loop",
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l43_cutlass_captain",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword.glb"
+    },
+    {
+      "position": [
+        0.8,
+        0.47,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Walk_Formal_Loop",
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l43_shield_corsair",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.42,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword_shield.glb"
+    },
+    {
+      "position": [
+        -2.8,
+        0.47,
+        0.8
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l43_rum_pusher",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -4.52,
+        0.5,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l43_pier_lookout",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.8,
+        0.71,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l43_pier_sniper",
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        4.36,
+        0.44,
+        0.78
+      ],
+      "rotationY": -0.01,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

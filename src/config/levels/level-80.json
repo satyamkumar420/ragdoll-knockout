@@ -1,0 +1,234 @@
+{
+  "id": 80,
+  "name": "Level 80",
+  "skyColor": [
+    0.28,
+    0.1,
+    0.35,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.18,
+    0.25
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    3.94,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.755,
+  "cameraBeta": 1.523,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l80_grand_pillar_left",
+      "modelPath": "building1_large.glb",
+      "position": [
+        -10.17,
+        0,
+        12.82
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -0.11,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l80_grand_pillar_right",
+      "modelPath": "building1_large.glb",
+      "position": [
+        7.5,
+        0,
+        14.72
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -0.09,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2.48,
+        0.3,
+        -3.82
+      ],
+      "rotationY": -0.01,
+      "scale": 1.45,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l80_supreme_sovereign_ignis",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.8,
+      "magicFx": "fire",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": [
+        -2.8,
+        0,
+        1.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 2.3,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l80_warmaster_left",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.45,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.98,
+        0,
+        1.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.2,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l80_warmaster_right",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.09,
+        0.08,
+        0.01
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.62,
+        0,
+        4
+      ],
+      "rotationY": -2.775073510670984,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l80_tower_marksman_east",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.05,
+        0,
+        4
+      ],
+      "rotationY": -2.0943951023931953,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l80_tower_marksman_west",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.75,
+        0,
+        1.2
+      ],
+      "rotationY": 0.5,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

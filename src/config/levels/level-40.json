@@ -1,0 +1,1109 @@
+{
+  "id": 40,
+  "name": "Level 40",
+  "skyColor": [
+    0.46,
+    0.74,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.58,
+    0.16
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    1.78,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.55,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.69,
+  "cameraBeta": 1.368,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l40_suburban_villa",
+      "modelPath": "house1.glb",
+      "position": [
+        -1.09,
+        0,
+        6.73
+      ],
+      "scale": 1.45,
+      "rotationX": 0,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_tree_oak_left",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -5.5,
+        0,
+        4.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l40_tree_oak_right",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        5.5,
+        0,
+        4.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l40_garden_plant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        0.5,
+        0,
+        1.8
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l40_patio_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -1,
+        0,
+        0.2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l40_pizza_snack",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -1,
+        0.72,
+        0.2
+      ],
+      "scale": 0.8,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l40_lawn_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        -1,
+        0.71,
+        -0.36
+      ],
+      "scale": 0.85,
+      "rotationX": 0,
+      "rotationY": 0.35,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l40_chair_left",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.48,
+        0,
+        0.2
+      ],
+      "scale": 1.19,
+      "rotationX": 0,
+      "rotationY": -0.11,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    },
+    {
+      "name": "l40_chair_right",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        0.53,
+        0,
+        -0.63
+      ],
+      "scale": 1.31,
+      "rotationX": 0,
+      "rotationY": 2.96,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    },
+    {
+      "name": "l40_fence_back_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.6,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.5,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -4.4,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.3,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.2,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -1.1,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        0,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        1.1,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.2,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_10",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3.3,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_11",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.4,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_12",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        5.5,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_back_13",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        6.6,
+        -0.05,
+        5.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.6,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.5,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -4.4,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.3,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.2,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -1.1,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        0,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        1.1,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.2,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_10",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3.3,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_11",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.4,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_12",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        5.5,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_front_13",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        6.6,
+        -0.05,
+        -3.2
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        -2.65
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        -1.55
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        -0.45
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        0.65
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        1.75
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        2.85
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        3.95
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_left_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.15,
+        -0.05,
+        5.05
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        -2.65
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        -1.55
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        -0.45
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        0.65
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        1.75
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        2.85
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        3.95
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_fence_right_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.15,
+        -0.05,
+        5.05
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.570796,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l40_chair_left_copy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.38,
+        0,
+        -1.21
+      ],
+      "scale": 1.27,
+      "rotationX": 0,
+      "rotationY": -0.04,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    },
+    {
+      "name": "l40_chair_right_copy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -0.81,
+        0,
+        -1.41
+      ],
+      "scale": 1.31,
+      "rotationX": 0,
+      "rotationY": -1.67,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    },
+    {
+      "name": "l40_chair_right_copy_copy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -0.92,
+        -0.07,
+        1.38
+      ],
+      "scale": 1.31,
+      "rotationX": 0,
+      "rotationY": 1.33,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2.2,
+        0,
+        0.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l40_diner_alpha"
+    },
+    {
+      "position": [
+        0.2,
+        0,
+        -0.7
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "namePrefix": "l40_diner_beta",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1,
+        0,
+        1.1
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l40_diner_gamma"
+    },
+    {
+      "position": [
+        -1.97,
+        0,
+        -1.18
+      ],
+      "rotationY": 1.1,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l40_diner_delta"
+    },
+    {
+      "position": [
+        -0.95,
+        0,
+        -1.09
+      ],
+      "rotationY": -0.25,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l40_diner_epsilon"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.49,
+        0,
+        2.78
+      ],
+      "rotationY": 0.57,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle",
+        "peck"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

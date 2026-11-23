@@ -1,0 +1,287 @@
+{
+  "id": 65,
+  "name": "Level 65",
+  "skyColor": [
+    0.35,
+    0.4,
+    0.48,
+    1
+  ],
+  "grassColor": [
+    0.2,
+    0.22,
+    0.25
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.84,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.773,
+  "cameraBeta": 1.375,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l65_skyscraper_left",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -12,
+        0,
+        10.4
+      ],
+      "scale": 5.2,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l65_skyscraper_right",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        12,
+        0,
+        8.56
+      ],
+      "scale": 5.2,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l65_armored_suv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        1.96,
+        0,
+        4.12
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 1.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 200
+    },
+    {
+      "name": "l65_police_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -4.34,
+        0,
+        1.82
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 1.08,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 180
+    },
+    {
+      "name": "l65_blockade_taxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        -1.77,
+        0,
+        -1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -2.48,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 160
+    },
+    {
+      "name": "city_building1_large_mplv",
+      "modelPath": "building1_large.glb",
+      "position": [
+        0,
+        0,
+        11.07
+      ],
+      "scale": 1.5,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -4.22,
+        0,
+        0.24
+      ],
+      "rotationY": 1.6755160819145563,
+      "scale": 1.15,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l65_suv_roof_marksman",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        4.19,
+        0,
+        4.26
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.05,
+      "animationName": "Crouch_Idle_Loop",
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l65_police_cruiser_cover",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l65_convoy_enforcer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        2.2
+      ],
+      "patrolSpeed": 1.6
+    },
+    {
+      "position": [
+        -0.35,
+        0,
+        -2.25
+      ],
+      "rotationY": -0.2,
+      "scale": 1.05,
+      "animationName": "Crouch_Fwd_Loop",
+      "animationNames": [
+        "Crouch_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l65_taxi_wheelman",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        1.11,
+        0,
+        -0.97
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l65_convoy_enforcer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1,
+        2
+      ],
+      "patrolSpeed": 1.6
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.15,
+        0,
+        -1
+      ],
+      "rotationY": 0.44,
+      "behaviorMode": "roam",
+      "roamRange": {
+        "minX": 3.8,
+        "maxX": 6.5
+      },
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

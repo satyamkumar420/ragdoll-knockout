@@ -1,0 +1,377 @@
+{
+  "id": 28,
+  "name": "Level 28",
+  "skyColor": [
+    0.96,
+    0.54,
+    0.24,
+    1
+  ],
+  "grassColor": [
+    0.2,
+    0.21,
+    0.24
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    5.5,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.787,
+  "cameraBeta": 1.398,
+  "props": [
+    {
+      "name": "skylineGlassTowerLeft",
+      "modelPath": "building4.glb",
+      "position": [
+        -8.2,
+        0,
+        7.2
+      ],
+      "rotationX": 0,
+      "rotationY": 3.06,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "skylineCommercialCenter",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -1.2,
+        0,
+        7.8
+      ],
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "scale": 3.8,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "skylineGlassTowerRight",
+      "modelPath": "building4.glb",
+      "position": [
+        8.2,
+        0,
+        7.2
+      ],
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "skylineOfficeWing",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        2.07,
+        0,
+        7.4
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 3.5,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "policeBarricade",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -10.4,
+        0,
+        0.95
+      ],
+      "rotationX": 0,
+      "rotationY": 1.45,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "stalledTaxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        -6.38,
+        -0.01,
+        1.19
+      ],
+      "rotationX": 0,
+      "rotationY": -1.69,
+      "rotationZ": 0,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "syndicateDeliveryVan",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        1.3,
+        0,
+        1.9
+      ],
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false,
+      "isLocked": false
+    },
+    {
+      "name": "armoredBossSuv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        9.35,
+        0,
+        0.5
+      ],
+      "rotationX": 0,
+      "rotationY": -1.65,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "roadConeLeft",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.1,
+        0,
+        -0.7
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "roadConeCenter",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -2.3,
+        0,
+        -0.7
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "durability": 10,
+      "isDestructible": true
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l28_police_sentry",
+      "position": [
+        -2.03,
+        0,
+        -0.6
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.02,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 0.8,
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.28,
+        -0.78
+      ],
+      "patrolSpeed": 0.75,
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.38,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "weaponModelPath": "swords/sword.glb"
+    },
+    {
+      "namePrefix": "l28_taxi_pusher",
+      "position": [
+        -1.26,
+        0,
+        1.57
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "namePrefix": "l28_crate_gunner",
+      "position": [
+        1.09,
+        0.05,
+        -1.77
+      ],
+      "rotationY": 1.08,
+      "scale": 1,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop",
+        "Pistol_Reload"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1.05,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "namePrefix": "l28_overwatch_sniper",
+      "position": [
+        1.14,
+        -0.03,
+        0.12
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 0.98,
+      "animationName": "Pistol_Aim_Down",
+      "animationNames": [
+        "Pistol_Aim_Down",
+        "Pistol_Idle_Loop",
+        "Pistol_Reload",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1.05,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "namePrefix": "l28_syndicate_boss",
+      "position": [
+        3.84,
+        0,
+        2.25
+      ],
+      "rotationY": -2.49,
+      "scale": 1.38,
+      "animationName": "Spell_Simple_Shoot",
+      "animationNames": [
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 0.92,
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.42,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "magicFx": {
+        "enabled": true,
+        "color": [
+          1,
+          0.45,
+          0.1
+        ],
+        "hands": "both",
+        "orbSize": 0.22,
+        "hasGroundCircle": true,
+        "groundRadius": 1.6,
+        "hasOrbitRings": true,
+        "hasSparks": true
+      }
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.8,
+        0,
+        -2.1
+      ],
+      "rotationY": -1.35,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

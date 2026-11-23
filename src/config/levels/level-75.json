@@ -1,0 +1,280 @@
+{
+  "id": 75,
+  "name": "Level 75",
+  "skyColor": [
+    0.39,
+    0.85,
+    0.95,
+    1
+  ],
+  "grassColor": [
+    0.45,
+    0.42,
+    0.35
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    1.45,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.3,
+    0.2
+  ],
+  "cameraAlpha": -1.523,
+  "cameraBeta": 1.571,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l75_water_lagoon_basin",
+      "modelPath": "water_island.glb",
+      "position": [
+        0,
+        -0.5,
+        1.5
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "l75_shipwreck_cliff_rock",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        2.5,
+        0,
+        2
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l75_curved_palm_tree",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -4.5,
+        0,
+        3.5
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l75_curved_palm_tree_copy",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        0.85,
+        0,
+        5.46
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l75_curved_palm_tree_copy_copy",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        5.11,
+        0,
+        4.27
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "nature_tree_palm_kr19",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -4.99,
+        0,
+        -5.08
+      ],
+      "scale": 1.68,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_kr19_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        5.15,
+        0,
+        -4.68
+      ],
+      "scale": 1.68,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.5,
+        0,
+        1.8
+      ],
+      "rotationY": 2.199114857512855,
+      "scale": 1.3,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l75_ghost_captain_morgan",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.15,
+        0,
+        -0.2
+      ],
+      "rotationY": -0.6,
+      "scale": 1.1,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l75_dock_plank_sentry",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.8,
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": [
+        -0.43,
+        0,
+        3.64
+      ],
+      "rotationY": 3.11,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l75_lagoon_swimmer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.5,
+        0,
+        2
+      ],
+      "rotationY": -2.0943951023931953,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l75_cliff_lookout_sniper",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.44,
+        0,
+        1.5
+      ],
+      "rotationY": 0.59,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

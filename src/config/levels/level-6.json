@@ -1,0 +1,363 @@
+{
+  "id": 6,
+  "name": "Level 6",
+  "skyColor": [
+    0.38,
+    0.72,
+    0.62,
+    1
+  ],
+  "grassColor": [
+    0.14,
+    0.38,
+    0.12
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.5,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0,
+    1.05,
+    0
+  ],
+  "cameraAlpha": -1.408,
+  "cameraBeta": 1.493,
+  "props": [
+    {
+      "name": "jungleCampfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -3.8,
+        0,
+        -0.6
+      ],
+      "scale": 1.15,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treasureChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        4.32,
+        0,
+        -2.78
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "woodenFenceCover",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.2,
+        0,
+        -1.5
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 35,
+      "isDestructible": true
+    },
+    {
+      "name": "cliffBackCenter",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        1.16,
+        0.06,
+        9.7
+      ],
+      "scale": 1.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "cliffBackLeft",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -5.8,
+        0,
+        2.8
+      ],
+      "rotationY": 0.45,
+      "scale": 1.6,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "cliffBackRight",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        5.8,
+        0,
+        2.8
+      ],
+      "rotationY": -0.45,
+      "scale": 1.6,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "boulderLeft",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -4.5,
+        0,
+        0.5
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "boulderRight",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        3.1,
+        0,
+        0.3
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "boulderCampfire",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -3.7,
+        0,
+        -1.7
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "treeOakLeft1",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -6.8,
+        0,
+        -0.8
+      ],
+      "scale": 1.6,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treePineLeft2",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -5.6,
+        0,
+        -2.2
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treeLushLeft3",
+      "modelPath": "nature/tree_default.glb",
+      "position": [
+        -7.2,
+        0,
+        1.4
+      ],
+      "scale": 1.5,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treeOakRight1",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        6.8,
+        0,
+        -0.8
+      ],
+      "scale": 1.6,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treePineRight2",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        5.7,
+        0,
+        -2.2
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treeLushRight3",
+      "modelPath": "nature/tree_default.glb",
+      "position": [
+        7.2,
+        0,
+        1.4
+      ],
+      "scale": 1.5,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treePineRearLeft",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -2.8,
+        0,
+        4
+      ],
+      "scale": 2.1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "treePineRearRight",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        2.8,
+        0,
+        4
+      ],
+      "scale": 2.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "treeOakRearCenter",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        0,
+        0,
+        4.6
+      ],
+      "scale": 1.9,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -1.75,
+        0,
+        0.1
+      ],
+      "rotationY": 1.57,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l6_swordsman_attacker",
+      "scale": 1,
+      "swordModelPath": "swords/sword.glb",
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "position": [
+        0.29,
+        0,
+        -0.1
+      ],
+      "rotationY": -1.57,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack"
+      ],
+      "animationSpeed": 0.9,
+      "namePrefix": "l6_swordsman_defender",
+      "scale": 1,
+      "swordModelPath": "swords/sword_2.glb",
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.98,
+        0,
+        -2.29
+      ],
+      "rotationY": 0.97,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

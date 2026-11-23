@@ -1,0 +1,231 @@
+{
+  "id": 101,
+  "name": "Level 101",
+  "skyColor": [
+    0.23,
+    0.38,
+    0.73,
+    1
+  ],
+  "grassColor": [
+    0.2,
+    0.22,
+    0.25
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    3.44,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.721,
+  "cameraBeta": 1.427,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l101_vault_wall_back",
+      "modelPath": "building1_small.glb",
+      "position": [
+        -0.23,
+        0,
+        9.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 3.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "nature_tree_oak_y6n2",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -6.68,
+        0,
+        9.46
+      ],
+      "scale": 4.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_y6n2_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        7.16,
+        0,
+        9.64
+      ],
+      "scale": 4.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.59,
+        0,
+        2.48
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l101_guard_crouch",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.005,
+        0.07,
+        -0.06
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        0,
+        0
+      ],
+      "swordScale": 0.8
+    },
+    {
+      "position": [
+        -1,
+        0,
+        -1.52
+      ],
+      "rotationY": 1.57,
+      "scale": 1.15,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l101_patrol_guard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.2,
+        0.8
+      ],
+      "patrolSpeed": 1.5
+    },
+    {
+      "position": [
+        2.5,
+        0,
+        3
+      ],
+      "rotationY": -1.7976891295541593,
+      "scale": 1.25,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l101_vault_overseer",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.85,
+      "swordPosition": [
+        -0.02,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        -1.8325957145940461,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.48,
+        0,
+        -0.2
+      ],
+      "rotationY": 1.57,
+      "scale": 1.15,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l101_patrol_guard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.7,
+        1.3
+      ],
+      "patrolSpeed": 1.5
+    },
+    {
+      "position": [
+        0.83,
+        0,
+        0.79
+      ],
+      "rotationY": 1.57,
+      "scale": 1.15,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l101_patrol_guard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.2,
+        1.8
+      ],
+      "patrolSpeed": 1.5
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.74,
+        0,
+        1.36
+      ],
+      "rotationY": -1.2042771838760873,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}

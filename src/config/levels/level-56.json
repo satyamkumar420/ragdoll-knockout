@@ -1,0 +1,330 @@
+{
+  "id": 56,
+  "name": "Level 56",
+  "skyColor": [
+    0.98,
+    0.58,
+    0.32,
+    1
+  ],
+  "grassColor": [
+    0.86,
+    0.72,
+    0.48
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.3,
+    0.2
+  ],
+  "cameraAlpha": 4.802,
+  "cameraBeta": 1.404,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l56_cliff_lookout",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        4.8,
+        0,
+        3.5
+      ],
+      "scale": 2.1,
+      "rotationX": 0,
+      "rotationY": -0.6,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l56_palm_left_bend",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -6.8,
+        0,
+        1.8
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0.8,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l56_palm_right",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        6.2,
+        0,
+        4.8
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l56_beach_campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        1.8,
+        0,
+        1.2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l56_treasure_vault",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        1,
+        0,
+        3.36
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l56_rum_barrel_stack",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -0.2,
+        0.57,
+        5.64
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 85,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 48
+    },
+    {
+      "name": "l56_loot_crate_left",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -4.5,
+        0.45,
+        0.2
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0.3,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 35,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 12
+    },
+    {
+      "name": "l56_loot_crate_right",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        2.8,
+        -0.12,
+        1.36
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 35,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 12
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2.93,
+        0,
+        0.2
+      ],
+      "rotationY": 1.605702911834783,
+      "scale": 1.22,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l56_pirate_captain",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.52,
+      "swordPosition": [
+        -0.015,
+        0.1,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.82,
+        0,
+        0.55
+      ],
+      "rotationY": -1.5184364492350666,
+      "scale": 1.05,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l56_cliff_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "fire",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.5,
+        0,
+        1.2
+      ],
+      "rotationY": -1.57,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l56_campfire_drunkard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        2.03,
+        0,
+        -2.26
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l56_dock_patroller",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.2,
+        1.6
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        1,
+        0,
+        2.5
+      ],
+      "rotationY": 0,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l56_loot_inspector",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.85,
+        0,
+        -0.54
+      ],
+      "rotationY": -0.68,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

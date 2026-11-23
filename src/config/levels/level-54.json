@@ -1,0 +1,266 @@
+{
+  "id": 54,
+  "name": "Level 54",
+  "skyColor": [
+    0.35,
+    0.65,
+    0.95,
+    1
+  ],
+  "grassColor": [
+    0.32,
+    0.32,
+    0.34
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 9.66,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.655,
+  "cameraBeta": 1.402,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l54_oak_left",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -6.8,
+        0,
+        6.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l54_modern_villa",
+      "modelPath": "house2.glb",
+      "position": [
+        0,
+        0,
+        6.2
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l54_oak_right",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        6.8,
+        0,
+        6.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l54_race_car",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        -4.5,
+        0,
+        2.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.6,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l54_tool_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -3.21,
+        0,
+        1.16
+      ],
+      "scale": 1.05,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l54_sedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        0.7,
+        0,
+        2.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.52,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l54_garden_bench",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        4.35,
+        0,
+        1.63
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.4486232791552935,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.22,
+        -0.03,
+        0.61
+      ],
+      "rotationY": 0,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l54_car_tuner",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        -0.6,
+        -0.03,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l54_enthusiast_host",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        0.8,
+        -0.03,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l54_car_admirer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        4.25,
+        0,
+        2.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l54_bench_lounger",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        3.16,
+        0,
+        1.56
+      ],
+      "rotationY": 1.7627825445142729,
+      "scale": 1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l54_porch_observer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2,
+        0,
+        0.76
+      ],
+      "rotationY": 0.49,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

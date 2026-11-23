@@ -1,0 +1,305 @@
+{
+  "id": 100,
+  "name": "Level 100",
+  "skyColor": [
+    0.42,
+    0.64,
+    1,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.32,
+    0.18
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    4.81,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.5,
+    0.2
+  ],
+  "cameraAlpha": 4.707,
+  "cameraBeta": 1.519,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l100_floating_dais",
+      "modelPath": "nature/platform_beach.glb",
+      "position": [
+        0,
+        0,
+        1.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l100_colossal_portal_right",
+      "modelPath": "building1_large.glb",
+      "position": [
+        11.27,
+        0,
+        12.5
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "city_house1_zz1p",
+      "modelPath": "house1.glb",
+      "position": [
+        -8.51,
+        0,
+        10.45
+      ],
+      "scale": 2.6,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.5009831567151233,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_0zof",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        0.1,
+        0,
+        9.5
+      ],
+      "scale": 4,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        1.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.7,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l100_sovereign_omnis",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -3.5,
+        0,
+        1.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.35,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l100_archon_pyros",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.09,
+        0.08,
+        0.01
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.75,
+        0,
+        1.2
+      ],
+      "rotationY": -1.57,
+      "scale": 1.35,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l100_archon_selene",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        -1
+      ],
+      "rotationY": 1.57,
+      "scale": 1.1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l100_void_infiltrator",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -3,
+        2.5
+      ],
+      "patrolSpeed": 1.6
+    },
+    {
+      "position": [
+        -4.8,
+        0,
+        3.5
+      ],
+      "rotationY": 1.55,
+      "scale": 1.05,
+      "animationName": "Pistol_Shoot",
+      "animationNames": [
+        "Pistol_Shoot",
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l100_marksman_west",
+      "isPatrolling": false,
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane"
+    },
+    {
+      "position": [
+        0.75,
+        0,
+        3.5
+      ],
+      "rotationY": -2.007128639793479,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l100_marksman_east",
+      "isPatrolling": false,
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        5.08,
+        0,
+        2.2
+      ],
+      "rotationY": -1.3962634015954636,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

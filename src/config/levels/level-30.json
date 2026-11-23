@@ -1,0 +1,1239 @@
+{
+  "id": 30,
+  "name": "Level 30",
+  "skyColor": [
+    0.52,
+    0.85,
+    1,
+    1
+  ],
+  "grassColor": [
+    0.08,
+    0.56,
+    0.19
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    4.15,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.659,
+  "cameraBeta": 1.423,
+  "props": [
+    {
+      "name": "nature_tree_palm_g3qm",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        8.16,
+        0.02,
+        0.2
+      ],
+      "scale": 2.97,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_g3qm_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -10.27,
+        0.02,
+        0.6
+      ],
+      "scale": 2.97,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_bend_gm0n",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -0.78,
+        0.07,
+        7.21
+      ],
+      "scale": 1.17,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0.21,
+      "rotationY": 0.48,
+      "rotationZ": 0.03
+    },
+    {
+      "name": "nature_fence_n3lc_copy",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3.48,
+        -0.1,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_fence_n3lc_copy_copy",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.26,
+        -0.19,
+        11.47
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_fence_n3lc_copy_copy_copy",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        1.01,
+        -0.24,
+        11.87
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_fence_n3lc_copy_copy_copy_copy",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -0.26,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -1.5,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.75,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.99,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.23,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.48,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.72,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -8.97,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -10.21,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_left_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.45,
+        -0.24,
+        12.27
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_right_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.72,
+        -0.19,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_right_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        5.97,
+        -0.19,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_right_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.21,
+        -0.19,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_right_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        8.45,
+        -0.19,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_right_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        9.7,
+        -0.19,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_back_right_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        10.94,
+        -0.19,
+        11.07
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        11.03
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        9.78
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        8.54
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        7.3
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        6.05
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        4.81
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        3.56
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        2.32
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        1.08
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_10",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        -0.17
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_11",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        -1.41
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_12",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        -2.65
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_13",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        -3.9
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_left_14",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        -5.14
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        9.83
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        8.58
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        7.34
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        6.1
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        4.85
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        3.61
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        2.36
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        1.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        -0.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_10",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        -1.37
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_11",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        -2.61
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_12",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        -3.85
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_right_13",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        12.19,
+        -0.22,
+        -5.1
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -11.46,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -10.21,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -8.97,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -7.73,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.48,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.24,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.99,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.75,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -1.51,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_10",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -0.26,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_11",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        0.98,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_12",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.22,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_13",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3.47,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_14",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.71,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_15",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        5.95,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_16",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        7.2,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_17",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        8.44,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_18",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        9.68,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "fence_front_19",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        10.93,
+        -0.22,
+        -5.12
+      ],
+      "scale": 2.72,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_plant_cb6f",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -3.36,
+        -0.06,
+        0.2
+      ],
+      "scale": 2.33,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l30_eclipse_kingpin",
+      "position": [
+        0.2,
+        0,
+        1.2
+      ],
+      "rotationY": -2.21,
+      "scale": 1.85,
+      "animationName": "Spell_Simple_Shoot",
+      "animationNames": [
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.48,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "magicFx": {
+        "enabled": true,
+        "color": [
+          0.92,
+          0.16,
+          0.48
+        ],
+        "hands": "both",
+        "orbSize": 0.24,
+        "hasGroundCircle": true,
+        "groundRadius": 1.7,
+        "hasOrbitRings": true,
+        "hasSparks": true
+      }
+    },
+    {
+      "namePrefix": "l30_armored_enforcer",
+      "position": [
+        -1.6,
+        0,
+        -0.6
+      ],
+      "rotationY": 1.2,
+      "scale": 1.15,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Punch_Cross",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.42,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "namePrefix": "l30_helipad_sniper",
+      "position": [
+        -3.46,
+        -0.02,
+        2.28
+      ],
+      "rotationY": 1.710422666954443,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l30_tech_saboteur",
+      "position": [
+        -3.5,
+        0,
+        -0.4
+      ],
+      "rotationY": 0.3,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "namePrefix": "l30_suv_guard",
+      "position": [
+        1.55,
+        0,
+        -2.07
+      ],
+      "rotationY": -1.57,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        1.8,
+        3.6
+      ],
+      "patrolSpeed": 0.9,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.38,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.6,
+        0,
+        -2.72
+      ],
+      "rotationY": -1.5707963267948966,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle_2",
+      "initialAnimations": [
+        "Idle_2",
+        "Idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "environmentType": "room"
+}

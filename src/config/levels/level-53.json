@@ -1,0 +1,358 @@
+{
+  "id": 53,
+  "name": "Level 53",
+  "skyColor": [
+    0.24,
+    0.44,
+    0.62,
+    1
+  ],
+  "grassColor": [
+    0.2,
+    0.18,
+    0.24
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.6,
+  "cameraBeta": 1.39,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l53_arcade_left",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        5.7,
+        0,
+        4.73
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 2.99,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l53_trophy_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        6.26,
+        0,
+        4.36
+      ],
+      "scale": 1.05,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l53_arcade_right",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        4.5,
+        -1.72,
+        6.8
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l53_snack_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -2.71,
+        0,
+        2.4
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l53_pizza_snack",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -2.7,
+        0.72,
+        2.4
+      ],
+      "scale": 0.8,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l53_soda_can",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        -3.14,
+        0.72,
+        2.6
+      ],
+      "scale": 0.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l53_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        -2.37,
+        0.73,
+        1.72
+      ],
+      "scale": 0.7,
+      "rotationX": 0,
+      "rotationY": -0.5,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "room_chair_jhfy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -4.57,
+        0,
+        2.14
+      ],
+      "scale": 1.45,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_house1_qn8r",
+      "modelPath": "house1.glb",
+      "position": [
+        1.9,
+        0,
+        6.19
+      ],
+      "scale": 1.9,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.6929693744344996,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_chair_vsog",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -1.28,
+        0,
+        2.3
+      ],
+      "scale": 1.19,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 3.1,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -1.96,
+        0,
+        -1.06
+      ],
+      "rotationY": -2.775073510670984,
+      "scale": 1,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l53_arcade_dj",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        5.73,
+        0,
+        3.88
+      ],
+      "rotationY": 0,
+      "scale": 1.05,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Interact",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l53_pro_gamer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -4.2,
+        0,
+        2.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l53_couch_gamer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        -2.65,
+        0,
+        -2.37
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l53_party_groover",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.98,
+        -0.03,
+        -2.16
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l53_tournament_host",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        -1.65,
+        0,
+        2.33
+      ],
+      "rotationY": -1.5707963267948966,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "scale": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.24,
+        0,
+        -0.6
+      ],
+      "rotationY": 0.19,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

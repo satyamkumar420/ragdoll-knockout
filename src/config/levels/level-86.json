@@ -1,0 +1,239 @@
+{
+  "id": 86,
+  "name": "Level 86",
+  "skyColor": [
+    0.26,
+    0.38,
+    0.72,
+    1
+  ],
+  "grassColor": [
+    0.05,
+    0.18,
+    0.28
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.94,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.45,
+    0.2
+  ],
+  "cameraAlpha": 4.675,
+  "cameraBeta": 1.519,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l86_offshore_crane_tower",
+      "modelPath": "building2_large.glb",
+      "position": [
+        -0.41,
+        0,
+        15.11
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "nature_tree_palm_e0n9",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        5.39,
+        0,
+        8.04
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_e0n9_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -9.02,
+        0,
+        13.53
+      ],
+      "scale": 1.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.21,
+        0,
+        2.5
+      ],
+      "rotationY": -2.0943951023931953,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l86_crane_watchman",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -4.2,
+        0,
+        0.2
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l86_edge_lookout",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.8,
+        0,
+        1.8
+      ],
+      "rotationY": 2.09,
+      "scale": 1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l86_winch_operator",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.8,
+        0,
+        0.8
+      ],
+      "rotationY": -1.57,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l86_patrol_deck_guard",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.8,
+        1.2
+      ],
+      "patrolSpeed": 1
+    },
+    {
+      "position": [
+        2,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l86_sea_saboteur",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.4,
+        0,
+        4
+      ],
+      "rotationY": 0.13,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

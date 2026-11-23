@@ -1,0 +1,322 @@
+{
+  "id": 47,
+  "name": "Level 47",
+  "skyColor": [
+    0.55,
+    0.45,
+    0.72,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.28,
+    0.26
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.6,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.682,
+  "cameraBeta": 1.346,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l47_modern_villa",
+      "modelPath": "house2.glb",
+      "position": [
+        -1.5,
+        0,
+        4.8
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l47_delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -6.98,
+        0,
+        1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l47_suburban_tree",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        6.5,
+        0,
+        5.2
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l47_side_fence_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.5,
+        0,
+        4.2
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l47_side_fence_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.3,
+        0,
+        4.2
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l47_porch_bench",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -3.65,
+        0,
+        2.04
+      ],
+      "scale": 2.05,
+      "rotationX": 0,
+      "rotationY": -3.07,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l47_entryway_plant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -0.2,
+        0,
+        3.2
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "city_sedan_udrd",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        3.23,
+        0.08,
+        4.45
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -1.41,
+        0,
+        -0.72
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l47_parcel_courier",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.41,
+        -0.41
+      ],
+      "patrolSpeed": 1.2
+    },
+    {
+      "position": [
+        -4.01,
+        0,
+        2.12
+      ],
+      "rotationY": -3.06,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l47_villa_homeowner"
+    },
+    {
+      "position": [
+        -0.8,
+        -0.03,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l47_sparring_duelist_a",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword_wood.glb",
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.55,
+        -0.05
+      ],
+      "patrolSpeed": 1.2
+    },
+    {
+      "position": [
+        2.03,
+        -0.03,
+        2.04
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l47_sparring_duelist_b",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword.glb",
+      "isPatrolling": true,
+      "patrolRange": [
+        0.78,
+        3.28
+      ],
+      "patrolSpeed": 1.2
+    },
+    {
+      "position": [
+        -3.27,
+        -0.01,
+        1.1
+      ],
+      "rotationY": -1.14,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "scale": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.12,
+        0,
+        -0.6
+      ],
+      "rotationY": 0.73,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

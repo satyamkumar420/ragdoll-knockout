@@ -1,0 +1,250 @@
+{
+  "id": 8,
+  "name": "Level 8",
+  "skyColor": [
+    0.36,
+    0.75,
+    0.94,
+    1
+  ],
+  "grassColor": [
+    0.03,
+    0.41,
+    0.16
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    -5.73,
+    0.09,
+    1.9
+  ],
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "room_plant_3vz8",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -6.94,
+        -0.1,
+        6.59
+      ],
+      "scale": 4.88,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_armchair_54jo",
+      "modelPath": "room_dinner/armchair.glb",
+      "position": [
+        -1.49,
+        -0.03,
+        1.23
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 2.97,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_couch_6eip",
+      "modelPath": "room_dinner/couch.glb",
+      "position": [
+        1,
+        0,
+        1.54
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 3.08,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_wall_wwa5",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        9.94,
+        0.04,
+        7.23
+      ],
+      "scale": 1.64,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_wall_wwa5_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -2.47,
+        0.04,
+        7.2
+      ],
+      "scale": 1.64,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_wall_wwa5_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -8.66,
+        0.04,
+        7.24
+      ],
+      "scale": 1.64,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_wall_wwa5_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        3.65,
+        0.04,
+        7.14
+      ],
+      "scale": 1.64,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_wall_wwa5_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        10.34,
+        0.04,
+        4.33
+      ],
+      "scale": 1.64,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.23,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_wall_wwa5_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -8.26,
+        0.04,
+        3.04
+      ],
+      "scale": 1.64,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.37,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_plant_3vz8_copy",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        8.75,
+        0,
+        6.37
+      ],
+      "scale": 4.88,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        1.91,
+        0,
+        0.7
+      ],
+      "rotationY": -2.75,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "namePrefix": "target_1",
+      "animationSpeed": 1,
+      "scale": 1
+    },
+    {
+      "position": [
+        1.09,
+        0.01,
+        0.57
+      ],
+      "rotationY": 2.91,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "scale": 1
+    },
+    {
+      "position": [
+        -0.02,
+        0.01,
+        -0.07
+      ],
+      "rotationY": 1.47,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "scale": 1,
+      "animationSpeed": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.2,
+        0,
+        -1.85
+      ],
+      "rotationY": -1.2,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 9,
+  "cameraTarget": [
+    0.35,
+    1,
+    0
+  ],
+  "cameraAlpha": -7.845,
+  "cameraBeta": 1.464,
+  "subtitle": ""
+}

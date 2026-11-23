@@ -1,0 +1,257 @@
+{
+  "id": 73,
+  "name": "Level 73",
+  "skyColor": [
+    0.35,
+    0.48,
+    0.4,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.28,
+    0.16
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.37,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.701,
+  "cameraBeta": 1.503,
+  "environmentType": "park",
+  "props": [
+    {
+      "name": "l73_pine_tree_backdrop_left",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -6.8,
+        0,
+        6.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0.3,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l73_pine_tree_backdrop_right",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        5.5,
+        0,
+        6.8
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l73_timber_campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        2.2,
+        0,
+        -1.2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.13,
+        0,
+        -2.45
+      ],
+      "rotationY": 1.61,
+      "scale": 1.25,
+      "animationName": "Sword_Attack_RM",
+      "animationNames": [
+        "Sword_Attack_RM",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l73_sawmill_foreman",
+      "weaponModelPath": "axe_gold.glb",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.85,
+      "swordPosition": [
+        -0.105,
+        0.1,
+        0.02
+      ],
+      "swordRotation": [
+        -1.6580627893946132,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.8,
+        0,
+        2.69
+      ],
+      "rotationY": -2.77,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l73_log_loader",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        3
+      ],
+      "rotationY": -2.007128639793479,
+      "scale": 1.05,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l73_timber_sniper",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.33,
+        0,
+        -1
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l73_trail_patrol",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0,
+        0.09,
+        0.02
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.02,
+        1.68
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        3.2,
+        0,
+        -1.5
+      ],
+      "rotationY": -1.2042771838760873,
+      "scale": 1.05,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l73_campfire_sentry",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.19,
+        0,
+        1.69
+      ],
+      "rotationY": 0.5934119456780721,
+      "behaviorMode": "roam",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white",
+      "roamRange": {
+        "minX": -5.5,
+        "maxX": -4.2
+      },
+      "isLocked": false
+    }
+  ],
+  "subtitle": ""
+}

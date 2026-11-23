@@ -1,0 +1,182 @@
+{
+  "id": 7,
+  "name": "Level 7",
+  "skyColor": [
+    0.36,
+    0.76,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.88,
+    0.68,
+    0.38
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.5,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0.35,
+    1.05,
+    0
+  ],
+  "cameraAlpha": -1.57,
+  "cameraBeta": 1.5,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "palmTreeLeft",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -3.8,
+        0,
+        -2
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "palmTreeRight",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4,
+        0,
+        -1.8
+      ],
+      "scale": 0.95,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "palmTreeBack",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -0.6,
+        0,
+        -3.2
+      ],
+      "rotationY": 2.2,
+      "scale": 1.05,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "treasureChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -2.81,
+        0,
+        -3.84
+      ],
+      "rotationY": 0.35,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "beachCliffLeft",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -4.8,
+        0,
+        1.1
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "beachRockRight",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        4.6,
+        0,
+        1.2
+      ],
+      "scale": 1.05,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_food_dinner_rsji",
+      "modelPath": "room_dinner/food_dinner.glb",
+      "position": [
+        -2.31,
+        0.01,
+        -1.65
+      ],
+      "scale": 0.35,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2,
+        0,
+        0.15
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l7_guard1",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.52,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.6,
+        0
+      ],
+      "patrolSpeed": 0.92
+    },
+    {
+      "position": [
+        1.2,
+        0,
+        -0.15
+      ],
+      "rotationY": -1.57,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "namePrefix": "l7_guard2",
+      "isPatrolling": true,
+      "patrolRange": [
+        0.2,
+        1.9
+      ],
+      "patrolSpeed": 0.84
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.8,
+        0,
+        -1.2
+      ],
+      "rotationY": 0.8,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

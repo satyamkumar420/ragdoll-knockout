@@ -1,0 +1,228 @@
+{
+  "id": 3,
+  "name": "Level 3",
+  "subtitle": "🥊 Street brawl! Knock out both fighting brawlers! 🥊",
+  "skyColor": [
+    0.55,
+    0.78,
+    0.94,
+    1
+  ],
+  "grassColor": [
+    0.47,
+    0.3,
+    0.21
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.29,
+    0.09,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "props": [
+    {
+      "name": "nature_tree_oak_t9fs",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -2.72,
+        0.04,
+        5.98
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_t9fs_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -1.61,
+        0.04,
+        5.93
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_t9fs_copy_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -0.57,
+        0.04,
+        6.28
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_t9fs_copy_copy_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        0.58,
+        0.04,
+        6.55
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_t9fs_copy_copy_copy_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        1.83,
+        0.04,
+        6.77
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_t9fs_copy_copy_copy_copy_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        3.04,
+        0.04,
+        6.03
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_pine_voxh",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        4.64,
+        0.05,
+        6.18
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_t9fs_copy",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -4.09,
+        0.04,
+        5.92
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_pine_voxh_copy",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -5.85,
+        0.05,
+        5.63
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.29,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross",
+        "Hit_Chest",
+        "Punch_Enter"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l3_fighter1",
+      "scale": 1
+    },
+    {
+      "position": [
+        0.71,
+        0,
+        0
+      ],
+      "rotationY": -1.57,
+      "animationName": "Hit_Chest",
+      "animationNames": [
+        "Hit_Chest",
+        "Hit_Head",
+        "Punch_Cross",
+        "Punch_Jab"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l3_fighter2",
+      "scale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.56,
+        0,
+        -1.1
+      ],
+      "rotationY": -1.5882496193148399,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle_2",
+      "initialAnimations": [
+        "Idle_2"
+      ],
+      "variant": "white"
+    }
+  ],
+  "cameraRadius": 6,
+  "cameraTarget": [
+    0.9,
+    1,
+    0
+  ],
+  "cameraAlpha": -1.466,
+  "cameraBeta": 1.473,
+  "gunScale": 0.52,
+  "environmentType": "room"
+}

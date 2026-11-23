@@ -1,0 +1,282 @@
+{
+  "id": 94,
+  "name": "Level 94",
+  "skyColor": [
+    0.78,
+    0.4,
+    0.36,
+    1
+  ],
+  "grassColor": [
+    0.51,
+    0.41,
+    0.41
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.97,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.685,
+  "cameraBeta": 1.484,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l94_volcano_pillar_left",
+      "modelPath": "building4.glb",
+      "position": [
+        -3.06,
+        0,
+        9.5
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": -3.08,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l94_volcano_pillar_right",
+      "modelPath": "building4.glb",
+      "position": [
+        6.92,
+        0,
+        9.5
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": -3.09,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l94_molten_lava_boulder",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -8.85,
+        0,
+        3.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l94_explosive_magma_drum",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -1.73,
+        0.54,
+        3.22
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 55
+    },
+    {
+      "name": "l94_magma_vent_fire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -3.5,
+        0,
+        0
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l94_smelter_storage_crates",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        3.73,
+        0,
+        2.98
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.68,
+        0,
+        -0.51
+      ],
+      "rotationY": 2.199114857512855,
+      "scale": 1.4,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot",
+        "Hit_Chest"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l94_warlord_vulcan",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.09,
+        0.08,
+        0.01
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        2.73
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l94_furnace_op_a",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        2.4
+      ],
+      "rotationY": -1.2,
+      "scale": 1,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l94_furnace_op_b",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.36,
+        0,
+        -1.79
+      ],
+      "rotationY": -1.605702911834783,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l94_gantry_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1,
+        0,
+        -0.6
+      ],
+      "rotationY": -1.6406094968746698,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l94_crucible_guard",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.25,
+        2.25
+      ],
+      "patrolSpeed": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.82,
+        0,
+        4.86
+      ],
+      "rotationY": -1.2915436464758039,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

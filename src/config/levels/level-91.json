@@ -1,0 +1,252 @@
+{
+  "id": 91,
+  "name": "Level 91",
+  "skyColor": [
+    0.49,
+    0.57,
+    0.85,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.24,
+    0.28
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    4.47,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 7,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.664,
+  "cameraBeta": 1.557,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l91_depot_hangar_left",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -6,
+        0,
+        11
+      ],
+      "scale": 4.16,
+      "rotationX": 0,
+      "rotationY": -1.86,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l91_depot_hangar_right",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        4.5,
+        0,
+        11
+      ],
+      "scale": 4.08,
+      "rotationX": 0,
+      "rotationY": 0.09,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l91_police_escort_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        4.18,
+        0,
+        6.34
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.58,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l91_depot_hangar_right_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -0.06,
+        0,
+        11.4
+      ],
+      "scale": 4.19,
+      "rotationX": 0,
+      "rotationY": 0.09,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l91_depot_hangar_left_copy",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -10.91,
+        0,
+        11.4
+      ],
+      "scale": 3.79,
+      "rotationX": 0,
+      "rotationY": -1.86,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.8,
+        0,
+        1.5
+      ],
+      "rotationY": 1.4660765716752369,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l91_depot_overseer",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.31,
+        0,
+        1
+      ],
+      "rotationY": -1.5882496193148399,
+      "scale": 1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l91_train_driver",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.1,
+        0.12,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "arcane"
+    },
+    {
+      "position": [
+        -3.39,
+        0,
+        2.2
+      ],
+      "rotationY": 2.1467549799530254,
+      "scale": 1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l91_depot_welder",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.035,
+        0.085,
+        0.02
+      ],
+      "swordRotation": [
+        -1.4835298641951802,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.5,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l91_track_marshal",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.35,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.5,
+        2.5
+      ],
+      "patrolSpeed": 1.2
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.69,
+        0,
+        5.88
+      ],
+      "rotationY": -0.23,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

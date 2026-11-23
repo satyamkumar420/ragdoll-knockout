@@ -1,0 +1,278 @@
+{
+  "id": 98,
+  "name": "Level 98",
+  "skyColor": [
+    0.45,
+    0.49,
+    0.69,
+    1
+  ],
+  "grassColor": [
+    0.32,
+    0.35,
+    0.38
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.45,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.5,
+    0.2
+  ],
+  "cameraAlpha": 4.677,
+  "cameraBeta": 1.541,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l98_suspended_cradle",
+      "modelPath": "nature/platform_beach.glb",
+      "position": [
+        2.8,
+        0,
+        2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l98_tether_service_sedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        3.81,
+        0,
+        0.51
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "city_building2_small_wk9e",
+      "modelPath": "building2_small.glb",
+      "position": [
+        0,
+        0,
+        7.33
+      ],
+      "scale": 1.5,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building2_small_wk9e_copy",
+      "modelPath": "building2_small.glb",
+      "position": [
+        7.83,
+        0,
+        7.73
+      ],
+      "scale": 1.5,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building2_small_wk9e_copy_copy",
+      "modelPath": "building2_small.glb",
+      "position": [
+        -8.89,
+        0,
+        8.13
+      ],
+      "scale": 1.5,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -4.32,
+        0,
+        0.28
+      ],
+      "rotationY": 2.076941809873252,
+      "scale": 1.3,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l98_flight_controller",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.09,
+        0.08,
+        0.01
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.69,
+        0,
+        0.09
+      ],
+      "rotationY": 2.6354471705114375,
+      "scale": 1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l98_truss_welder",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        3.02,
+        0,
+        -1.35
+      ],
+      "rotationY": -0.15707963267948966,
+      "scale": 1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l98_dock_master",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1.5,
+        0,
+        -0.6
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.65,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l98_beam_walker",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 1.15,
+      "swordPosition": [
+        -0.045,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        -1.7453292519943295,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.76,
+        0,
+        0.88
+      ],
+      "rotationY": -2.303834612632515,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l98_cradle_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.28,
+        0,
+        3.07
+      ],
+      "rotationY": 0.20943951023931953,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

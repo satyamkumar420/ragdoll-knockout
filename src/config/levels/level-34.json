@@ -1,0 +1,494 @@
+{
+  "id": 34,
+  "name": "Level 34",
+  "skyColor": [
+    0.28,
+    0.43,
+    0.58,
+    1
+  ],
+  "grassColor": [
+    0.26,
+    0.16,
+    0.12
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.48,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.2,
+    0.3
+  ],
+  "cameraAlpha": 4.708,
+  "cameraBeta": 1.362,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l34_wall_left",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.5,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l34_wall_center",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0.2,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_wall_right",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        8.53,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l34_neon_lamp_left",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -8.16,
+        0,
+        2.5
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_neon_lamp_right",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        3.5,
+        0,
+        2.5
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_arcade_cab_1",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -4.8,
+        0,
+        2.8
+      ],
+      "scale": 2.1,
+      "rotationX": 0,
+      "rotationY": 3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_arcade_cab_2",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -3.7,
+        0,
+        2.8
+      ],
+      "scale": 2.1,
+      "rotationX": 0,
+      "rotationY": 3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_arcade_cab_3",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -2.6,
+        0,
+        2.8
+      ],
+      "scale": 2.1,
+      "rotationX": 0,
+      "rotationY": 3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_dance_carpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        -0.4,
+        0.02,
+        0.5
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l34_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        2.02,
+        1.03,
+        0.55
+      ],
+      "scale": 0.85,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_snack_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        2.7,
+        0.03,
+        1.2
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_pizza",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        2.28,
+        1.12,
+        1.2
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l34_burger",
+      "modelPath": "room_dinner/burger.glb",
+      "position": [
+        3,
+        1.19,
+        1.1
+      ],
+      "scale": 0.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l34_soda",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        2.11,
+        1.07,
+        1.84
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l34_arcade_stool",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        1.6,
+        0,
+        1.2
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": -0.03,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_prize_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -0.66,
+        0,
+        -0.6
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0.35,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 25,
+      "isDestructible": true
+    },
+    {
+      "name": "l34_wall_right_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.18,
+        0,
+        -0.91
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l34_wall_right_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.18,
+        0,
+        -0.51
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l34_wall_right_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.15,
+        0,
+        -8.16
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l34_wall_right_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.15,
+        0,
+        -8.88
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.7,
+        0,
+        1.85
+      ],
+      "rotationY": 0,
+      "scale": 1.05,
+      "animationName": "Interact",
+      "animationNames": [
+        "Interact",
+        "Fixing_Kneeling",
+        "Interact"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l34_gamer_speedrunner"
+    },
+    {
+      "position": [
+        -2.6,
+        0,
+        1.85
+      ],
+      "rotationY": 0,
+      "scale": 1.05,
+      "animationName": "Interact",
+      "animationNames": [
+        "Interact",
+        "Punch_Cross",
+        "Interact"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l34_gamer_challenger"
+    },
+    {
+      "position": [
+        -1.11,
+        0,
+        -0.05
+      ],
+      "rotationY": 1.9,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l34_breakdancer",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.31,
+        0,
+        -0.6
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.25,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1.12,
+      "namePrefix": "l34_prize_looter",
+      "swordModelPath": "none",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "none"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.28,
+        0,
+        -0.5
+      ],
+      "rotationY": 0.89,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ]
+}

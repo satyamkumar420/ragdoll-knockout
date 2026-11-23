@@ -1,0 +1,341 @@
+{
+  "id": 60,
+  "name": "Level 60",
+  "skyColor": [
+    0.26,
+    0.36,
+    0.52,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.24,
+    0.27
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.73,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.648,
+  "cameraBeta": 1.467,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l60_terminal_tower_center",
+      "modelPath": "building1_large.glb",
+      "position": [
+        1.01,
+        0,
+        8.2
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l60_hangar_left",
+      "modelPath": "building3_big.glb",
+      "position": [
+        -13.62,
+        0,
+        8.8
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 3.02,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l60_hangar_right",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        14.9,
+        0,
+        8.5
+      ],
+      "scale": 5.61,
+      "rotationX": 0,
+      "rotationY": -0.3,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l60_cargo_delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        10.16,
+        0,
+        0.49
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 1.61,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l60_police_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        14.56,
+        0,
+        0.91
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.8,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l60_aviation_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -10.13,
+        0.44,
+        4.93
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 85,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 48
+    },
+    {
+      "name": "l60_traffic_cone_left",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -2.8,
+        0,
+        0.4
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l60_traffic_cone_right",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        2.8,
+        0,
+        0.4
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l60_runway_floodlight",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -6.5,
+        0,
+        3.8
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        1.4
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.28,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Enter"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l60_flight_director",
+      "weaponModelPath": "axe_gold.glb",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.52,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "fire"
+    },
+    {
+      "position": [
+        0,
+        0.19,
+        -3.9
+      ],
+      "rotationY": 0.017453292519943295,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Pistol_Shoot",
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l60_control_tower_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.2,
+        0,
+        -4.69
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l60_tarmac_marshal",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.58,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.5,
+        2.5
+      ],
+      "patrolSpeed": 1.6
+    },
+    {
+      "position": [
+        -4.14,
+        0,
+        0.47
+      ],
+      "rotationY": 1.2042771838760873,
+      "scale": 1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l60_baggage_handler",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -3.6,
+        0,
+        1.8
+      ],
+      "rotationY": -2.26,
+      "scale": 1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l60_getaway_pilot",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.62,
+        0,
+        -0.6
+      ],
+      "rotationY": 0.9,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,342 @@
+{
+  "id": 57,
+  "name": "Level 57",
+  "skyColor": [
+    0.32,
+    0.45,
+    0.65,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.23,
+    0.26
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.65,
+  "cameraBeta": 1.392,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l57_bank_skyscraper_left",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -11.22,
+        0,
+        7
+      ],
+      "scale": 5.76,
+      "rotationX": 0,
+      "rotationY": 0.15,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l57_bank_skyscraper_center",
+      "modelPath": "building1_large.glb",
+      "position": [
+        0,
+        0,
+        7.2
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l57_bank_skyscraper_right",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        10.6,
+        0,
+        7
+      ],
+      "scale": 5.35,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l57_police_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -11.38,
+        0,
+        1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.8,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l57_getaway_taxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        12.98,
+        0,
+        1.9
+      ],
+      "scale": 1.12,
+      "rotationX": 0,
+      "rotationY": -1.35,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l57_armored_suv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        10.5,
+        0,
+        3.8
+      ],
+      "scale": 1.18,
+      "rotationX": 0,
+      "rotationY": 0.25,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l57_traffic_cone_1",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -2.8,
+        0,
+        -2.52
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l57_traffic_cone_2",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        3.2,
+        0,
+        -2.55
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l57_stolen_vault",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -3.14,
+        0,
+        1.55
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": -0.40142572795869574,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l57_fuel_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -8.44,
+        0,
+        5.1
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 85,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 48
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.2,
+        0,
+        1.4
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.35,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l57_heist_mastermind",
+      "weaponModelPath": "axe_gold.glb",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.52,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "fire"
+    },
+    {
+      "position": [
+        0,
+        3.1,
+        4.2
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l57_rooftop_marksman",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1.2,
+        0,
+        -1.25
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l57_patrol_driver",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.58,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.4,
+        2
+      ],
+      "patrolSpeed": 1.5
+    },
+    {
+      "position": [
+        -3.7,
+        0,
+        1
+      ],
+      "rotationY": 1.1,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l57_tire_saboteur",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        3.5,
+        0,
+        2
+      ],
+      "rotationY": -1.8,
+      "scale": 1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l57_loot_courier",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -6.4,
+        0,
+        -0.6
+      ],
+      "rotationY": 0.9,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ]
+}

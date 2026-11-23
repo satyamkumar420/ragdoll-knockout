@@ -1,0 +1,241 @@
+{
+  "id": 119,
+  "name": "Level 119",
+  "skyColor": [
+    0.45,
+    0.7,
+    0.95,
+    1
+  ],
+  "grassColor": [
+    0.32,
+    0.35,
+    0.38
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    3.6,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.71,
+  "cameraBeta": 1.48,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l119_skyscraper_backdrop_left",
+      "modelPath": "building2_large.glb",
+      "position": [
+        -4.5,
+        0,
+        10.5
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": -3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l119_antenna_spire_right",
+      "modelPath": "building4.glb",
+      "position": [
+        5.5,
+        0,
+        10
+      ],
+      "scale": 1.7,
+      "rotationX": 0,
+      "rotationY": -3,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l119_rooftop_sports_chassis",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        3.02,
+        0,
+        3.09
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.14,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l119_perched_rooftop_drum",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -2.5,
+        0.56,
+        2.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "isMovable": true,
+      "mass": 45
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2.1,
+        0,
+        3.2
+      ],
+      "rotationY": 2.111848394913139,
+      "scale": 1.15,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l119_rooftop_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.05,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1.2
+    },
+    {
+      "position": [
+        4.43,
+        0,
+        2.02
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l119_racecar_guard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        -0.3
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l119_helipad_runner",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2,
+        1
+      ],
+      "patrolSpeed": 1.8,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.62,
+        0,
+        2.2
+      ],
+      "rotationY": -1.52,
+      "scale": 1.25,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l119_officer_duelist",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.34,
+        0,
+        1.5
+      ],
+      "rotationY": 0.6,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

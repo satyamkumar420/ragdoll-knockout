@@ -1,0 +1,241 @@
+{
+  "id": 117,
+  "name": "Level 117",
+  "skyColor": [
+    0.78,
+    0.55,
+    0.32,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.25,
+    0.28
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    4.25,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.69,
+  "cameraBeta": 1.429,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l117_city_highrise_backdrop",
+      "modelPath": "building1_large.glb",
+      "position": [
+        0,
+        0,
+        11.5
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": -3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l117_city_taxi_barrier",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        -0.72,
+        0,
+        1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.65,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l117_delivery_van_flank",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        3.96,
+        0,
+        4.5
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.45,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l117_police_cruiser_west",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -5.57,
+        0,
+        1
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2.19,
+        0,
+        0.53
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Crouch_Idle_Loop",
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l117_taxi_bandit",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.73,
+        0,
+        2.16
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Reload",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l117_van_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.035,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.38,
+        0,
+        -0.56
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l117_crossroad_runner",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.88,
+        1.12
+      ],
+      "patrolSpeed": 1.7,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -4.08,
+        0,
+        2
+      ],
+      "rotationY": 1.3962634015954636,
+      "scale": 1.15,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Reload",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l117_police_blocker",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.055,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.9,
+        0,
+        1.2
+      ],
+      "rotationY": -0.17,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,433 @@
+{
+  "id": 15,
+  "name": "Level 15",
+  "skyColor": [
+    0.92,
+    0.88,
+    0.82,
+    1
+  ],
+  "grassColor": [
+    0.48,
+    0.32,
+    0.18
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    2.64,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.1,
+    0
+  ],
+  "cameraAlpha": 4.688,
+  "cameraBeta": 1.228,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "backWallCenterWindow",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0,
+        0,
+        2.7
+      ],
+      "scale": 1.46,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "backWallLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -4,
+        0,
+        2.7
+      ],
+      "scale": 1.46,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "backWallRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        4,
+        0.03,
+        2.7
+      ],
+      "scale": 1.45,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true
+    },
+    {
+      "name": "leftWall",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -6,
+        0,
+        0.7
+      ],
+      "rotationY": 1.57,
+      "scale": 1.46,
+      "castShadow": true,
+      "hasCollision": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "leftWallFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -6,
+        0,
+        -3.3
+      ],
+      "rotationY": 1.57,
+      "scale": 1.45,
+      "castShadow": true,
+      "hasCollision": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "rightWallDoor",
+      "modelPath": "room_dinner/door.glb",
+      "position": [
+        6,
+        0,
+        0.7
+      ],
+      "rotationY": -1.570796,
+      "scale": 1,
+      "castShadow": true,
+      "hasCollision": true
+    },
+    {
+      "name": "rightWallFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        6,
+        -0.08,
+        -5.77
+      ],
+      "rotationY": -1.57,
+      "scale": 1.41,
+      "castShadow": true,
+      "hasCollision": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "pictureLeft",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        -2.2,
+        2.1,
+        2.5
+      ],
+      "scale": 1.15,
+      "castShadow": true,
+      "hasCollision": false
+    },
+    {
+      "name": "pictureRight",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        2.2,
+        2.1,
+        2.5
+      ],
+      "scale": 1.15,
+      "castShadow": true,
+      "hasCollision": false
+    },
+    {
+      "name": "partyTable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -3.5,
+        0,
+        0.6
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "partyChairLeft",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -4.71,
+        0,
+        1
+      ],
+      "rotationY": -0.01,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "partyChairRight",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.4,
+        0,
+        0.6
+      ],
+      "rotationY": 3.14,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "partyPizza",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -3.7,
+        0.82,
+        0.6
+      ],
+      "scale": 0.55,
+      "castShadow": true
+    },
+    {
+      "name": "partyBurger",
+      "modelPath": "room_dinner/burger.glb",
+      "position": [
+        -3.2,
+        0.82,
+        0.6
+      ],
+      "scale": 0.5,
+      "castShadow": true
+    },
+    {
+      "name": "partySoda",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        -3.5,
+        0.82,
+        0.8
+      ],
+      "scale": 0.45,
+      "castShadow": true
+    },
+    {
+      "name": "partyBoombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        4.95,
+        0.63,
+        -3.33
+      ],
+      "scale": 0.74,
+      "rotationY": 0.2,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "danceFloorCarpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        -3.17,
+        0.06,
+        0.64
+      ],
+      "scale": 2.2,
+      "castShadow": false,
+      "hasCollision": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "livingCouch",
+      "modelPath": "room_dinner/couch.glb",
+      "position": [
+        -4.68,
+        0,
+        -4.54
+      ],
+      "rotationY": 1.58,
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "cornerPlant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        5.37,
+        0.6,
+        -3
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "floorLamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -5.2,
+        0,
+        2.1
+      ],
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "arcadeMachine",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -5.2,
+        0,
+        -1.2
+      ],
+      "rotationY": 1.570796,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_table_4tpk",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        5.07,
+        -0.02,
+        -3.24
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "rightWallFront_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        6.4,
+        -0.08,
+        -1.12
+      ],
+      "rotationY": -1.57,
+      "scale": 1.41,
+      "castShadow": true,
+      "hasCollision": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.02,
+        0,
+        -0.64
+      ],
+      "rotationY": 1.39,
+      "scale": 1.05,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l15_dancer_1"
+    },
+    {
+      "position": [
+        0.84,
+        0,
+        -1.36
+      ],
+      "rotationY": -0.2,
+      "scale": 1.05,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "namePrefix": "l15_dancer_2"
+    },
+    {
+      "position": [
+        0.7,
+        0,
+        0.4
+      ],
+      "rotationY": 3.02,
+      "scale": 1.05,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l15_dancer_3"
+    },
+    {
+      "position": [
+        1.8,
+        0,
+        -0.25
+      ],
+      "rotationY": -1.68,
+      "scale": 1.05,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l15_dancer_4"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.03,
+        0.1,
+        0.73
+      ],
+      "rotationY": -0.5235987755982988,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

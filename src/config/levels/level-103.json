@@ -1,0 +1,235 @@
+{
+  "id": 103,
+  "name": "Level 103",
+  "skyColor": [
+    0.55,
+    0.35,
+    0.5,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.3,
+    0.18
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    3.11,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.7,
+  "cameraBeta": 1.48,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l103_dojo_pagoda",
+      "modelPath": "house1.glb",
+      "position": [
+        0,
+        0,
+        10.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l103_dojo_dais",
+      "modelPath": "nature/platform_beach.glb",
+      "position": [
+        -0.5,
+        0,
+        2.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l103_zen_pine_left",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -6.5,
+        0,
+        4
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l103_zen_palm_right",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        5.2,
+        0,
+        4.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l103_zen_bench",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -3.5,
+        0,
+        3.5
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2.5,
+        0,
+        -0.3
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l103_samurai_left",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.75,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.5,
+        -1.5
+      ],
+      "patrolSpeed": 1.1
+    },
+    {
+      "position": [
+        1.5,
+        0,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l103_samurai_right",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        0.25,
+        2.75
+      ],
+      "patrolSpeed": 1.3
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        2.5
+      ],
+      "rotationY": -1.8,
+      "scale": 1.3,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l103_dojo_master",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.85,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.5,
+        0,
+        0.2
+      ],
+      "rotationY": 0,
+      "behaviorMode": "roam",
+      "initialAnimation": "walk",
+      "initialAnimations": [
+        "walk",
+        "idle"
+      ],
+      "variant": "white",
+      "roamRange": {
+        "minX": -2,
+        "maxX": 1.5
+      }
+    }
+  ],
+  "subtitle": ""
+}

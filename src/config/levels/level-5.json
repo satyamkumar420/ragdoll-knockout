@@ -1,0 +1,333 @@
+{
+  "id": 5,
+  "name": "Level 5",
+  "skyColor": [
+    0.44,
+    0.69,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.44,
+    0.32,
+    0.16
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    4.4,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 7,
+  "cameraTarget": [
+    0,
+    1.05,
+    0
+  ],
+  "cameraAlpha": -1.577,
+  "cameraBeta": 1.432,
+  "props": [
+    {
+      "name": "garageWallCenter",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0,
+        0,
+        2.8
+      ],
+      "scale": 2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "garageWallLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -6,
+        0,
+        2.8
+      ],
+      "scale": 2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "garageWallRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        6,
+        0,
+        2.8
+      ],
+      "scale": 2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "garageWallSideLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.2,
+        0,
+        0.8
+      ],
+      "rotationY": 1.5708,
+      "scale": 2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "garageWallSideRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        7.2,
+        0,
+        0.8
+      ],
+      "rotationY": -1.5708,
+      "scale": 2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "raceCarCenter",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        -0.1,
+        0,
+        0.2
+      ],
+      "rotationY": 1.5708,
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "coneLeft",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -2.5,
+        0,
+        -1.88
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "coneRight",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        2.5,
+        0,
+        -2.05
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "factoryMachine",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        -4.6,
+        0,
+        1.2
+      ],
+      "rotationY": 0.15,
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "oilBarrel1",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -5.19,
+        0.45,
+        -0.55
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 40,
+      "isDestructible": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "oilBarrel2",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -5.22,
+        0.45,
+        -1.35
+      ],
+      "rotationY": 0.4,
+      "scale": 0.85,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 40,
+      "isDestructible": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "crateLargeRight",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        5.23,
+        0,
+        1
+      ],
+      "rotationY": -0.15,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 60,
+      "isDestructible": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "crateWoodRight",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        5.19,
+        0.59,
+        0.94
+      ],
+      "rotationY": 1.43,
+      "scale": 1.56,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 45,
+      "isDestructible": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "boxCardboard",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        4.87,
+        0,
+        -0.7
+      ],
+      "rotationY": -0.2,
+      "scale": 2.2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "cardboard",
+      "durability": 15,
+      "isDestructible": true,
+      "isPenetrable": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        1.98,
+        0,
+        0.26
+      ],
+      "rotationY": -1.8,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l5_pit_mechanic",
+      "scale": 1
+    },
+    {
+      "position": [
+        -2.41,
+        0,
+        0.1
+      ],
+      "rotationY": 1.57,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l5_crouch_mechanic",
+      "scale": 1
+    },
+    {
+      "position": [
+        3.21,
+        -0.01,
+        -0.78
+      ],
+      "rotationY": -1.57,
+      "animationName": "Interact",
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l5_chief_mechanic",
+      "scale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.8,
+        0,
+        -1
+      ],
+      "rotationY": -1.43,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "variant": "white"
+    }
+  ],
+  "environmentType": "room",
+  "subtitle": ""
+}

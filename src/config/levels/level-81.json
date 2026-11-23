@@ -1,0 +1,229 @@
+{
+  "id": 81,
+  "name": "Level 81",
+  "skyColor": [
+    0.72,
+    0.58,
+    0.85,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.28,
+    0.32
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    3.88,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.552,
+  "cameraBeta": 1.53,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l81_terminal_backdrop",
+      "modelPath": "building3_big.glb",
+      "position": [
+        1.36,
+        0,
+        18.43
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": -2.95,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l81_sky_tram_car",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -5.88,
+        0,
+        6.3
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l81_elevated_platform",
+      "modelPath": "nature/platform_beach.glb",
+      "position": [
+        1.2,
+        0,
+        2.16
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "workshop_box_large_nrs1",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        -5.21,
+        -0.02,
+        4.95
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        2.45,
+        0,
+        4.15
+      ],
+      "rotationY": -2.199114857512855,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l81_gantry_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.5,
+        0,
+        2.32
+      ],
+      "rotationY": -1.57,
+      "scale": 1.1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l81_patrol_enforcer",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2,
+        1
+      ],
+      "patrolSpeed": 1.1
+    },
+    {
+      "position": [
+        -5.69,
+        0,
+        4.19
+      ],
+      "rotationY": 0.8,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l81_luggage_sorter",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.18,
+        0,
+        1.27
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l81_patrol_enforcer",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.32,
+        2.68
+      ],
+      "patrolSpeed": 1.1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.38,
+        0,
+        7.36
+      ],
+      "rotationY": -0.27,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

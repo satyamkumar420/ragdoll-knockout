@@ -1,0 +1,470 @@
+{
+  "id": 22,
+  "name": "Level 22",
+  "skyColor": [
+    0.12,
+    0.08,
+    0.16,
+    1
+  ],
+  "grassColor": [
+    0.26,
+    0.16,
+    0.11
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    -2.58,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.4
+  ],
+  "cameraAlpha": 4.696,
+  "cameraBeta": 1.268,
+  "props": [
+    {
+      "name": "backWallCenterWindow",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0,
+        0,
+        3.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "backWallLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -4.4,
+        0,
+        3.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "backWallRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        4.4,
+        0,
+        3.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "sideWallLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -6.4,
+        0,
+        1
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "sideWallLeftFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -6.4,
+        0,
+        -3.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "sideWallRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        6.4,
+        0,
+        1
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.5708,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "sideWallRightFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        6.4,
+        0,
+        -3.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.5708,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "vaultRunnerCarpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        0,
+        0.005,
+        0.4
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "museumPaintingLeft",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        -3.8,
+        2.1,
+        3.15
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 1,
+      "isDestructible": true
+    },
+    {
+      "name": "museumPaintingRight",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        3.8,
+        2.1,
+        3.15
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 1,
+      "isDestructible": true
+    },
+    {
+      "name": "relicDisplayCabinet",
+      "modelPath": "room_dinner/cabinet.glb",
+      "position": [
+        0,
+        0,
+        2.1
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": -3.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "relicAncientChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0,
+        1.1,
+        2.1
+      ],
+      "scale": 0.85,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "bookshelfRightArchive",
+      "modelPath": "room_dinner/bookshelf.glb",
+      "position": [
+        4.9,
+        0,
+        2.4
+      ],
+      "scale": 0.85,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false,
+      "isMovable": false
+    },
+    {
+      "name": "archiveReadingTable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        2,
+        0,
+        -0.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "archiveFloorLamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        5.49,
+        0,
+        -1.2
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "archiveCornerPlant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -5,
+        0,
+        2.4
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_chair_3rnw",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        2,
+        0,
+        -1.92
+      ],
+      "scale": 1.34,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.57,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_food_dinner_61cg",
+      "modelPath": "room_dinner/food_dinner.glb",
+      "position": [
+        2.02,
+        0.8,
+        -0.9
+      ],
+      "scale": 0.41,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l22_high_marksman",
+      "position": [
+        3.08,
+        -0.05,
+        -1.4
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.005,
+        0.07,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l22_relic_burglar",
+      "position": [
+        0,
+        0,
+        0.94
+      ],
+      "rotationY": -0.1,
+      "scale": 1,
+      "animationName": "PickUp_Table",
+      "animationNames": [
+        "PickUp_Table",
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.35,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ]
+    },
+    {
+      "namePrefix": "l22_curator_patrol",
+      "position": [
+        -0.83,
+        0,
+        -1.18
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 0.9,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.08,
+        0.42
+      ],
+      "patrolSpeed": 0.75,
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.38,
+      "swordPosition": [
+        -0.045,
+        0.095,
+        0.02
+      ],
+      "swordRotation": [
+        -1.4835298641951802,
+        1.5707963267948966,
+        0
+      ],
+      "weaponModelPath": "swords/sword_wood.glb"
+    },
+    {
+      "namePrefix": "l22_night_guard",
+      "position": [
+        2,
+        0,
+        -1.5
+      ],
+      "rotationY": 0,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 0.95
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.2,
+        0,
+        0.4
+      ],
+      "rotationY": 1.2,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

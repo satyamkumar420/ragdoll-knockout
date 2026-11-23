@@ -1,0 +1,255 @@
+{
+  "id": 4,
+  "name": "Level 4",
+  "skyColor": [
+    0.26,
+    0.36,
+    0.54,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.2,
+    0.24
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.81,
+    0.19,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "props": [
+    {
+      "name": "buildingLeft",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -3.95,
+        0,
+        3.2
+      ],
+      "scale": 3.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "buildingCenter",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -0.1,
+        0,
+        3.5
+      ],
+      "rotationY": 3.14159,
+      "scale": 3.5,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "buildingRight",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        3.3,
+        0,
+        3.2
+      ],
+      "scale": 3.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "policeCruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -4.02,
+        0,
+        0
+      ],
+      "rotationY": 1.57,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "isDestructible": false,
+      "durability": 0,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "getawayTaxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        1.78,
+        -0.02,
+        -0.15
+      ],
+      "rotationY": -1.57,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "isDestructible": false,
+      "durability": 0,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "coneFront1",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -0.55,
+        0.01,
+        -1.74
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "coneFront2",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        1.7,
+        0,
+        -1.73
+      ],
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "streetLamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -2.9,
+        0,
+        2
+      ],
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "oilBarrel1",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -3.2,
+        0,
+        0.4
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "buildingRight_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        8.24,
+        0,
+        3.6
+      ],
+      "scale": 3.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "buildingLeft_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -8.27,
+        0,
+        3.6
+      ],
+      "scale": 3.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.63,
+        0,
+        0.04
+      ],
+      "rotationY": 1.5707963267948966,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l4_robber1",
+      "scale": 1,
+      "swordPosition": [
+        -0.05,
+        0.04,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        3.26,
+        -0.01,
+        0
+      ],
+      "rotationY": -1.57,
+      "animationName": "Push_Loop",
+      "animationSpeed": 1.1,
+      "namePrefix": "l4_robber2",
+      "scale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.39,
+        0,
+        -1.58
+      ],
+      "rotationY": -1.56,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "variant": "white"
+    }
+  ],
+  "cameraRadius": 7,
+  "cameraTarget": [
+    0.2,
+    0.9,
+    0
+  ],
+  "cameraAlpha": -1.569,
+  "cameraBeta": 1.448,
+  "gunScale": 0.52,
+  "subtitle": "",
+  "environmentType": "room"
+}

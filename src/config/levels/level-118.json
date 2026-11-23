@@ -1,0 +1,202 @@
+{
+  "id": 118,
+  "name": "Level 118",
+  "skyColor": [
+    0.6,
+    0.43,
+    0.87,
+    1
+  ],
+  "grassColor": [
+    0.24,
+    0.22,
+    0.26
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    3.54,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 9,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.582,
+  "cameraBeta": 1.578,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l118_ruined_temple_backdrop",
+      "modelPath": "house1.glb",
+      "position": [
+        -0.3,
+        0,
+        11
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l118_ritual_brazier_west",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -2.2,
+        0,
+        1.5
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l118_ritual_brazier_east",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        2.2,
+        0,
+        1.5
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l118_relic_chest_center",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0,
+        0,
+        3.02
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        3
+      ],
+      "rotationY": -1.57,
+      "scale": 1.35,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l118_catacomb_sorcerer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3.5,
+        0,
+        2.2
+      ],
+      "rotationY": 1.3962634015954636,
+      "scale": 1.2,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l118_skeleton_sentry",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.5,
+      "swordPosition": [
+        -0.065,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.9,
+        0,
+        -0.3
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l118_tomb_patroller",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.4,
+        0.6
+      ],
+      "patrolSpeed": 1.4
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.16,
+        0,
+        1.31
+      ],
+      "rotationY": 0.03,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

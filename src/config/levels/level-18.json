@@ -1,0 +1,280 @@
+{
+  "id": 18,
+  "name": "Level 18",
+  "skyColor": [
+    0.62,
+    0.68,
+    0.76,
+    1
+  ],
+  "grassColor": [
+    0.38,
+    0.4,
+    0.42
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.8,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8.5,
+  "cameraTarget": [
+    0,
+    1.15,
+    0
+  ],
+  "cameraAlpha": -1.67,
+  "cameraBeta": 1.505,
+  "props": [
+    {
+      "name": "generatorMachine",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        2.95,
+        -0.04,
+        4.09
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationY": -1.38,
+      "rotationZ": 0
+    },
+    {
+      "name": "trafficConeLeft",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -1.4,
+        0,
+        -1.35
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "trafficConeRight",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        1.4,
+        0,
+        -1.35
+      ],
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "warehouseBuildingBack",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        0,
+        0,
+        5.2
+      ],
+      "scale": 3.6,
+      "rotationY": 3.14159,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "warehouseBuildingLeft",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -6.5,
+        0,
+        4.6
+      ],
+      "scale": 3.5,
+      "rotationY": -0.05,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "warehouseBuildingRight",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        6.5,
+        0,
+        4.6
+      ],
+      "scale": 3.5,
+      "rotationY": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "nature_tree_palm_xbw8",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -8.72,
+        -0.03,
+        2.32
+      ],
+      "scale": 1.81,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_xbw8_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        7.82,
+        -0.01,
+        2.04
+      ],
+      "scale": 1.37,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3,
+        -0.01,
+        0.5
+      ],
+      "rotationY": 1.6755160819145563,
+      "scale": 1,
+      "animationName": "Pistol_Shoot",
+      "animationNames": [
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l18_high_sniper",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.9,
+        0,
+        0.4
+      ],
+      "rotationY": 2.04,
+      "scale": 1,
+      "animationName": "Crouch_Idle_Loop",
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l18_cover_bandit"
+    },
+    {
+      "position": [
+        2.57,
+        0,
+        0.35
+      ],
+      "rotationY": -1.2042771838760873,
+      "scale": 1.02,
+      "animationName": "Pistol_Shoot",
+      "animationNames": [
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l18_ground_gunner",
+      "swordPosition": [
+        -0.04,
+        0.1,
+        -0.085
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.2,
+        0,
+        -1.1
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l18_depot_patrol",
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.6,
+        1.6
+      ],
+      "patrolSpeed": 1.05,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.35,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.14,
+        0,
+        -2.15
+      ],
+      "rotationY": -1.4,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle_2",
+      "initialAnimations": [
+        "Idle_2",
+        "Idle",
+        "Idle_2"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

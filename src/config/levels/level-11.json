@@ -1,0 +1,312 @@
+{
+  "id": 11,
+  "name": "Level 11",
+  "skyColor": [
+    0.07,
+    0.69,
+    0.77,
+    1
+  ],
+  "grassColor": [
+    0.88,
+    0.72,
+    0.44
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    -0.09,
+    0.12,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.55,
+  "cameraRadius": 9,
+  "cameraTarget": [
+    0,
+    1.2,
+    0
+  ],
+  "cameraAlpha": -1.556,
+  "cameraBeta": 1.445,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "cliff_vantage",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -4.8,
+        0,
+        2.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0.8,
+      "rotationZ": 0,
+      "scale": 1.35,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "boulder_cover",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        2.43,
+        0,
+        -4.49
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "palm_curved_left",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -5.22,
+        0,
+        -1.8
+      ],
+      "scale": 1.1,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "palm_right",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.5,
+        0,
+        2.8
+      ],
+      "scale": 1.05,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "campfire_shore",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        2.8,
+        0,
+        1.4
+      ],
+      "scale": 1,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "physics_box_base",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -0.85,
+        0.15,
+        3.91
+      ],
+      "scale": 0.85,
+      "hasCollision": true,
+      "castShadow": true,
+      "isDestructible": true,
+      "durability": 1,
+      "isMovable": true,
+      "mass": 6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "physics_barrel_top",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -2.2,
+        0.4,
+        4.05
+      ],
+      "scale": 0.85,
+      "hasCollision": true,
+      "castShadow": true,
+      "isDestructible": true,
+      "durability": 1,
+      "isMovable": true,
+      "mass": 8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_smrs",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -2.46,
+        -0.02,
+        0.93
+      ],
+      "scale": 1.78,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.44,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_bench_w4dn",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -2.88,
+        0.02,
+        -0.32
+      ],
+      "scale": 1.68,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.24,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_zkgl",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.28,
+        -0.02,
+        -1.79
+      ],
+      "scale": 2.38,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_0bmk",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -3.06,
+        -0.03,
+        -4.03
+      ],
+      "scale": 2.49,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l11_patrol_guard",
+      "position": [
+        3.63,
+        0,
+        -0.66
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l11_cliff_sniper",
+      "position": [
+        -2.32,
+        0.03,
+        0.53
+      ],
+      "rotationY": 1.54,
+      "scale": 0.79,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "namePrefix": "l11_boss",
+      "position": [
+        2.28,
+        0,
+        -1.09
+      ],
+      "rotationY": 2.111848394913139,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross",
+        "Hit_Chest"
+      ],
+      "animationSpeed": 1.1,
+      "swordModelPath": "none",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "weaponModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.46,
+        0.03,
+        -0.79
+      ],
+      "rotationY": 1.39,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop"
+      ],
+      "scale": 1,
+      "animationSpeed": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.6,
+        0,
+        1.9
+      ],
+      "rotationY": -0.8,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}

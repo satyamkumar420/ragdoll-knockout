@@ -1,0 +1,786 @@
+{
+  "id": 46,
+  "name": "Level 46",
+  "skyColor": [
+    0.38,
+    0.72,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.45,
+    0.18
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    1.49,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 5.93,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 10.972,
+  "cameraBeta": 1.493,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l46_corner_palm_top_left",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -6.5,
+        0,
+        4.5
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0.6,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_corner_palm_top_right",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        4.5,
+        0,
+        4.5
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_corner_palm_bottom_left",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -6.5,
+        0,
+        -1.5
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_corner_palm_bottom_right",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        4.5,
+        0,
+        -1.5
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": -2.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_fence_back_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.5,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -4.4,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.3,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.2,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -1.1,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        0,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        1.1,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.2,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_back_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3.3,
+        0,
+        4.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -5.5,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -4.4,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -3.3,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.2,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -1.1,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_6",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        0,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_7",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        1.1,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_8",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.2,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_front_9",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3.3,
+        0,
+        -1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_left_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.5,
+        0,
+        -0.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_left_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.5,
+        0,
+        0.6
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_left_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.5,
+        0,
+        1.7
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_left_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.5,
+        0,
+        2.8
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_left_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.5,
+        0,
+        3.9
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_right_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.5,
+        0,
+        -0.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_right_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.5,
+        0,
+        0.6
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_right_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.5,
+        0,
+        1.7
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_right_4",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.5,
+        0,
+        2.8
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_fence_right_5",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        4.5,
+        0,
+        3.9
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "l46_patio_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -1,
+        0,
+        1.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l46_chair_west",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.32,
+        0,
+        1.5
+      ],
+      "scale": 1.12,
+      "rotationX": 0,
+      "rotationY": 0.05,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_chair_east",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        0.35,
+        0,
+        1.5
+      ],
+      "scale": 1.27,
+      "rotationX": 0,
+      "rotationY": -3.12,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_chair_north",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -1,
+        0,
+        2.61
+      ],
+      "scale": 1.27,
+      "rotationX": 0,
+      "rotationY": 1.92,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_chair_south",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -1,
+        0,
+        0.41
+      ],
+      "scale": 1.28,
+      "rotationX": 0,
+      "rotationY": -1.56,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_pizza_snack",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -1,
+        0.72,
+        1.5
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_burger_snack",
+      "modelPath": "room_dinner/burger.glb",
+      "position": [
+        -0.6,
+        0.72,
+        1.5
+      ],
+      "scale": 0.22,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_soda_drink",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        -1,
+        0.72,
+        1.8
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_donut_treat",
+      "modelPath": "room_dinner/donut.glb",
+      "position": [
+        -1.4,
+        0.72,
+        1.5
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": -0.5,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l46_potted_plant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -3.5,
+        0,
+        3.5
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -2,
+        0,
+        1.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 0.99,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l46_luncher_west"
+    },
+    {
+      "position": [
+        0,
+        0,
+        1.5
+      ],
+      "rotationY": -1.57,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "namePrefix": "l46_luncher_east"
+    },
+    {
+      "position": [
+        -1,
+        0,
+        2.3
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l46_luncher_north"
+    },
+    {
+      "position": [
+        -1,
+        0,
+        0.83
+      ],
+      "rotationY": 0,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l46_luncher_south"
+    },
+    {
+      "position": [
+        -1.14,
+        0,
+        -0.49
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l46_garden_host",
+      "isPatrolling": true,
+      "patrolRange": [
+        0.8,
+        2.6
+      ],
+      "patrolSpeed": 0.8,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.25,
+        0,
+        0.29
+      ],
+      "rotationY": -0.42,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

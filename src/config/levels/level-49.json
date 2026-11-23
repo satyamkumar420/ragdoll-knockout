@@ -1,0 +1,309 @@
+{
+  "id": 49,
+  "name": "Level 49",
+  "skyColor": [
+    0.65,
+    0.28,
+    0.16,
+    1
+  ],
+  "grassColor": [
+    0.48,
+    0.32,
+    0.22
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.738,
+  "cameraBeta": 1.421,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l49_cliff_left",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -8.5,
+        0,
+        7.2
+      ],
+      "scale": 2.4,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l49_cliff_right",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        7.5,
+        0,
+        9.34
+      ],
+      "scale": 2.3,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l49_canyon_ridge_rock",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -0.5,
+        0,
+        5.8
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l49_rock_drill",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        -5.68,
+        0,
+        9.31
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 1.45,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l49_diamond_vault",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -2.8,
+        0,
+        7.01
+      ],
+      "scale": 0.95,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l49_ore_barrel_1",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -9.55,
+        0.48,
+        4.57
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l49_ore_barrel_2",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -1.8,
+        0.43,
+        9.53
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l49_foreman_bench",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        4.01,
+        0,
+        2
+      ],
+      "scale": 2.3,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l49_vantage_boulder",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        2.5,
+        0,
+        0.4
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.8,
+        -0.03,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l49_quarry_overseer",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.55,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "axe_diamond.glb",
+      "magicFx": "arcane"
+    },
+    {
+      "position": [
+        0.8,
+        -0.03,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l49_canyon_raider",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.015,
+        0.1,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword_2.glb"
+    },
+    {
+      "position": [
+        -3.2,
+        -0.03,
+        0.9
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l49_ore_pusher",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        3.97,
+        0,
+        2.51
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l49_quarry_foreman"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -4.42,
+        0,
+        -0.6
+      ],
+      "rotationY": -1.1,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

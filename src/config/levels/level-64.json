@@ -1,0 +1,281 @@
+{
+  "id": 64,
+  "name": "Level 64",
+  "skyColor": [
+    0.28,
+    0.42,
+    0.38,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.35,
+    0.2
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.58,
+    0.1,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.669,
+  "cameraBeta": 1.415,
+  "environmentType": "park",
+  "props": [
+    {
+      "name": "l64_ancient_oak_left",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -9.5,
+        0,
+        6.5
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0.8,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l64_bamboo_tree_right",
+      "modelPath": "nature/tree_default.glb",
+      "position": [
+        9.2,
+        0,
+        6
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l64_shrine_altar_high",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        0.2,
+        0,
+        4.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l64_sacred_campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -0.8,
+        0,
+        -0.6
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l64_temple_fence_back",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -4.5,
+        0,
+        5.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "room_chair_ewrb",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -4.46,
+        0,
+        1.58
+      ],
+      "scale": 1.32,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.4835298641951802,
+      "rotationZ": 0
+    },
+    {
+      "name": "room_chair_ewrb_copy",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        4.12,
+        0,
+        1.8
+      ],
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.4835298641951802,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.25,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l64_shadow_kensei",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -4.4,
+        0,
+        1.19
+      ],
+      "rotationY": 2.9845130209103035,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l64_meditating_disciple_left",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        4.15,
+        0,
+        1.44
+      ],
+      "rotationY": 3.036872898470133,
+      "scale": 1.05,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l64_meditating_disciple_right",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.2,
+        0,
+        -3.93
+      ],
+      "rotationY": -0.40142572795869574,
+      "scale": 1.1,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l64_shrine_pyromancer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "fire",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.53,
+        0,
+        -1.2
+      ],
+      "rotationY": 0.8,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

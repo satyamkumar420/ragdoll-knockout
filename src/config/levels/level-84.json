@@ -1,0 +1,230 @@
+{
+  "id": 84,
+  "name": "Level 84",
+  "skyColor": [
+    0.58,
+    0.55,
+    0.67,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.15,
+    0.18
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.42,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.638,
+  "cameraBeta": 1.486,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l84_alley_building_left",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -5.5,
+        0,
+        6.5
+      ],
+      "scale": 4.72,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l84_alley_building_right",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        6.13,
+        0,
+        6.5
+      ],
+      "scale": 4.26,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l84_armored_delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -1,
+        0,
+        1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.67,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -5.2,
+        0,
+        0.56
+      ],
+      "rotationY": 1.3439035240356338,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l84_balcony_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -1,
+        0,
+        2.8
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Crouch_Idle_Loop",
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l84_van_guard",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Jog_Fwd_Loop",
+      "animationNames": [
+        "Jog_Fwd_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l84_patrol_courier",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.25,
+        2.25
+      ],
+      "patrolSpeed": 1.2
+    },
+    {
+      "position": [
+        -3.61,
+        0,
+        3.72
+      ],
+      "rotationY": -2,
+      "scale": 1.05,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l84_street_lookout",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -4.36,
+        0,
+        2.38
+      ],
+      "rotationY": 1.2,
+      "scale": 1.05,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l84_street_lookout",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.96,
+        0,
+        1.5
+      ],
+      "rotationY": 0.22689280275926285,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

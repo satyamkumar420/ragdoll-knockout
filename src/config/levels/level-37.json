@@ -1,0 +1,386 @@
+{
+  "id": 37,
+  "name": "Level 37",
+  "skyColor": [
+    0.52,
+    0.48,
+    0.78,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.15,
+    0.18
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.83,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.633,
+  "cameraBeta": 1.422,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l37_bldg_skyline_left",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -9.25,
+        0,
+        4.5
+      ],
+      "scale": 3.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l37_bldg_mid_left",
+      "modelPath": "building1_small.glb",
+      "position": [
+        -3.5,
+        0,
+        4.8
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l37_bldg_mid_right",
+      "modelPath": "building1_small.glb",
+      "position": [
+        3.5,
+        0,
+        4.8
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l37_bldg_skyline_right",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        10.5,
+        0,
+        4.5
+      ],
+      "scale": 3.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l37_street_lamp_left",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -6.2,
+        0,
+        3.19
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l37_street_lamp_right",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        4.8,
+        0,
+        2.5
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l37_delivery_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -8.45,
+        0,
+        2
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l37_police_cruiser",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        -3.52,
+        0,
+        1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 1.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l37_stalled_taxi",
+      "modelPath": "city_traffic/taxi.glb",
+      "position": [
+        2.86,
+        0,
+        1.8
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -1.7,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l37_loot_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -7.08,
+        0,
+        2.07
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.35,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 25,
+      "isDestructible": true
+    },
+    {
+      "name": "l37_traffic_cone_1",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -3.64,
+        0,
+        -1.61
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l37_traffic_cone_2",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -1,
+        0,
+        -1.51
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l37_traffic_cone_3",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        2.5,
+        0,
+        -1.29
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": -0.3,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        1.32,
+        0,
+        1.8
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l37_getaway_pusher",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -2.8,
+        0,
+        0.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l37_loot_brawler_a",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 1.05,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword.glb"
+    },
+    {
+      "position": [
+        -1.6,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5708,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Hit_Head",
+        "Punch_Cross",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l37_loot_brawler_b",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.42,
+      "swordRotation": [
+        0,
+        1.5708,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "position": [
+        0.99,
+        0,
+        0.4
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l37_fugitive_sniper",
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.07,
+        0,
+        -0.6
+      ],
+      "rotationY": -0.08,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

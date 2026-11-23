@@ -1,0 +1,242 @@
+{
+  "id": 67,
+  "name": "Level 67",
+  "skyColor": [
+    0.45,
+    0.3,
+    0.4,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.28,
+    0.2
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.68,
+    0.1,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.654,
+  "cameraBeta": 1.396,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l67_rampart_wooden_fence",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        2.5,
+        0,
+        4.5
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "city_house2_amfy",
+      "modelPath": "house2.glb",
+      "position": [
+        0,
+        0,
+        5.8
+      ],
+      "scale": 2.02,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 3.106686068549907,
+      "rotationZ": 0,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false,
+      "isMovable": false,
+      "mass": 50000
+    },
+    {
+      "name": "nature_tree_oak_cbmb",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -6.68,
+        0,
+        3.87
+      ],
+      "scale": 5.17,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_csyv",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        5.85,
+        0,
+        3.44
+      ],
+      "scale": 3.37,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        0.5
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.2,
+      "animationName": "Sword_Idle",
+      "animationNames": [
+        "Sword_Idle",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l67_ironclad_vanguard",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57079,
+        0
+      ]
+    },
+    {
+      "position": [
+        0.98,
+        0,
+        -3.4
+      ],
+      "rotationY": -0.47,
+      "scale": 1.05,
+      "animationName": "Pistol_Shoot",
+      "animationNames": [
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l67_rampart_parapet_sentry",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "fire",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -2.87,
+        0,
+        1.41
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l67_patrolling_castellan",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.87,
+        -1.87
+      ],
+      "patrolSpeed": 1.5
+    },
+    {
+      "position": [
+        3.8,
+        0,
+        2.1
+      ],
+      "rotationY": -1.4835298641951802,
+      "scale": 1.25,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l67_fortress_lookout",
+      "swordPosition": [
+        -0.055,
+        0.075,
+        -0.05
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.28,
+        0,
+        -1.2
+      ],
+      "rotationY": -1.35,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

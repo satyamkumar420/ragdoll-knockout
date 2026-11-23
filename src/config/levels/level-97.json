@@ -1,0 +1,310 @@
+{
+  "id": 97,
+  "name": "Level 97",
+  "skyColor": [
+    0.15,
+    0.59,
+    0.93,
+    1
+  ],
+  "grassColor": [
+    0.07,
+    0.55,
+    0.22
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.44,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.766,
+  "cameraBeta": 1.514,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l97_pagoda_dojo_main",
+      "modelPath": "house2.glb",
+      "position": [
+        -5,
+        0,
+        8
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 2.91,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l97_pagoda_pavilion_right",
+      "modelPath": "house1.glb",
+      "position": [
+        4.7,
+        0,
+        8.5
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": -3.09,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l97_moonlit_pine_left",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -7.5,
+        0,
+        5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l97_moonlit_pine_right",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        3.5,
+        0,
+        4.5
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l97_zen_bench",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -2.5,
+        0,
+        3.2
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l97_pagoda_pavilion_right_copy",
+      "modelPath": "house1.glb",
+      "position": [
+        0.74,
+        0,
+        8.9
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 3.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "nature_tree_palm_qc2u",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -0.8,
+        0,
+        6.5
+      ],
+      "scale": 1.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.2,
+        0,
+        0.8
+      ],
+      "rotationY": -1.3,
+      "scale": 1.35,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l97_master_shinobi",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.51,
+        0,
+        1.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.2,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l97_kunoichi_left",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.8,
+        0,
+        1.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l97_kunoichi_right",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -4.46,
+        0,
+        -0.12
+      ],
+      "rotationY": 1.98,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l97_eaves_marksman",
+      "isPatrolling": false,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.38,
+        0,
+        2
+      ],
+      "rotationY": -1.6929693744344996,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l97_zen_sage",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.8,
+        0,
+        1.8
+      ],
+      "rotationY": -1.2042771838760873,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,341 @@
+{
+  "id": 63,
+  "name": "Level 63",
+  "skyColor": [
+    0.24,
+    0.62,
+    0.92,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.2,
+    0.22
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.19,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.3,
+    0.2
+  ],
+  "cameraAlpha": 11.012,
+  "cameraBeta": 1.448,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l63_water_basin",
+      "modelPath": "water_island.glb",
+      "position": [
+        0,
+        -0.5,
+        2
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "l63_stacked_container_base",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        5.4,
+        1.32,
+        2.51
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 120
+    },
+    {
+      "name": "l63_contraband_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        1.2,
+        0.1,
+        0.91
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l63_waterfront_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -2.72,
+        0.75,
+        -0.71
+      ],
+      "scale": 1.38,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 60,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 40
+    },
+    {
+      "name": "l63_cargo_woodbox",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        5.53,
+        0,
+        2.85
+      ],
+      "scale": 1.79,
+      "rotationX": 0,
+      "rotationY": -0.03490658503988659,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 50,
+      "isDestructible": true
+    },
+    {
+      "name": "nature_tree_palm_0yc8",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        5.08,
+        0,
+        -5.05
+      ],
+      "scale": 1.74,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_0yc8_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        6.04,
+        0,
+        -2.45
+      ],
+      "scale": 1.74,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_0yc8_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -5.36,
+        0,
+        -4.65
+      ],
+      "scale": 1.74,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_0yc8_copy_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -5.65,
+        0,
+        -1.47
+      ],
+      "scale": 1.74,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_0yc8_copy_copy_copy",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -5.25,
+        0,
+        4.56
+      ],
+      "scale": 1.74,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_bend_27lx",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        -0.05,
+        0,
+        5.94
+      ],
+      "scale": 1.62,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -4,
+        0.1,
+        -0.6
+      ],
+      "rotationY": 1.57079,
+      "scale": 1.05,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l63_cargo_loader",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        2.5,
+        0,
+        3.2
+      ],
+      "rotationY": -2.234021442552742,
+      "scale": 1.05,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l63_container_watchman",
+      "swordPosition": [
+        -0.05,
+        0.035,
+        -0.065
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.4,
+        0.1,
+        1
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l63_syndicate_smuggler",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.9,
+        1.1
+      ],
+      "patrolSpeed": 1.4
+    },
+    {
+      "position": [
+        1.2,
+        0.1,
+        0.2
+      ],
+      "rotationY": 0.10471975511965977,
+      "scale": 1.05,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l63_contraband_buyer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.86,
+        0.1,
+        -2.43
+      ],
+      "rotationY": 0.5,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

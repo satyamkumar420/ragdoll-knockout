@@ -1,0 +1,453 @@
+{
+  "id": 32,
+  "name": "Level 32",
+  "skyColor": [
+    0.62,
+    0.84,
+    1,
+    1
+  ],
+  "grassColor": [
+    0.42,
+    0.16,
+    0.02
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 10.986,
+  "cameraBeta": 1.4,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l32_foundry_wall_left",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.85,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_foundry_wall_center",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0.43,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l32_foundry_wall_right",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        8.74,
+        0,
+        3.8
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_foundry_lamp_left",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -4.5,
+        0,
+        2.4
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l32_foundry_lamp_right",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        3.6,
+        0,
+        2.4
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l32_assembly_machine_left",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        -0.8,
+        0,
+        1.8
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": -1.51,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_assembly_machine_right",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        2.8,
+        0,
+        1.6
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.25,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_boss_platform_crate",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        -2.8,
+        0,
+        1.2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 30,
+      "isDestructible": true
+    },
+    {
+      "name": "l32_boss_stack_crate",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -3.6,
+        0,
+        0.8
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": -0.15,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 20,
+      "isDestructible": true
+    },
+    {
+      "name": "l32_arms_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -0.75,
+        0,
+        0.9
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 50,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_fuel_barrel_left",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -4.6,
+        0,
+        0.6
+      ],
+      "scale": 0.95,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 60,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_fuel_barrel_mid",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        10.74,
+        0,
+        0.8
+      ],
+      "scale": 0.95,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 60,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_cardboard_stack",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        3.8,
+        0,
+        0.6
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l32_foundry_wall_right_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.61,
+        0,
+        -0.88
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.52,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_foundry_wall_right_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        12.94,
+        0,
+        -7.79
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.52,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_foundry_wall_right_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.37,
+        0,
+        -0.48
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.52,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l32_foundry_wall_right_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -11.04,
+        0,
+        -7.22
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.52,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l32_foundry_welder",
+      "position": [
+        -0.6,
+        0,
+        0.5
+      ],
+      "rotationY": -0.32,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Interact"
+      ],
+      "animationSpeed": 1
+    },
+    {
+      "namePrefix": "l32_forge_guard",
+      "position": [
+        -1.06,
+        0,
+        -1.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 0.9,
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.06,
+        -0.06
+      ],
+      "patrolSpeed": 0.85,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.38,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "namePrefix": "l32_pyro_smelter",
+      "position": [
+        3.63,
+        0,
+        -1.13
+      ],
+      "rotationY": -1.57,
+      "scale": 1.57,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "magicFx": "fire"
+    },
+    {
+      "namePrefix": "l32_iron_overseer",
+      "position": [
+        2,
+        -0.01,
+        -1.73
+      ],
+      "rotationY": 1.39,
+      "scale": 1.1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Sword_Attack"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.45,
+      "swordRotation": [
+        4.799655442984406,
+        -2.356194490192345,
+        0
+      ],
+      "weaponModelPath": "axe_diamond.glb",
+      "swordPosition": [
+        0.015,
+        0.14,
+        0.02
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.2,
+        0,
+        -3.8
+      ],
+      "rotationY": -1.2,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

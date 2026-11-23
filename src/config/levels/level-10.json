@@ -1,0 +1,310 @@
+{
+  "id": 10,
+  "name": "Level 10",
+  "skyColor": [
+    0.25,
+    0.58,
+    0.9,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.28,
+    0.32
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    4.27,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0,
+    1.1,
+    0
+  ],
+  "cameraAlpha": -1.492,
+  "cameraBeta": 1.505,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "buildingCenter",
+      "modelPath": "building4.glb",
+      "position": [
+        -1.78,
+        -0.06,
+        8.08
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 3.106686068549907,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "buildingLeft",
+      "modelPath": "building3_big.glb",
+      "position": [
+        -8.43,
+        0,
+        7.6
+      ],
+      "scale": 0.85,
+      "rotationX": 0,
+      "rotationY": 3.036872898470133,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "buildingRight",
+      "modelPath": "building1_large.glb",
+      "position": [
+        5.8,
+        0,
+        7.6
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "sidewalkTreeFarLeft",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        -6.8,
+        0,
+        4.2
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "sidewalkTreeMidLeft",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -3.6,
+        0,
+        4.6
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "sidewalkTreeMidRight",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        3.6,
+        0,
+        4.6
+      ],
+      "scale": 1.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "sidewalkTreeFarRight",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        7,
+        0,
+        4.2
+      ],
+      "scale": 1.8,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "streetLampLeft",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -3.8,
+        0,
+        2.5
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "streetLampRight",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        5.08,
+        0,
+        4.62
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "getawaySUV",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        -4.53,
+        0,
+        0.5
+      ],
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "policeSquadCar",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        2.54,
+        0,
+        2.36
+      ],
+      "rotationX": 0,
+      "rotationY": -1.570796,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "streetConeLeft",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -4.6,
+        0,
+        -1.5
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.11,
+        0,
+        0.1
+      ],
+      "rotationY": -1.26,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross",
+        "Punch_Enter"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l10_boss"
+    },
+    {
+      "position": [
+        0.35,
+        0,
+        -1.92
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "namePrefix": "l10_enforcer",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.55,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.6,
+        -0.3
+      ],
+      "patrolSpeed": 0.95
+    },
+    {
+      "position": [
+        -1.15,
+        -0.01,
+        0.25
+      ],
+      "rotationY": 1.77,
+      "scale": 1,
+      "animationName": "Punch_Cross",
+      "animationNames": [
+        "Punch_Cross",
+        "Punch_Jab",
+        "Hit_Chest"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l10_lookout"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.87,
+        0,
+        -1.4
+      ],
+      "rotationY": -0.39,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle",
+      "initialAnimations": [
+        "Idle",
+        "Idle_2"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,224 @@
+{
+  "id": 13,
+  "name": "Level 13",
+  "skyColor": [
+    0.38,
+    0.67,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.1,
+    0.12,
+    0.16
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    -2.88,
+    0,
+    0
+  ],
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "city_police_eqez",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        0,
+        -0.05,
+        3.49
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 1.45,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_delivery_fobk",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        4.96,
+        -0.04,
+        2.08
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": -1.63,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building1_large_g8kw",
+      "modelPath": "building1_large.glb",
+      "position": [
+        0,
+        0.03,
+        7.04
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building4_gnh1",
+      "modelPath": "building4.glb",
+      "position": [
+        -7.12,
+        0.02,
+        6.64
+      ],
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 3.0019663134302466,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building4_gnh1_copy",
+      "modelPath": "building4.glb",
+      "position": [
+        8.22,
+        0.02,
+        7.04
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 3.01,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_pine_qc9d",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -9.06,
+        0.07,
+        4.14
+      ],
+      "scale": 2.24,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_oak_quwa",
+      "modelPath": "nature/tree_oak.glb",
+      "position": [
+        10,
+        0.09,
+        5.02
+      ],
+      "scale": 2.7,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "nature_tree_palm_rwp6",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -3.71,
+        -0.06,
+        4.71
+      ],
+      "scale": 2.55,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        1.39,
+        0.25,
+        3.32
+      ],
+      "rotationY": 1.47,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "namePrefix": "target_1",
+      "scale": 1,
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.51,
+        0,
+        3.75
+      ],
+      "rotationY": -1.33,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "namePrefix": "target_1",
+      "scale": 1,
+      "animationSpeed": 1
+    },
+    {
+      "position": [
+        2.65,
+        0.03,
+        3
+      ],
+      "rotationY": -1.33,
+      "animationName": "Idle_Talking_Loop",
+      "animationNames": [
+        "Idle_Talking_Loop"
+      ],
+      "namePrefix": "target_1",
+      "scale": 1,
+      "animationSpeed": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        0.18,
+        0,
+        2.11
+      ],
+      "rotationY": -1.2,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle",
+      "initialAnimations": [
+        "Idle",
+        "Idle_2"
+      ],
+      "variant": "white"
+    }
+  ],
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0,
+    1.05,
+    0
+  ],
+  "cameraAlpha": -1.568,
+  "cameraBeta": 1.423,
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "subtitle": ""
+}

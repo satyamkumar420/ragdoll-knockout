@@ -1,0 +1,344 @@
+{
+  "id": 50,
+  "name": "Level 50",
+  "skyColor": [
+    0.72,
+    0.71,
+    0.89,
+    1
+  ],
+  "grassColor": [
+    0.38,
+    0.38,
+    0.68
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.65,
+  "cameraBeta": 1.458,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l50_bldg_west",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -16.01,
+        0,
+        8.98
+      ],
+      "scale": 9.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l50_bldg_center",
+      "modelPath": "building2_large.glb",
+      "position": [
+        0,
+        0,
+        7.2
+      ],
+      "scale": 2.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l50_bldg_east",
+      "modelPath": "building3_big.glb",
+      "position": [
+        15.75,
+        0,
+        8.06
+      ],
+      "scale": 2.3,
+      "rotationX": 0,
+      "rotationY": -3.11,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l50_fence_1",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2,
+        0,
+        3.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l50_fence_2",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        0.5,
+        0,
+        3.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l50_fence_3",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        3,
+        0,
+        3.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l50_sedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        -5.98,
+        0,
+        2.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.75,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l50_vault_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        6.89,
+        0.04,
+        1.93
+      ],
+      "scale": 1.05,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l50_mainframe",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        7.04,
+        0,
+        2.12
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l50_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        -2.6,
+        0,
+        2.5
+      ],
+      "scale": 0.6,
+      "rotationX": 0,
+      "rotationY": 0.3,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.7,
+        -0.03,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.7,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l50_syndicate_kingpin",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.55,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "magicFx": "fire"
+    },
+    {
+      "position": [
+        0.9,
+        -0.03,
+        0.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l50_cyber_enforcer",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.48,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.015,
+        0.1,
+        0.02
+      ]
+    },
+    {
+      "position": [
+        6.94,
+        0.11,
+        0.66
+      ],
+      "rotationY": 0,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l50_data_hacker"
+    },
+    {
+      "position": [
+        -3.2,
+        -0.03,
+        -2.48
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l50_loot_courier",
+      "isPatrolling": true,
+      "patrolRange": [
+        -4.3,
+        -2.1
+      ],
+      "patrolSpeed": 1.1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        -0.34
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 2.33,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l50_apex_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 1,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.005,
+        0.07,
+        0.02
+      ],
+      "magicFx": "arcane"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -5.23,
+        0,
+        1.05
+      ],
+      "rotationY": -1.1,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

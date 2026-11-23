@@ -1,0 +1,382 @@
+{
+  "id": 69,
+  "name": "Level 69",
+  "skyColor": [
+    0.46,
+    0.33,
+    0.71,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.15,
+    0.18
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.02,
+    0.1,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.698,
+  "cameraBeta": 1.296,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l69_glass_tower_backdrop",
+      "modelPath": "building4.glb",
+      "position": [
+        0,
+        0,
+        8
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l69_skyline_flank_left",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -11.8,
+        0,
+        8.2
+      ],
+      "scale": 4.8,
+      "rotationX": 0,
+      "rotationY": -0.36,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l69_skyline_flank_right",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        11.8,
+        0,
+        8.2
+      ],
+      "scale": 4.8,
+      "rotationX": 0,
+      "rotationY": -0.17,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l69_rooftop_hvac_unit",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        7.63,
+        0,
+        7.33
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": -1.57079,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 150
+    },
+    {
+      "name": "l69_helipad_beacon_lamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -1.51,
+        0,
+        5.38
+      ],
+      "scale": 1.45,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        0.8
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.26,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Enter"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l69_diamond_bodyguard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.55,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -4.2,
+        0,
+        1.2
+      ],
+      "rotationY": 2.234021442552742,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l69_abyss_ledge_sentry",
+      "swordPosition": [
+        -0.055,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1.25,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        1.27,
+        0,
+        -2.18
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l69_sprinting_cfo",
+      "isPatrolling": true,
+      "patrolRange": [
+        0.02,
+        2.52
+      ],
+      "patrolSpeed": 2.2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        3.03,
+        0,
+        2.8
+      ],
+      "rotationY": -2.3736477827122884,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l69_hvac_marksman",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordPosition": [
+        -0.03,
+        0.05,
+        -0.015
+      ],
+      "swordRotation": [
+        -0.2617993877991494,
+        0,
+        0
+      ],
+      "swordScale": 0.75,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.19,
+        0,
+        -3.43
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l69_sprinting_cfo",
+      "isPatrolling": true,
+      "patrolRange": [
+        -0.81,
+        1.19
+      ],
+      "patrolSpeed": 2.2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.86,
+        0,
+        -2.09
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.45,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l69_sprinting_cfo",
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.11,
+        0.39
+      ],
+      "patrolSpeed": 2.2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        3.5,
+        0,
+        -1.5
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l69_sprinting_cfo",
+      "isPatrolling": true,
+      "patrolRange": [
+        2.5,
+        4.5
+      ],
+      "patrolSpeed": 2.2,
+      "swordPosition": [
+        0.015,
+        -0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        2.55,
+        0,
+        -2.43
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1.2,
+      "namePrefix": "l69_sprinting_cfo",
+      "isPatrolling": true,
+      "patrolRange": [
+        1.05,
+        4.05
+      ],
+      "patrolSpeed": 2.2,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -4.78,
+        0,
+        0.51
+      ],
+      "rotationY": -0.28,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,356 @@
+{
+  "id": 116,
+  "name": "Level 116",
+  "skyColor": [
+    0.65,
+    0.45,
+    0.6,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.2,
+    0.24
+  ],
+  "ammo": 3,
+  "gunSpawnPos": [
+    3.95,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.2
+  ],
+  "cameraAlpha": 4.72,
+  "cameraBeta": 1.303,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l116_penthouse_window_backdrop",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0,
+        0,
+        4.34
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    },
+    {
+      "name": "l116_side_wall_west",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -6.8,
+        0,
+        4.33
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    },
+    {
+      "name": "l116_dining_table_penetrable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        1.69,
+        0,
+        2.16
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "isPenetrable": true,
+      "penetrationResistance": 12,
+      "isDestructible": true,
+      "durability": 2
+    },
+    {
+      "name": "l116_luxury_armchair",
+      "modelPath": "room_dinner/armchair.glb",
+      "position": [
+        3.96,
+        0,
+        2.2
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": -1.54,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "isPenetrable": true
+    },
+    {
+      "name": "l116_metallic_bar_cabinet",
+      "modelPath": "room_dinner/cabinet.glb",
+      "position": [
+        -1.99,
+        0,
+        3.21
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l116_library_bookshelf",
+      "modelPath": "room_dinner/bookshelf.glb",
+      "position": [
+        -7.28,
+        0,
+        2.5
+      ],
+      "scale": 1.3,
+      "rotationX": 0,
+      "rotationY": -0.12,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "isDestructible": true,
+      "durability": 35
+    },
+    {
+      "name": "l116_side_wall_west_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -10.18,
+        0,
+        0.92
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    },
+    {
+      "name": "l116_side_wall_west_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        6.97,
+        0,
+        4.32
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    },
+    {
+      "name": "l116_side_wall_west_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -10.18,
+        0,
+        -6.49
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    },
+    {
+      "name": "l116_side_wall_west_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        10.6,
+        0,
+        -6.09
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    },
+    {
+      "name": "l116_side_wall_west_copy_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        10.61,
+        0,
+        0.87
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete"
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        2.8,
+        0,
+        2.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.2,
+      "animationName": "Sitting_Idle_Loop",
+      "animationNames": [
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l116_couch_boss",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        0.37,
+        0,
+        2.17
+      ],
+      "rotationY": 1.57,
+      "scale": 1.15,
+      "animationName": "Crouch_Idle_Loop",
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l116_table_guard",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.8,
+        0,
+        0.2
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l116_patrol_butler",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2.3,
+        0.7
+      ],
+      "patrolSpeed": 1.3
+    },
+    {
+      "position": [
+        1.26,
+        0,
+        -1.02
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l116_patrol_butler",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        0.01,
+        2.51
+      ],
+      "patrolSpeed": 1.3
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.2,
+        0,
+        1.23
+      ],
+      "rotationY": 0.2,
+      "behaviorMode": "sit",
+      "initialAnimation": "Eating",
+      "initialAnimations": [
+        "Eating"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,344 @@
+{
+  "id": 59,
+  "name": "Level 59",
+  "skyColor": [
+    0.45,
+    0.65,
+    0.88,
+    1
+  ],
+  "grassColor": [
+    0.42,
+    0.44,
+    0.48
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.3
+  ],
+  "cameraAlpha": 4.66,
+  "cameraBeta": 1.423,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l59_cliff_spire_center",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        0,
+        0,
+        8.54
+      ],
+      "scale": 2.6,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l59_cliff_flank_left",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -7.8,
+        0,
+        7.2
+      ],
+      "scale": 2.4,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l59_cliff_flank_right",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        7.8,
+        0,
+        7.2
+      ],
+      "scale": 2.4,
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l59_pine_backdrop_left",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -4.84,
+        0,
+        8.22
+      ],
+      "scale": 2.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l59_pine_backdrop_right",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        3.74,
+        0,
+        8.64
+      ],
+      "scale": 2.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l59_trail_boulder",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -7.94,
+        0,
+        3.81
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0.6,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l59_perimeter_fence",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -2.96,
+        0,
+        8.78
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 35,
+      "isDestructible": true,
+      "isPenetrable": true
+    },
+    {
+      "name": "l59_supply_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        10.08,
+        0.52,
+        5.38
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 85,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 48
+    },
+    {
+      "name": "l59_outpost_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -4.6,
+        0,
+        2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0,
+        0,
+        1.5
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.55,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l59_alpine_warlord",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordScale": 0.52,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "magicFx": "fire"
+    },
+    {
+      "position": [
+        -1.05,
+        1.85,
+        5.2
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.05,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l59_pinnacle_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        1.2,
+        0,
+        -1.69
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l59_patrol_ranger",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.58,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -2,
+        2.2
+      ],
+      "patrolSpeed": 1.5
+    },
+    {
+      "position": [
+        -4.99,
+        0,
+        1.4
+      ],
+      "rotationY": 0.9,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l59_canyon_climber",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        7.27,
+        0,
+        6.97
+      ],
+      "rotationY": -0.37,
+      "scale": 1.05,
+      "animationName": "Punch_Jab",
+      "animationNames": [
+        "Punch_Jab",
+        "Punch_Cross",
+        "Punch_Enter"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l59_bench_mountaineer",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.5,
+        0,
+        2.05
+      ],
+      "rotationY": 0.12,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

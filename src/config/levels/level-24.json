@@ -1,0 +1,323 @@
+{
+  "id": 24,
+  "name": "Level 24",
+  "skyColor": [
+    0.62,
+    0.82,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.46,
+    0.22
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.6,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0.2,
+    1.35,
+    0.3
+  ],
+  "cameraAlpha": 4.778,
+  "cameraBeta": 1.441,
+  "props": [
+    {
+      "name": "alpineMainHillLeft",
+      "modelPath": "grass_hill.glb",
+      "position": [
+        -5.03,
+        -0.05,
+        6.59
+      ],
+      "scale": 4.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "alpineRidgeHillRight",
+      "modelPath": "grass_hill.glb",
+      "position": [
+        2.54,
+        0.05,
+        6.88
+      ],
+      "scale": 3.4,
+      "rotationX": 0,
+      "rotationY": 0.98,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "alpineValleyStepCenter",
+      "modelPath": "grass_forest.glb",
+      "position": [
+        -1.05,
+        -0.03,
+        6.86
+      ],
+      "scale": 3.96,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": false
+    },
+    {
+      "name": "trailBoulderCenter",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -0.4,
+        -0.93,
+        1.9
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 0.8,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "trailBoulderRight",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        4.4,
+        0,
+        1.4
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "trailCampfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        3.6,
+        0,
+        1.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "alpinePineLeft",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -11.57,
+        0,
+        11.76
+      ],
+      "scale": 2.8,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "alpinePineRight",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        3.71,
+        0,
+        13.63
+      ],
+      "scale": 2.9,
+      "rotationX": 0,
+      "rotationY": 1.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "alpinePineRidgeCenter",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -3.09,
+        0,
+        14.76
+      ],
+      "scale": 3.2,
+      "rotationX": 0,
+      "rotationY": 0.8,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l24_summit_sniper",
+      "position": [
+        -1.8,
+        -0.04,
+        2.1
+      ],
+      "rotationY": 2.5307274153917776,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l24_pass_berserker",
+      "position": [
+        -0.6,
+        0.06,
+        0.2
+      ],
+      "rotationY": -0.29670597283903605,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 0.95,
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.42,
+      "swordPosition": [
+        -0.07,
+        0.11,
+        0.02
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "weaponModelPath": "axe_gold.glb",
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l24_switchback_patrol",
+      "position": [
+        1.8,
+        0,
+        -1.89
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 0.9,
+      "isPatrolling": true,
+      "patrolRange": [
+        0.6,
+        3.2
+      ],
+      "patrolSpeed": 0.85,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.38,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ]
+    },
+    {
+      "namePrefix": "l24_campfire_scout",
+      "position": [
+        0.21,
+        0,
+        1.8
+      ],
+      "rotationY": -1.2,
+      "scale": 1,
+      "animationName": "Idle_Torch_Loop",
+      "animationNames": [
+        "Idle_Torch_Loop",
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.35,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        0.2,
+        0,
+        -0.6
+      ],
+      "rotationY": -1.1,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

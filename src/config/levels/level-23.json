@@ -1,0 +1,484 @@
+{
+  "id": 23,
+  "name": "Level 23",
+  "skyColor": [
+    0.36,
+    0.94,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.82,
+    0.64,
+    0.4
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    1.17,
+    0.47,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 8,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.686,
+  "cameraBeta": 1.357,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "smugglerTavern",
+      "modelPath": "house2.glb",
+      "position": [
+        -4.55,
+        0.02,
+        4.2
+      ],
+      "rotationX": 0,
+      "rotationY": 3.14,
+      "rotationZ": 0,
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false,
+      "isMovable": false,
+      "mass": 50000
+    },
+    {
+      "name": "palmFarLeft",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -7.2,
+        0,
+        0.8
+      ],
+      "rotationX": 0,
+      "rotationY": 0.3,
+      "rotationZ": 0,
+      "scale": 2.3,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "palmBendRight",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        7,
+        0,
+        0.6
+      ],
+      "rotationX": 0,
+      "rotationY": 1.2,
+      "rotationZ": 0,
+      "scale": 2.4,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "palmBehindTavern",
+      "modelPath": "nature/tree_palm.glb",
+      "position": [
+        -6.8,
+        0,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": -0.4,
+      "rotationZ": 0,
+      "scale": 1.9,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "palmBehindWarehouse",
+      "modelPath": "nature/tree_palm_bend.glb",
+      "position": [
+        5,
+        0,
+        3.2
+      ],
+      "rotationX": 0,
+      "rotationY": 2.1,
+      "rotationZ": 0,
+      "scale": 1.8,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "sniperCrateBase",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -2.2,
+        0,
+        2.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0.18,
+      "rotationZ": 0,
+      "scale": 1.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "sniperCrateMid",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -2.2,
+        0.8875,
+        2.2
+      ],
+      "rotationX": 0,
+      "rotationY": -0.12,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "sniperCrateTop",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -2.2,
+        1.704,
+        2.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0.08,
+      "rotationZ": 0,
+      "scale": 1.05,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "stolenChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        2.2,
+        0,
+        3.16
+      ],
+      "rotationX": 0,
+      "rotationY": -0.25,
+      "rotationZ": 0,
+      "scale": 0.95,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 1,
+      "isDestructible": false
+    },
+    {
+      "name": "dockBarrelA",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        4.6,
+        0,
+        0.8
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 1,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 10
+    },
+    {
+      "name": "pierLampLeft",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -4.2,
+        0,
+        1.3
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "lookoutBrazier",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -5.9,
+        0,
+        0.3
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "tavernBench",
+      "modelPath": "nature/bench.glb",
+      "position": [
+        -3.8,
+        0,
+        3.2
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5,
+      "rotationZ": 0,
+      "scale": 1.6,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "pierDock1",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        -5.6,
+        -0.03,
+        -0.9
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "pierDock2",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        -3,
+        -0.03,
+        -0.9
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "pierDock3",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        -0.4,
+        -0.03,
+        -0.9
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "pierDock4",
+      "modelPath": "nature/dock.glb",
+      "position": [
+        2.2,
+        -0.03,
+        -0.9
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "pierEndChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -6.3,
+        0,
+        -0.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "scale": 0.9,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 1,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l23_cursed_captain",
+      "position": [
+        0.05,
+        0,
+        2.58
+      ],
+      "rotationY": 1.35,
+      "scale": 1.13,
+      "animationName": "Sword_Idle",
+      "animationNames": [
+        "Sword_Idle",
+        "Sword_Attack",
+        "Sword_Attack_RM"
+      ],
+      "animationSpeed": 0.9,
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.5,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "magicFx": {
+        "enabled": true,
+        "color": [
+          0.22,
+          1,
+          0.45
+        ],
+        "hands": "both",
+        "orbSize": 0.17,
+        "hasGroundCircle": true,
+        "groundRadius": 1.3,
+        "hasOrbitRings": true,
+        "hasSparks": true
+      }
+    },
+    {
+      "namePrefix": "l23_crate_sniper",
+      "position": [
+        3.27,
+        0,
+        4.78
+      ],
+      "rotationY": -1.8151424220741028,
+      "scale": 0.98,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l23_pier_patrol",
+      "position": [
+        -2,
+        0.6,
+        -0.9
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "isPatrolling": true,
+      "patrolRange": [
+        -4.6,
+        -1
+      ],
+      "patrolSpeed": 0.85,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.36,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "namePrefix": "l23_loot_deckhand",
+      "position": [
+        3.2,
+        0,
+        0.76
+      ],
+      "rotationY": -1.5,
+      "scale": 1,
+      "animationName": "Interact",
+      "animationNames": [
+        "Interact",
+        "Idle_Talking_Loop"
+      ],
+      "animationSpeed": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.72,
+        0.5,
+        -0.5
+      ],
+      "rotationY": -0.10471975511965977,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}

@@ -1,0 +1,467 @@
+{
+  "id": 39,
+  "name": "Level 39",
+  "skyColor": [
+    0.85,
+    0.45,
+    0.25,
+    1
+  ],
+  "grassColor": [
+    0.15,
+    0.15,
+    0.17
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    5.2,
+    0.12,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": 4.713,
+  "cameraBeta": 1.446,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l39_hangar_backdrop_left",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        -16.08,
+        0,
+        13.48
+      ],
+      "scale": 4.37,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l39_terminal_mid_left",
+      "modelPath": "building1_large.glb",
+      "position": [
+        -6.34,
+        0,
+        13.8
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l39_terminal_mid_right",
+      "modelPath": "building1_large.glb",
+      "position": [
+        5.78,
+        0,
+        13.75
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l39_hangar_backdrop_right",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        15.19,
+        0,
+        12.62
+      ],
+      "scale": 4.83,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l39_runway_floodlight_left",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -5.51,
+        0,
+        11.32
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l39_getaway_cargo_van",
+      "modelPath": "city_traffic/delivery.glb",
+      "position": [
+        -8.2,
+        0,
+        2
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l39_armored_syndicate_suv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        -3.6,
+        0,
+        2.2
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l39_getaway_sports_coupe",
+      "modelPath": "workshop/race_car.glb",
+      "position": [
+        2.8,
+        0,
+        2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l39_vault_payload_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -4.92,
+        0,
+        3.45
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.35,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 20,
+      "isDestructible": true
+    },
+    {
+      "name": "l39_aviation_fuel_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -7,
+        0,
+        1.3
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l39_sniper_perch_crate",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        1.2,
+        0,
+        0.3
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.08,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "l39_cargo_crate_flank",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        2.3,
+        0,
+        0.7
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": -0.15,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "l39_cargo_crate_rear",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        1.2,
+        0,
+        1.4
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "l39_guidance_cone_left",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        -4,
+        0,
+        -1.4
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l39_guidance_cone_center",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        0,
+        0,
+        -1.4
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": -0.2,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l39_guidance_cone_right",
+      "modelPath": "city_traffic/cone.glb",
+      "position": [
+        1.9,
+        0,
+        -1.4
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.25,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l39_runway_floodlight_left_copy",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        6.31,
+        0,
+        10.76
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -6.2,
+        0,
+        1.8
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l39_cargo_pusher"
+    },
+    {
+      "position": [
+        -4.6,
+        0,
+        1.1
+      ],
+      "rotationY": 0.40142572795869574,
+      "scale": 1.05,
+      "animationName": "Interact",
+      "animationNames": [
+        "Interact"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l39_flight_navigator",
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -2.6,
+        0,
+        0.15
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Punch_Cross",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l39_runway_enforcer",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 1,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "axe_gold.glb"
+    },
+    {
+      "position": [
+        -1.2,
+        0,
+        0.15
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Hit_Head",
+        "Punch_Cross"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l39_runway_duelist",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.42,
+      "swordRotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "weaponModelPath": "swords/sword_shield.glb"
+    },
+    {
+      "position": [
+        1.2,
+        0.71,
+        0.3
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l39_tarmac_sniper",
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        2.75,
+        0,
+        -0.6
+      ],
+      "rotationY": -0.04,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

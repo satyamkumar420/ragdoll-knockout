@@ -1,0 +1,288 @@
+{
+  "id": 62,
+  "name": "Level 62",
+  "skyColor": [
+    0.85,
+    0.58,
+    0.38,
+    1
+  ],
+  "grassColor": [
+    0.65,
+    0.45,
+    0.28
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    6.8,
+    0.05,
+    -0.1
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.682,
+  "cameraBeta": 1.456,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l62_cliff_backdrop_left",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -11.5,
+        0,
+        7.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l62_cliff_perch_main",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -6.45,
+        0,
+        7.06
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": -0.08,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l62_quarry_boulder_right",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        9.8,
+        0,
+        6
+      ],
+      "scale": 2,
+      "rotationX": 0,
+      "rotationY": -0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l62_outpost_depot_building",
+      "modelPath": "building3_small.glb",
+      "position": [
+        0.22,
+        0,
+        8.2
+      ],
+      "scale": 1.35,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l62_excavator_machine",
+      "modelPath": "workshop/machine.glb",
+      "position": [
+        2.8,
+        0,
+        2.3
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": -1.57,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 150
+    },
+    {
+      "name": "l62_explosive_fuel_barrel",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -3.22,
+        0.59,
+        -0.77
+      ],
+      "scale": 1.42,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 55,
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 42
+    },
+    {
+      "name": "l62_munitions_crate_large",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        -8.69,
+        0,
+        7.83
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.25,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 70,
+      "isDestructible": true
+    },
+    {
+      "name": "l62_storage_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        2.98,
+        0,
+        3.21
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        2.09,
+        0,
+        -1.5
+      ],
+      "rotationY": -0.19198621771937624,
+      "scale": 1.05,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l62_cliff_sniper",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "magicFx": "arcane",
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.8,
+        0,
+        3.56
+      ],
+      "rotationY": 3.14159,
+      "scale": 1.05,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l62_excavator_mechanic",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    },
+    {
+      "position": [
+        0.28,
+        0,
+        0.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l62_quarry_foreman",
+      "weaponModelPath": "swords/sword_wood.glb",
+      "swordModelPath": "swords/sword_wood.glb",
+      "swordScale": 0.4,
+      "swordPosition": [
+        -0.065,
+        0.06,
+        0.02
+      ],
+      "swordRotation": [
+        -2.0943951023931953,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.47,
+        2.03
+      ],
+      "patrolSpeed": 1.5
+    },
+    {
+      "position": [
+        -1.9,
+        0,
+        -0.8
+      ],
+      "rotationY": -1.57079,
+      "scale": 1.05,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop",
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l62_munitions_loader",
+      "weaponModelPath": "none",
+      "swordModelPath": "none"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        5.2,
+        0,
+        -0.8
+      ],
+      "rotationY": -0.8,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

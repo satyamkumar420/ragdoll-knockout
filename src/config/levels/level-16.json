@@ -1,0 +1,314 @@
+{
+  "id": 16,
+  "name": "Level 16",
+  "skyColor": [
+    0.66,
+    0.5,
+    0.96,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.2,
+    0.28
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    2.35,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 9.5,
+  "cameraTarget": [
+    0,
+    1.1,
+    0
+  ],
+  "cameraAlpha": -1.395,
+  "cameraBeta": 1.48,
+  "props": [
+    {
+      "name": "mysticCampfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        0,
+        0,
+        0.2
+      ],
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "cliffSpireLeft",
+      "modelPath": "quarry_rocks/cliff_rock.glb",
+      "position": [
+        -6.81,
+        0,
+        0.2
+      ],
+      "scale": 1.4,
+      "rotationY": -1.03,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "rockFormationRight",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        5.61,
+        0,
+        0.4
+      ],
+      "scale": 1.35,
+      "rotationY": -0.6,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "relicChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0.02,
+        0.39,
+        3.8
+      ],
+      "scale": 1.15,
+      "rotationY": -0.35,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "monolithBackCenter",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        0,
+        0,
+        4
+      ],
+      "scale": 1.6,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "pineTreeBackLeft",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -3.5,
+        0,
+        4.8
+      ],
+      "scale": 2.4,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "pineTreeBackRight",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        3.5,
+        0,
+        4.8
+      ],
+      "scale": 2.4,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "pineTreeFarLeft",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        -6,
+        0,
+        2.2
+      ],
+      "scale": 2.5,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "pineTreeFarRight",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        6,
+        0,
+        2.2
+      ],
+      "scale": 2.5,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "pineTreeCenterDeep",
+      "modelPath": "nature/tree_pine.glb",
+      "position": [
+        0,
+        0,
+        6.2
+      ],
+      "scale": 2.6,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "templeFenceLeft",
+      "modelPath": "nature/fence.glb",
+      "position": [
+        -6.47,
+        0,
+        1.4
+      ],
+      "scale": 1.1,
+      "rotationY": 0.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 30,
+      "isDestructible": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "ritualBlade",
+      "modelPath": "swords/sword_2.glb",
+      "position": [
+        5.59,
+        0.39,
+        0.37
+      ],
+      "scale": 0.22,
+      "rotationY": 1.2,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.9,
+        0,
+        0.15
+      ],
+      "rotationY": -1.2,
+      "scale": 1.05,
+      "animationName": "Spell_Simple_Shoot",
+      "animationNames": [
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l16_arch_sorcerer"
+    },
+    {
+      "position": [
+        -1.87,
+        0.06,
+        1.41
+      ],
+      "rotationY": 1.68,
+      "scale": 1.02,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Enter",
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l16_high_sorcerer"
+    },
+    {
+      "position": [
+        -1.32,
+        0,
+        -0.2
+      ],
+      "rotationY": 0.9,
+      "scale": 1,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Enter",
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 0.95,
+      "namePrefix": "l16_apprentice_mage"
+    },
+    {
+      "position": [
+        0.2,
+        0,
+        -1.57
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Walk_Loop",
+      "animationNames": [
+        "Walk_Loop"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l16_temple_sentry",
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.8,
+        1.8
+      ],
+      "patrolSpeed": 1,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.35,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -2.1,
+        0,
+        -1.4
+      ],
+      "rotationY": -0.48,
+      "behaviorMode": "sit",
+      "initialAnimation": "Idle_2_HeadLow",
+      "initialAnimations": [
+        "Idle_2_HeadLow",
+        "Idle_2",
+        "Idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "environmentType": "room",
+  "subtitle": ""
+}

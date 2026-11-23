@@ -1,0 +1,300 @@
+{
+  "id": 79,
+  "name": "Level 79",
+  "skyColor": [
+    0.65,
+    0.15,
+    0.05,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.12,
+    0.12
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    3.34,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.739,
+  "cameraBeta": 1.465,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l79_volcanic_boulder_left",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        -6.72,
+        0,
+        2.5
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0.5,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "l79_smelter_campfire",
+      "modelPath": "nature/campfire.glb",
+      "position": [
+        -3.6,
+        0,
+        0.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "city_building_a_b5g7",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -0.7,
+        0,
+        9.54
+      ],
+      "scale": 4.71,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building_a_b5g7_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -6.53,
+        0,
+        9.94
+      ],
+      "scale": 5.81,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building_a_b5g7_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        4.58,
+        0,
+        9.94
+      ],
+      "scale": 5.61,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building_a_b5g7_copy_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        10.71,
+        0,
+        10.34
+      ],
+      "scale": 3.61,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "city_building_a_b5g7_copy_copy",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -12.07,
+        0,
+        10.34
+      ],
+      "scale": 3.61,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.6,
+        0.2,
+        1.5
+      ],
+      "rotationY": 2.2,
+      "scale": 1.35,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l79_warlord_pyros",
+      "weaponModelPath": "swords/sword.glb",
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.8,
+      "magicFx": "fire",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -3.69,
+        0,
+        -0.81
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.2,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l79_crucible_guard_alpha",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.85,
+      "swordPosition": [
+        -0.1,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        -1.3962634015954636,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.8,
+        0,
+        -0.24
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l79_crucible_guard_beta",
+      "weaponModelPath": "axe_gold.glb",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.85,
+      "swordPosition": [
+        -0.105,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        -1.6580627893946132,
+        1.5707963267948966,
+        0
+      ],
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -0.38,
+        0,
+        0.74
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1.1,
+      "namePrefix": "l79_catwalk_patrol",
+      "weaponModelPath": "swords/sword_2.glb",
+      "swordModelPath": "swords/sword_2.glb",
+      "swordScale": 0.45,
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "position": [
+        -0.06,
+        0,
+        -2.08
+      ],
+      "rotationY": -1.7976891295541593,
+      "scale": 1.05,
+      "animationName": "Dance_Loop",
+      "animationNames": [
+        "Dance_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l79_slag_loader",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.74,
+        0,
+        -0.58
+      ],
+      "rotationY": -0.03,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

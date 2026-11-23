@@ -1,0 +1,540 @@
+{
+  "id": 41,
+  "name": "Level 41",
+  "skyColor": [
+    0.15,
+    0.08,
+    0.22,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.12,
+    0.18
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    2.07,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.25,
+    0.2
+  ],
+  "cameraAlpha": -1.538,
+  "cameraBeta": 1.361,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l41_wall_back_left",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.88,
+        0,
+        4.1
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l41_wall_back_center_window",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0.45,
+        0,
+        4.1
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 15,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_wall_back_right",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        8.75,
+        0,
+        4.1
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l41_wall_flank_left",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -12.55,
+        0,
+        1.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": 1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l41_wall_flank_right",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        13.15,
+        0,
+        1.5
+      ],
+      "scale": 2.2,
+      "rotationX": 0,
+      "rotationY": -1.5707963267948966,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l41_floor_lamp_left",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        -4.8,
+        0,
+        2.8
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_floor_lamp_right",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        4.2,
+        0,
+        2.8
+      ],
+      "scale": 1.6,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_arcade_machine_1",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        3.2,
+        0,
+        2.2
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 12,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_arcade_machine_2",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        4.5,
+        0,
+        2.2
+      ],
+      "scale": 1.25,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 12,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_lounge_couch",
+      "modelPath": "room_dinner/couch.glb",
+      "position": [
+        -0.2,
+        0,
+        2.4
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 3.14159,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "fabric",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "l41_lounge_boombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        -0.2,
+        0,
+        2
+      ],
+      "scale": 0.85,
+      "rotationX": 0,
+      "rotationY": 0.15,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_vault_gold_chest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        0.28,
+        0,
+        1.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0.35,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 20,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_vault_loot_crate",
+      "modelPath": "workshop/box_large.glb",
+      "position": [
+        -7.2,
+        0,
+        1.4
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 5,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_poker_table",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -2,
+        0,
+        0.2
+      ],
+      "scale": 1.1,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 10,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_poker_chair_left",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -3.62,
+        0,
+        0.2
+      ],
+      "scale": 1.31,
+      "rotationX": 0,
+      "rotationY": 0.01,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_poker_chair_right",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -0.47,
+        0,
+        0.2
+      ],
+      "scale": 1.34,
+      "rotationX": 0,
+      "rotationY": -3.11,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 4,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_poker_snack_pizza",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -2,
+        0.72,
+        0.2
+      ],
+      "scale": 0.75,
+      "rotationX": 0,
+      "rotationY": 0.2,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_poker_soda_can",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        -1.7,
+        0.72,
+        0.15
+      ],
+      "scale": 0.9,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_sniper_perch_box",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        1.4,
+        0,
+        0.3
+      ],
+      "scale": 1,
+      "rotationX": 0,
+      "rotationY": 0.08,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "l41_casino_plant_left",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        -7.5,
+        0,
+        3.2
+      ],
+      "scale": 1.2,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_casino_plant_right",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        8.18,
+        0,
+        3.2
+      ],
+      "scale": 2.58,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "l41_velvet_carpet_runner",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        -2,
+        0.01,
+        0.2
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": false,
+      "castShadow": false
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        0.19,
+        0,
+        0.6
+      ],
+      "rotationY": 0,
+      "scale": 1.05,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "Interact",
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l41_safe_cracker"
+    },
+    {
+      "position": [
+        -4.6,
+        0,
+        0.15
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Punch_Cross",
+      "animationNames": [
+        "Punch_Cross",
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1.15,
+      "namePrefix": "l41_vip_bouncer",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.65,
+      "swordRotation": [
+        -1.5707963267948966,
+        -5.323254218582705,
+        0
+      ],
+      "swordPosition": [
+        -0.11,
+        0.15,
+        0.04
+      ],
+      "weaponModelPath": "axe_gold.glb"
+    },
+    {
+      "position": [
+        -3.2,
+        0,
+        0.2
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l41_gambler_alpha"
+    },
+    {
+      "position": [
+        -0.8,
+        0,
+        0.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.05,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop",
+        "Sitting_Talking_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "namePrefix": "l41_gambler_beta"
+    },
+    {
+      "position": [
+        1.4,
+        0.71,
+        0.3
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l41_arcade_sniper",
+      "swordModelPath": "Pistol.glb",
+      "swordScale": 1,
+      "weaponModelPath": "Pistol.glb",
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        1.27,
+        0,
+        -0.6
+      ],
+      "rotationY": 0.8,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

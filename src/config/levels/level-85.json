@@ -1,0 +1,262 @@
+{
+  "id": 85,
+  "name": "Level 85",
+  "skyColor": [
+    0.15,
+    0.45,
+    0.65,
+    1
+  ],
+  "grassColor": [
+    0.75,
+    0.88,
+    0.95
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    2.68,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.816,
+  "cameraBeta": 1.49,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "l85_pressurized_coolant_drum",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -2.45,
+        0.56,
+        3.26
+      ],
+      "scale": 1.5,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "isDestructible": true,
+      "isMovable": true,
+      "mass": 50
+    },
+    {
+      "name": "l85_catwalk_support",
+      "modelPath": "building1_small.glb",
+      "position": [
+        -2,
+        0,
+        8.5
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": 3.06,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    },
+    {
+      "name": "quarry_rock_large_abd1",
+      "modelPath": "quarry_rocks/rock_large.glb",
+      "position": [
+        4.36,
+        0,
+        0.98
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "workshop_box_as6p",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        1.26,
+        0,
+        2.23
+      ],
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -3.78,
+        0,
+        1
+      ],
+      "rotationY": 2.05,
+      "scale": 1.4,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l85_cryo_warden",
+      "weaponModelPath": "swords/sword_shield.glb",
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        0,
+        0.08,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "magicFx": "arcane",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.28,
+        0,
+        2.36
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l85_coolant_tech_a",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        -1.2,
+        0,
+        2.47
+      ],
+      "rotationY": -1.2042771838760873,
+      "scale": 1,
+      "animationName": "Push_Loop",
+      "animationNames": [
+        "Push_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l85_coolant_tech_b",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.87,
+        0,
+        -0.8
+      ],
+      "rotationY": 1.57,
+      "scale": 1.1,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l85_patrol_cyborg",
+      "weaponModelPath": "axe_diamond.glb",
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.6,
+      "swordPosition": [
+        -0.09,
+        0.08,
+        0.01
+      ],
+      "swordRotation": [
+        -1.57,
+        1.57,
+        0
+      ],
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.5,
+        1
+      ],
+      "patrolSpeed": 0.85
+    },
+    {
+      "position": [
+        2.31,
+        0,
+        1.2
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l85_cryo_subject",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        3.6,
+        0,
+        1.8
+      ],
+      "rotationY": -0.35,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": ""
+}

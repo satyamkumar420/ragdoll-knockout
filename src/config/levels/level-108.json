@@ -1,0 +1,212 @@
+{
+  "id": 108,
+  "name": "Level 108",
+  "skyColor": [
+    0.48,
+    0.44,
+    0.26,
+    1
+  ],
+  "grassColor": [
+    0.22,
+    0.22,
+    0.2
+  ],
+  "ammo": 4,
+  "gunSpawnPos": [
+    4.29,
+    0.05,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.711,
+  "cameraBeta": 1.524,
+  "environmentType": "custom",
+  "props": [
+    {
+      "name": "l108_police_cruiser_barrier",
+      "modelPath": "city_traffic/police.glb",
+      "position": [
+        1.18,
+        0,
+        4.04
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": -0.35,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l108_getaway_suv_flank",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        4.66,
+        0,
+        4.91
+      ],
+      "scale": 1.15,
+      "rotationX": 0,
+      "rotationY": 0.4,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "l108_city_highrise_backdrop",
+      "modelPath": "building3_big.glb",
+      "position": [
+        0,
+        0,
+        11
+      ],
+      "scale": 1.4,
+      "rotationX": 0,
+      "rotationY": -3.141592653589793,
+      "rotationZ": 0,
+      "hasCollision": true,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        5.64,
+        0,
+        4.22
+      ],
+      "rotationY": -2.42,
+      "scale": 1.1,
+      "animationName": "Crouch_Fwd_Loop",
+      "animationNames": [
+        "Crouch_Fwd_Loop",
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l108_cruiser_bandit",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        2.92,
+        0,
+        3.9
+      ],
+      "rotationY": -1.5707963267948966,
+      "scale": 1.15,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l108_suv_gunner",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -0.44,
+        0,
+        -0.4
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.1,
+      "animationName": "Sprint_Loop",
+      "animationNames": [
+        "Sprint_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l108_road_sprinter",
+      "weaponModelPath": "none",
+      "swordModelPath": "none",
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.69,
+        0.81
+      ],
+      "patrolSpeed": 1.3,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    },
+    {
+      "position": [
+        -2.3,
+        0,
+        3.57
+      ],
+      "rotationY": 1.3962634015954636,
+      "scale": 1.15,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l108_overwatch_sniper",
+      "isPatrolling": false,
+      "swordPosition": [
+        0.005,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.42,
+        0,
+        2.27
+      ],
+      "rotationY": -1.2,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}

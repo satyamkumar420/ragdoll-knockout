@@ -1,0 +1,259 @@
+{
+  "id": 17,
+  "name": "Level 17",
+  "skyColor": [
+    0.96,
+    0.52,
+    0.22,
+    1
+  ],
+  "grassColor": [
+    0.25,
+    0.26,
+    0.28
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    4.54,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.05,
+    0
+  ],
+  "cameraAlpha": -1.583,
+  "cameraBeta": 1.384,
+  "props": [
+    {
+      "name": "vipLuxurySedan",
+      "modelPath": "city_traffic/sedan.glb",
+      "position": [
+        -2.6,
+        0,
+        1.05
+      ],
+      "scale": 1.15,
+      "rotationY": 1.57,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "armoredSuv",
+      "modelPath": "city_traffic/suv.glb",
+      "position": [
+        1.79,
+        0,
+        1.66
+      ],
+      "scale": 1.1,
+      "rotationY": -1.57,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 0,
+      "isDestructible": false
+    },
+    {
+      "name": "buildingLeft",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        -6.2,
+        0,
+        4.6
+      ],
+      "scale": 3.6,
+      "rotationY": 0,
+      "hasCollision": false,
+      "castShadow": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "buildingCenter",
+      "modelPath": "city_traffic/building_b.glb",
+      "position": [
+        0,
+        0,
+        5.2
+      ],
+      "scale": 3.8,
+      "rotationY": 3.14159,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "buildingRight",
+      "modelPath": "city_traffic/building_a.glb",
+      "position": [
+        6.5,
+        0,
+        4.6
+      ],
+      "scale": 3.6,
+      "rotationY": 0,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "cashCase",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        -0.19,
+        0,
+        1.22
+      ],
+      "scale": 0.95,
+      "rotationY": -0.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 0,
+      "isDestructible": false,
+      "rotationX": 0,
+      "rotationZ": 0
+    },
+    {
+      "name": "cardboardSupply",
+      "modelPath": "workshop/box_cardboard.glb",
+      "position": [
+        -4.36,
+        0,
+        1.24
+      ],
+      "scale": 1.5,
+      "rotationY": 0.25,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "cardboard",
+      "durability": 20,
+      "isDestructible": true,
+      "rotationX": 0,
+      "rotationZ": 0
+    }
+  ],
+  "targets": [
+    {
+      "position": [
+        -0.5,
+        0,
+        1.12
+      ],
+      "rotationY": 1.57,
+      "scale": 1,
+      "animationName": "Crouch_Idle_Loop",
+      "animationNames": [
+        "Crouch_Idle_Loop"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l17_bodyguard_cover"
+    },
+    {
+      "position": [
+        0,
+        0,
+        -0.9
+      ],
+      "rotationY": 1.57,
+      "scale": 1.05,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 1.05,
+      "namePrefix": "l17_security_chief",
+      "isPatrolling": true,
+      "patrolRange": [
+        -1.8,
+        1.8
+      ],
+      "patrolSpeed": 1.05
+    },
+    {
+      "position": [
+        3.52,
+        0,
+        2.27
+      ],
+      "rotationY": -1.9896753472735356,
+      "scale": 1.05,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l17_convoy_sniper",
+      "swordPosition": [
+        -0.01,
+        0.05,
+        -0.075
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "position": [
+        0.72,
+        0,
+        0.4
+      ],
+      "rotationY": -0.8028514559173915,
+      "scale": 1.05,
+      "animationName": "Sword_Idle",
+      "animationNames": [
+        "Sword_Idle"
+      ],
+      "animationSpeed": 1,
+      "namePrefix": "l17_convoy_enforcer",
+      "swordModelPath": "axe_gold.glb",
+      "swordScale": 0.38,
+      "swordRotation": [
+        -1.4835298641951802,
+        1.5707963267948966,
+        0
+      ],
+      "swordPosition": [
+        -0.07,
+        0.13,
+        0.02
+      ],
+      "weaponModelPath": "axe_gold.glb",
+      "isPatrolling": false
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -1.81,
+        0,
+        -0.56
+      ],
+      "rotationY": -1.67,
+      "behaviorMode": "sit",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ],
+      "variant": "white"
+    }
+  ],
+  "subtitle": "",
+  "environmentType": "room"
+}

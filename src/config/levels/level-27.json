@@ -1,0 +1,414 @@
+{
+  "id": 27,
+  "name": "Level 27",
+  "skyColor": [
+    0.36,
+    0.74,
+    0.98,
+    1
+  ],
+  "grassColor": [
+    0.18,
+    0.2,
+    0.24
+  ],
+  "ammo": 5,
+  "gunSpawnPos": [
+    -4.8,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 10,
+  "cameraTarget": [
+    0,
+    1.4,
+    0.2
+  ],
+  "cameraAlpha": 4.772,
+  "cameraBeta": 1.212,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "labBackWallLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -5.13,
+        0,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 2.11,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    },
+    {
+      "name": "labBackWallRight",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        1.11,
+        -0.02,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 2.11,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "glass",
+      "durability": 3,
+      "isDestructible": true
+    },
+    {
+      "name": "fuelBarrelTop",
+      "modelPath": "workshop/barrel.glb",
+      "position": [
+        -12.96,
+        0.45,
+        0.92
+      ],
+      "rotationX": 0,
+      "rotationY": 0.05,
+      "rotationZ": 0,
+      "scale": 0.95,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "labEmergencyLamp1",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        9.17,
+        0.02,
+        1.8
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 2.24,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "labEmergencyLamp2",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        3.8,
+        0,
+        1.8
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.15,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "labBackWallLeft_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -10.99,
+        0,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 2.11,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    },
+    {
+      "name": "labBackWallLeft_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        7.46,
+        0,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 2.11,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    },
+    {
+      "name": "labBackWallLeft_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        10.7,
+        0,
+        -0.63
+      ],
+      "rotationX": 0,
+      "rotationY": -1.49,
+      "rotationZ": 0,
+      "scale": 2.12,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    },
+    {
+      "name": "labBackWallLeft_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -14.83,
+        0,
+        -0.55
+      ],
+      "rotationX": 0,
+      "rotationY": -1.52,
+      "rotationZ": 0,
+      "scale": 2.11,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    },
+    {
+      "name": "labBackWallLeft_copy_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        10.05,
+        0,
+        -8.56
+      ],
+      "rotationX": 0,
+      "rotationY": -1.49,
+      "rotationZ": 0,
+      "scale": 2.12,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    },
+    {
+      "name": "labBackWallLeft_copy_copy_copy",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -15.16,
+        0,
+        -7.35
+      ],
+      "rotationX": 0,
+      "rotationY": -1.52,
+      "rotationZ": 0,
+      "scale": 2.11,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "concrete",
+      "durability": 5,
+      "isDestructible": false
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l27_sniper_perch",
+      "position": [
+        0.4,
+        -0.03,
+        -1.35
+      ],
+      "rotationY": 1.5184364492350666,
+      "scale": 0.98,
+      "animationName": "Pistol_Idle_Loop",
+      "animationNames": [
+        "Pistol_Idle_Loop",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l27_enforcer_guard",
+      "position": [
+        1.29,
+        0.02,
+        0.8
+      ],
+      "rotationY": 1.45,
+      "scale": 1.05,
+      "animationName": "Sword_Attack",
+      "animationNames": [
+        "Sword_Attack",
+        "Sword_Idle"
+      ],
+      "animationSpeed": 0.95,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.4,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ]
+    },
+    {
+      "namePrefix": "l27_patrol_sentry",
+      "position": [
+        -2.03,
+        -0.04,
+        -2.5
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.02,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 0.85,
+      "isPatrolling": true,
+      "patrolRange": [
+        -3.03,
+        -1.03
+      ],
+      "patrolSpeed": 0.8,
+      "swordModelPath": "swords/sword.glb",
+      "swordScale": 0.65,
+      "swordPosition": [
+        -0.015,
+        0.1,
+        0.02
+      ],
+      "swordRotation": [
+        -1.5707963267948966,
+        1.5707963267948966,
+        0
+      ],
+      "weaponModelPath": "swords/sword.glb"
+    },
+    {
+      "namePrefix": "l27_cyber_welder_boss",
+      "position": [
+        2.5,
+        -0.01,
+        0.7
+      ],
+      "rotationY": -1.5,
+      "scale": 1.45,
+      "animationName": "Spell_Simple_Shoot",
+      "animationNames": [
+        "Spell_Simple_Shoot",
+        "Spell_Simple_Idle_Loop"
+      ],
+      "animationSpeed": 0.92,
+      "swordModelPath": "axe_diamond.glb",
+      "swordScale": 0.42,
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "magicFx": {
+        "enabled": true,
+        "color": [
+          0.12,
+          0.92,
+          0.85
+        ],
+        "hands": "both",
+        "orbSize": 0.2,
+        "hasGroundCircle": true,
+        "groundRadius": 1.5,
+        "hasOrbitRings": true,
+        "hasSparks": true
+      }
+    },
+    {
+      "position": [
+        2.14,
+        -0.02,
+        -2.74
+      ],
+      "rotationY": -0.24,
+      "animationName": "Idle_Loop",
+      "animationNames": [
+        "Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "scale": 1,
+      "animationSpeed": 1,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "magicFx": "fire"
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -3.22,
+        0,
+        0.46
+      ],
+      "rotationY": -1.57,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}

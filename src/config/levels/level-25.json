@@ -1,0 +1,683 @@
+{
+  "id": 25,
+  "name": "Level 25",
+  "skyColor": [
+    0.28,
+    0.04,
+    0.38,
+    1
+  ],
+  "grassColor": [
+    0.17,
+    0.07,
+    0.11
+  ],
+  "ammo": 6,
+  "gunSpawnPos": [
+    2.11,
+    0,
+    0
+  ],
+  "gunRotation": [
+    0,
+    0,
+    0
+  ],
+  "gunScale": 0.52,
+  "cameraRadius": 9,
+  "cameraTarget": [
+    0,
+    1.35,
+    0.35
+  ],
+  "cameraAlpha": 4.736,
+  "cameraBeta": 1.289,
+  "environmentType": "room",
+  "props": [
+    {
+      "name": "backWallCenterWindow",
+      "modelPath": "room_dinner/wall_window.glb",
+      "position": [
+        0,
+        0,
+        3.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoWorkshopWallBackLeft",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -5.28,
+        0,
+        3.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoWorkshopWallBackRight",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        5.22,
+        0,
+        3.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoWorkshopWallLeftBack",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.61,
+        0,
+        1
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "scale": 1.35,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoWorkshopWallLeftFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        -7.62,
+        0,
+        -4
+      ],
+      "rotationX": 0,
+      "rotationY": 1.5708,
+      "rotationZ": 0,
+      "scale": 1.35,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoWorkshopWallRightBack",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        7.09,
+        0,
+        1
+      ],
+      "rotationX": 0,
+      "rotationY": -1.5708,
+      "rotationZ": 0,
+      "scale": 1.39,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoWorkshopWallRightFront",
+      "modelPath": "room_dinner/wall.glb",
+      "position": [
+        7.09,
+        0,
+        -3.77
+      ],
+      "rotationX": 0,
+      "rotationY": -1.5708,
+      "rotationZ": 0,
+      "scale": 1.35,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "stone"
+    },
+    {
+      "name": "casinoDoor",
+      "modelPath": "room_dinner/door.glb",
+      "position": [
+        6.79,
+        0,
+        -1.72
+      ],
+      "rotationX": 0,
+      "rotationY": -1.5708,
+      "rotationZ": 0,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood"
+    },
+    {
+      "name": "casinoCarpet",
+      "modelPath": "room_dinner/carpet.glb",
+      "position": [
+        0,
+        0.006,
+        0.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 2.8,
+      "hasCollision": false,
+      "castShadow": false
+    },
+    {
+      "name": "casinoPaintingLeft",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        -4.4,
+        2.2,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.25,
+      "hasCollision": false,
+      "castShadow": true,
+      "material": "wood"
+    },
+    {
+      "name": "casinoPaintingRight",
+      "modelPath": "room_dinner/pictureframe.glb",
+      "position": [
+        4.4,
+        2.2,
+        2.9
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.25,
+      "hasCollision": false,
+      "castShadow": true,
+      "material": "wood"
+    },
+    {
+      "name": "highRollerTable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        -1.75,
+        0,
+        0.55
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.3,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "highRollerChairLeft",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -2.9,
+        0,
+        0.75
+      ],
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood"
+    },
+    {
+      "name": "dealerChair",
+      "modelPath": "room_dinner/chair.glb",
+      "position": [
+        -1.75,
+        0,
+        1.75
+      ],
+      "rotationX": 0,
+      "rotationY": 1.43,
+      "rotationZ": 0,
+      "scale": 1.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood"
+    },
+    {
+      "name": "highRollerPizza",
+      "modelPath": "room_dinner/pizza.glb",
+      "position": [
+        -1.95,
+        0.68,
+        0.55
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 0.5,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "highRollerDonut",
+      "modelPath": "room_dinner/donut.glb",
+      "position": [
+        -2.1,
+        0.68,
+        0.4
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 0.65,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "vipSoda",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        -4.75,
+        0.62,
+        0.5
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 0.45,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "sniperCrateBase",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -5.9,
+        0,
+        2.4
+      ],
+      "rotationX": 0,
+      "rotationY": 0.15,
+      "rotationZ": 0,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "sniperCrateMid",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -5.9,
+        0.71,
+        2.4
+      ],
+      "rotationX": 0,
+      "rotationY": -0.12,
+      "rotationZ": 0,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "sniperCrateTop",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        -5.9,
+        1.42,
+        2.4
+      ],
+      "rotationX": 0,
+      "rotationY": 0.08,
+      "rotationZ": 0,
+      "scale": 1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "slotMachineMid",
+      "modelPath": "room_dinner/arcade_machine.glb",
+      "position": [
+        -4.96,
+        0,
+        2.6
+      ],
+      "rotationX": 0,
+      "rotationY": 3.141592653589793,
+      "rotationZ": 0,
+      "scale": 2.1,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "cashChest",
+      "modelPath": "workshop/chest.glb",
+      "position": [
+        4.8,
+        0.66,
+        2.35
+      ],
+      "rotationX": 0,
+      "rotationY": 0.3,
+      "rotationZ": 0,
+      "scale": 1.4,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "metal"
+    },
+    {
+      "name": "cashCageLamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        5.95,
+        0,
+        1.6
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.3,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "cashCageTable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        4.8,
+        0,
+        2.35
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 3,
+      "isDestructible": false
+    },
+    {
+      "name": "cashCrateBottom",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        5.75,
+        0,
+        2.6
+      ],
+      "rotationX": 0,
+      "rotationY": 0.16,
+      "rotationZ": 0,
+      "scale": 0.8,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "cashCrateTop",
+      "modelPath": "workshop/box.glb",
+      "position": [
+        5.75,
+        0.568,
+        2.6
+      ],
+      "rotationX": 0,
+      "rotationY": -0.1,
+      "rotationZ": 0,
+      "scale": 0.65,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "loungeTable",
+      "modelPath": "room_dinner/table.glb",
+      "position": [
+        4.8,
+        0,
+        -1.8
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": true,
+      "castShadow": true,
+      "material": "wood",
+      "durability": 2,
+      "isDestructible": true
+    },
+    {
+      "name": "loungeBoombox",
+      "modelPath": "boombox.glb",
+      "position": [
+        4.8,
+        0.62,
+        -1.8
+      ],
+      "rotationX": 0,
+      "rotationY": 0.1,
+      "rotationZ": 0,
+      "scale": 0.8,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "loungeSoda",
+      "modelPath": "room_dinner/soda_can.glb",
+      "position": [
+        4.42,
+        0.62,
+        -1.6
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 0.5,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "loungeLamp",
+      "modelPath": "room_dinner/lamp.glb",
+      "position": [
+        6,
+        0,
+        -2.7
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.3,
+      "hasCollision": false,
+      "castShadow": true
+    },
+    {
+      "name": "loungePlant",
+      "modelPath": "room_dinner/plant.glb",
+      "position": [
+        6,
+        0,
+        -3.2
+      ],
+      "rotationX": 0,
+      "rotationY": 0,
+      "rotationZ": 0,
+      "scale": 1.2,
+      "hasCollision": false,
+      "castShadow": true
+    }
+  ],
+  "targets": [
+    {
+      "namePrefix": "l25_the_house",
+      "position": [
+        0.95,
+        0,
+        1.25
+      ],
+      "rotationY": 1.6755160819145563,
+      "scale": 1.12,
+      "animationName": "Spell_Simple_Idle_Loop",
+      "animationNames": [
+        "Spell_Simple_Idle_Loop",
+        "Spell_Simple_Shoot"
+      ],
+      "animationSpeed": 0.9,
+      "swordPosition": [
+        0.015,
+        0.02,
+        0.02
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l25_card_dealer",
+      "position": [
+        -1.75,
+        0,
+        1.35
+      ],
+      "rotationY": 3,
+      "scale": 1,
+      "animationName": "Sitting_Talking_Loop",
+      "animationNames": [
+        "Sitting_Talking_Loop",
+        "Sitting_Idle_Loop"
+      ],
+      "animationSpeed": 0.9
+    },
+    {
+      "namePrefix": "l25_pit_boss_patrol",
+      "position": [
+        0.4,
+        0,
+        -1.45
+      ],
+      "rotationY": 1.5708,
+      "scale": 1.02,
+      "animationName": "Walk_Formal_Loop",
+      "animationNames": [
+        "Walk_Formal_Loop"
+      ],
+      "animationSpeed": 0.95,
+      "isPatrolling": true,
+      "patrolRange": [
+        0.4,
+        3.6
+      ],
+      "patrolSpeed": 0.8,
+      "swordModelPath": "swords/sword_shield.glb",
+      "swordScale": 0.36,
+      "swordRotation": [
+        0,
+        1.57,
+        0
+      ],
+      "swordPosition": [
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    {
+      "namePrefix": "l25_vip_sniper",
+      "position": [
+        -5.71,
+        2.13,
+        2.4
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1,
+      "animationName": "Pistol_Aim_Neutral",
+      "animationNames": [
+        "Pistol_Aim_Neutral",
+        "Pistol_Shoot"
+      ],
+      "animationSpeed": 1,
+      "swordPosition": [
+        -0.06,
+        0.03,
+        -0.045
+      ],
+      "swordRotation": [
+        0,
+        0,
+        0
+      ],
+      "swordScale": 1,
+      "isPatrolling": false
+    },
+    {
+      "namePrefix": "l25_cage_cracker",
+      "position": [
+        4.45,
+        0,
+        0.91
+      ],
+      "rotationY": 0.42,
+      "scale": 1,
+      "animationName": "Fixing_Kneeling",
+      "animationNames": [
+        "Fixing_Kneeling",
+        "PickUp_Table"
+      ],
+      "animationSpeed": 0.9
+    }
+  ],
+  "pugs": [
+    {
+      "position": [
+        -0.72,
+        0,
+        -2.7
+      ],
+      "rotationY": -0.36,
+      "behaviorMode": "sit",
+      "variant": "white",
+      "initialAnimation": "idle",
+      "initialAnimations": [
+        "idle"
+      ]
+    }
+  ],
+  "subtitle": ""
+}
