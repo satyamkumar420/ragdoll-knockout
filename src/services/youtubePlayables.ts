@@ -220,6 +220,16 @@ export class YouTubePlayablesService {
     return () => this.audioListeners.delete(callback);
   }
 
+  public isYouTubeContext(): boolean {
+    if (typeof window === 'undefined') return false;
+    return (
+      window.parent !== window ||
+      window.location.hostname.includes('youtube') ||
+      window.location.hostname.includes('google') ||
+      typeof (window as any).ytgame !== 'undefined'
+    );
+  }
+
   public async ensureSdkReady(timeoutMs = 2000): Promise<YouTubePlayablesSDK | null> {
     const immediate = this.getSdk();
     if (
@@ -229,7 +239,7 @@ export class YouTubePlayablesService {
       return immediate;
     }
 
-    if (typeof window === 'undefined') return immediate;
+    if (typeof window === 'undefined' || !this.isYouTubeContext()) return immediate;
 
     const start = Date.now();
     return new Promise((resolve) => {

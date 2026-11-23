@@ -113,6 +113,19 @@ export const PRELOAD_ASSETS_LIST: readonly string[] = [
   './assets/models/swords/sword_wood.glb',
 ] as const;
 
+/**
+ * Core assets strictly required for initial startup and Level 1.
+ */
+export const CORE_ASSETS_LIST: readonly string[] = [
+  './assets/AnimationLibrary_Godot_Standard.glb',
+  './assets/chicken.glb',
+  './assets/Pistol.glb',
+  './assets/models/nature/fence.glb',
+  './assets/models/nature/tree_default.glb',
+  './assets/models/grass.glb',
+  './assets/models/quarry_rocks/cliff_rock.glb',
+] as const;
+
 // In-memory cache for preloaded Blob URLs (URL strings only, no heavy raw Blobs retained in JS heap)
 const blobUrlCache = new Map<string, string>();
 let isInterceptorInitialized = false;
@@ -241,17 +254,18 @@ async function preloadSingleAsset(path: string): Promise<boolean> {
 }
 
 /**
- * Preloads all assets in PRELOAD_ASSETS_LIST concurrently in bounded batches.
+ * Preloads a specific list of assets concurrently in bounded batches.
  */
-export async function preloadAllAssets(options: PreloadOptions = {}): Promise<PreloadSummary> {
+async function preloadAssetList(
+  items: readonly string[],
+  options: PreloadOptions = {}
+): Promise<PreloadSummary> {
   initBabylonAssetPreloader();
 
-  const total = PRELOAD_ASSETS_LIST.length;
+  const total = items.length;
   let loaded = 0;
   let failed = 0;
-  const concurrency = Math.max(1, Math.min(options.concurrency ?? 8, 16));
-
-  const items = [...PRELOAD_ASSETS_LIST];
+  const concurrency = Math.max(1, Math.min(options.concurrency ?? 4, 16));
   const queue = [...items];
 
   const worker = async (): Promise<void> => {
@@ -282,6 +296,29 @@ export async function preloadAllAssets(options: PreloadOptions = {}): Promise<Pr
   await Promise.all(workers);
 
   return { total, loaded, failed };
+}
+
+/**
+ * Preloads essential core assets needed for immediate Level 1 gameplay.
+ */
+export async function preloadCoreAssets(options: PreloadOptions = {}): Promise<PreloadSummary> {
+  return preloadAssetList(CORE_ASSETS_LIST, options);
+}
+
+/**
+ * Lazily loads remaining 3D game models in the background without blocking gameplay.
+ */
+export function startBackgroundAssetPreload(): void {
+  const remaining = PRELOAD_ASSETS_LIST.filter((path) => !isAssetPreloaded(path));
+  if (remaining.length === 0) return;
+  void preloadAssetList(remaining, { concurrency: 2 });
+}
+
+/**
+ * Preloads all assets in PRELOAD_ASSETS_LIST concurrently in bounded batches.
+ */
+export async function preloadAllAssets(options: PreloadOptions = {}): Promise<PreloadSummary> {
+  return preloadAssetList(PRELOAD_ASSETS_LIST, options);
 }
 
 /**

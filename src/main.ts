@@ -24,7 +24,7 @@ import { parseJsonLevel } from './core/levelLoader';
 import type { JsonLevelConfig, LevelData } from './config/levelTypes';
 import level1Json from './config/levels/level-1.json';
 import { ALL_LEVELS } from './config/levels/index';
-import { preloadAllAssets, clearPreloadCache } from './core/assetPreloader';
+import { preloadCoreAssets, startBackgroundAssetPreload } from './core/assetPreloader';
 import { triggerCoinCollectionAnimation } from './core/coinFlyAnimation';
 import { updateModalResponsiveScale } from './core/modalResponsive';
 import { computeLevelGameplayBounds } from './core/cameraResponsive';
@@ -204,25 +204,28 @@ async function bootstrap() {
   }
 
   const preloadStartTime = Date.now();
-  await Promise.all([
-    preloadAllAssets({
-      concurrency: 8,
-      onProgress: ({ percent }) => {
-        const displayPercent = Math.max(1, Math.min(100, percent));
-        if (loaderBarFill) loaderBarFill.style.width = `${displayPercent}%`;
-        if (loaderPercent) loaderPercent.textContent = `${displayPercent}%`;
-      },
-    }),
-    audioManager.preloadAudio(),
+  await Promise.race([
+    Promise.all([
+      preloadCoreAssets({
+        concurrency: 4,
+        onProgress: ({ percent }) => {
+          const displayPercent = Math.max(1, Math.min(100, percent));
+          if (loaderBarFill) loaderBarFill.style.width = `${displayPercent}%`;
+          if (loaderPercent) loaderPercent.textContent = `${displayPercent}%`;
+        },
+      }),
+      audioManager.preloadAudio().catch(() => {}),
+    ]),
+    new Promise((resolve) => setTimeout(resolve, 3000)),
   ]);
 
   if (loaderPercent) loaderPercent.textContent = '100%';
   if (loaderBarFill) loaderBarFill.style.width = '100%';
 
-  // Ensure minimum visual duration so players can see the smooth 1-100% progress
+  // Ensure brief visual duration so players see smooth progress
   const preloadElapsed = Date.now() - preloadStartTime;
-  if (preloadElapsed < 500) {
-    await new Promise((resolve) => setTimeout(resolve, 500 - preloadElapsed));
+  if (preloadElapsed < 350) {
+    await new Promise((resolve) => setTimeout(resolve, 350 - preloadElapsed));
   }
 
   const {
@@ -473,9 +476,8 @@ async function bootstrap() {
     updateModalResponsiveScale();
     youtubePlayables.gameReady();
     audioManager.setGameLoaded(true);
-    // Release in-memory preloaded Blob URLs once initial game is ready
-    clearPreloadCache();
-  }, 350);
+    startBackgroundAssetPreload();
+  }, 200);
 
 
   updateModalResponsiveScale();
